@@ -16,6 +16,8 @@
 	"types": "./esm/index.d.ts",
 	"scripts": {
 		"test": "mocha --require @babel/register test",
+		"format": "prettier \"**/*.{js,ts}\" --write",
+		"format:check": "prettier \"**/*.{js,ts}\" --list-different",
 		"dev": "tsc -w & webpack --mode development",
 		"prod": "tsc && webpack --mode production",
 		"prepublishOnly": "npm run prod"
@@ -41,6 +43,7 @@
 		"@types/node": "^16.18.15",
 		"approvals": "^6.0.0",
 		"mocha": "^10.2.0",
+		"prettier": "^2.8.7",
 		"should": "^13.2.3",
 		"typescript": "^5.0.2",
 		"webpack": "^5.76.1",
