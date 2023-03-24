@@ -246,7 +246,7 @@ describe('Parser', function () {
   });
 
   it('should parse MULTILEADER entities', function () {
-    verifyDxf(path.join(__dirname, 'data', 'leaders.dxf'));
+    verifyDxf(path.join(__dirname, 'data', 'mleader.dxf'));
   });
 });
 
