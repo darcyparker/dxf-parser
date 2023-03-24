@@ -18,7 +18,7 @@
 		"test": "mocha --require @babel/register test",
 		"format": "prettier \"**/*.{js,ts}\" --write",
 		"format:check": "prettier \"**/*.{js,ts}\" --list-different",
-		"dev": "tsc -w & webpack --mode development",
+		"dev": "tsc -w && webpack --mode development",
 		"prod": "tsc && webpack --mode production",
 		"prepublishOnly": "npm run prod"
 	},
