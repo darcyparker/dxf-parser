@@ -1,5 +1,21 @@
 export { default, default as DxfParser } from './DxfParser.js';
-export { IDxf, IBlock, ILayerTypesTable, ILayersTable, ITables, IViewPortTable, IBaseTable, ILayer, ILayerTableDefinition, ILineType, ILineTypeTableDefinition, ITable, ITableDefinitions, IViewPort, IViewPortTableDefinition } from './DxfParser.js';
+export {
+  IDxf,
+  IBlock,
+  ILayerTypesTable,
+  ILayersTable,
+  ITables,
+  IViewPortTable,
+  IBaseTable,
+  ILayer,
+  ILayerTableDefinition,
+  ILineType,
+  ILineTypeTableDefinition,
+  ITable,
+  ITableDefinitions,
+  IViewPort,
+  IViewPortTableDefinition,
+} from './DxfParser.js';
 export { IEntity, IPoint } from './entities/geomtry.js';
 export { I3DfaceEntity } from './entities/3dface.js';
 export { IArcEntity } from './entities/arc.js';
