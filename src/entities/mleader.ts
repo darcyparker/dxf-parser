@@ -1,464 +1,562 @@
-import DxfArrayScanner, { IGroup } from '../DxfArrayScanner.js';
-import * as helpers from '../ParseHelpers.js';
-import IGeometry, { IEntity, IPoint } from './geomtry.js';
+import log from 'loglevel';
+import type { IGroup, GroupValue } from '../DxfArrayScanner';
+import type DxfArrayScanner from '../DxfArrayScanner';
+import { serializeGroupValue } from '../DxfArrayScanner.js';
+import {
+  Matrix4,
+  serializeCommonEntityProperty,
+  serializePoint,
+  serializeMatrix,
+} from '../ParseHelpers.js';
+import {
+  checkCommonEntityProperties,
+  parsePoint,
+  parseMatrix,
+} from '../ParseHelpers.js';
+import type IGeometry from './geometry';
+import type { IEntity, IPoint } from './geometry';
+import { EntityName } from './geometry.js';
 
 // Helpful doc at https://atlight.github.io/formats/dxf-leader.html
 // Codes at https://images.autodesk.com/adsk/files/autocad_2012_pdf_dxf-reference_enu.pdf
 
-export interface ILeaderEntity extends IEntity {
-  leaderStyleId: number; // 340
-  // propertyOverrideFlag // 90
-  leaderLineType: number; // 170
-  leaderLineColor: number; // 91
-  leaderLineTypeId: number; // 341
-  leaderLineWeight: number; // 171
-  enableLanding: boolean; // 290
-  enableDogLeg: boolean; // 291
-  doglegLength: number; // 41
-  arrowHeadId: number; // 342
-  arrowHeadSize: number; // 42
-  contentType: number; // 172
-  textStyleId: number; // 343
-  textLeftAttachmentType: number; // 173
-  textRightAttachmentType: number; // 95
-  textAngleType: number; // 174
-  textAlignmentType: number; // 175
-  textColor: number; // 92
-  enableFrameText: boolean; // 292
-  blockContentId: number; // 344
-  blockContentColor: number; // 93
-  blockContentScale: IPoint; // 10
-  blockContentRotation: number; // 43
-  blockContentConnectionType: number; // 176
-  enableAnotationScale: boolean; // 293
+export type ILeaderEntity = IEntity & {
+  type: EntityName.Multileader;
+  arrowHeadId: number; // 342 & 345
   arrowHeadIndex: number; // 94
-  //arrowHeadId: number; // 345 - duplicate key in spec doc
+  arrowHeadSize: number; // 42
   blockAttributeId: number; // 330
   blockAttributeIndex: number; // 177
-  blockAttributeWidth: number; // 44
   blockAttributeTextString: string; // 302
-  textDirectionNegative: boolean; // 294
+  blockAttributeWidth: number; // 44
+  blockContentColor: number; // 93
+  blockContentConnectionType: number; // 176
+  blockContentId: number; // 344
+  blockContentRotation: number; // 43
+  blockContentScale: IPoint; // 10
+  contentType: number; // 172
+  doglegLength: number; // 41
+  enableAnotationScale: boolean; // 293
+  enableDogLeg: boolean; // 291
+  enableFrameText: boolean; // 292
+  enableLanding: boolean; // 290
+  leaderLineColor: number; // 91
+  leaderLineType: number; // 170
+  leaderLineTypeId: number; // 341
+  leaderLineWeight: number; // 171
+  leaderStyleId: number; // 340
+  propertyOverrideFlag: number; // 90
   textAlignInIPE: number; // 178
-  textAttachmentPoint: number; // 179
-  textAttachmentDirectionMText: number; // 271
+  textAlignmentType: number; // 175
+  textAngleType: number; // 174
   textAttachmentDirectionBottom: number; // 272
+  textAttachmentDirectionMText: number; // 271
   textAttachmentDirectionTop: number; // 273
+  textAttachmentPoint: number; // 179
+  textColor: number; // 92
+  textDirectionNegative: boolean; // 294
+  textLeftAttachmentType: number; // 173
+  textLineSpacingStyleFactor: number; //45
+  textRightAttachmentType: number; // 95
+  textStyleId: number; // 343
 
   contextData: IMLeaderContextData; // 300
-}
+};
 
-interface IMLeaderContextData {
-  contentScale: number; // 40
-  contentBasePosition: IPoint; // 10,20,30
-  textHeight: number; // 41
+type IMLeaderContextData = {
+  //textColor: (typo in spec doc, which says 90. 90 is breakPointIndex above. textBackgroundTransparency (like other textColor) is 92)
   arrowHeadSize: number; // 140
-  landingGap: number; // 145
-  hasMText: boolean; // 290
-  defaultTextContents: string; // 304
-  textNormalDirection: IPoint; // 11,21,31
-  textLocation: IPoint; // 12,22,32
-  textDirection: IPoint; // 13,23,33
-  textRotation: number; // 42
-  textWidth: number; // 43
-  // textHeight: number; // 44 - duplicate key in spec doc
-  textLineSpacingFactor: number; // 45
-  textLineSpacingStyle: number; // 170
-  textColor: number; // 90
-  textAttachment: number; // 171
-  textFlowDirection: number; // 172
-  textBackgroundColor: number; // 91
-  textBackgroundScaleFactor: number; // 141
-  textBackgroundTransparency: number; // 92
-  textBackgroundColorOn: boolean; // 291
-  textBackgroundFillOn: boolean; // 292
-  textColumnType: number; // 173
-  textUseAutoHeight: boolean; // 293
-  textColumnWidth: number; // 142
-  textColumnGutterWidth: number; // 143
-  textColumnFlowReversed: boolean; // 294
-  textColumnHeight: number; // 144
-  textUseWordBreak: boolean; // 295
-  hasBlock: boolean; // 296
+  blockAttributeIndex: number; // 177
+  blockContentColor: number; // 93
+  blockContentConnectionType: number; // 176
   blockContentId: number; // 341
   blockContentNormalDirection: IPoint; // 14,24,34
   blockContentPosition: IPoint; // 15,25,35
-  blockContentScale: number; // 16
   blockContentRotation: number; // 46
-  blockContentColor: number; // 93
-  blockTransformationMatrix: number[]; // 47
+  blockContentScale: number; // 16
+  blockTransformationMatrix: Matrix4; // 47
+  breakPointIndex: number; //90
+  contentBasePosition: IPoint; // 10,20,30
+  contentScale: number; // 40
+  defaultTextContents: string; // 304
+  hasBlock: boolean; // 296
+  hasMText: boolean; // 290
+  landingGap: number; // 145
+  planeNormalReversed: boolean; // 297
   planeOriginPoint: IPoint; // 110 (120,130)
   planeXAxisDirection: IPoint; // 111 (121,131)
   planeYAxisDirection: IPoint; // 112 (122,132)
-  planeNormalReversed: boolean; // 297
+  textAlignmentType: number; // 175
+  textAngleType: number; // 174
+  textAttachment: number; // 171
+  textBackgroundColor: number; // 91
+  textBackgroundColorOn: boolean; // 291
+  textBackgroundFillOn: boolean; // 292
+  textBackgroundScaleFactor: number; // 141
+  textBackgroundTransparency: number; // 92
+  textColumnFlowReversed: boolean; // 294
+  textColumnGutterWidth: number; // 143
+  textColumnHeight: number; // 144
+  textColumnType: number; // 173
+  textColumnWidth: number; // 142
+  textDirection: IPoint; // 13,23,33
+  textFlowDirection: number; // 172
+  textHeight2: number; // 44
+  textHeight: number; // 41
+  textLineSpacingFactor: number; // 45
+  textLineSpacingStyle: number; // 170
+  textLocation: IPoint; // 12,22,32
+  textNormalDirection: IPoint; // 11,21,31
+  textRotation: number; // 42
+  textStyleId: number; //340
+  textUseAutoHeight: boolean; // 293
+  textUseWordBreak: boolean; // 295
+  textWidth: number; // 43
 
   leaders: IMLeaderLeader[]; // 302
-}
+};
 
-interface IMLeaderLeader {
-  hasSetLastLeaderLinePoint: boolean; // 290
-  hasSetDoglegVector: boolean; // 291
-  lastLeaderLinePoint: IPoint; // 10,20,30
-  doglegVector: IPoint; // 11,21,31
-  // breakStartPoint // 12,22,32
-  // breakEndPoint // 13,23,33
-  leaderBranchIndex: number; // 90
+type IMLeaderLeader = {
+  breakEndPoint: IPoint; // 13,23,33
+  breakStartPoint: IPoint; // 12,22,32
   doglegLength: number; // 40
+  doglegVector: IPoint; // 11,21,31
+  hasSetDoglegVector: boolean; // 291
+  hasSetLastLeaderLinePoint: boolean; // 290
+  lastLeaderLinePoint: IPoint; // 10,20,30
+  leaderBranchIndex: number; // 90
 
   leaderLines: IMLeaderLine[]; // 303
-}
+};
 
-interface IMLeaderLine {
-  vertices: IPoint[][]; // 10,20,30
-  // breakPointIndex // 90,
-  // breakStartPoint // 11,21,33
-  // breakEndPoint // 12,22,32
+type IMLeaderLine = {
+  breakEndPoint: IPoint; // 12,22,32
+  breakPointIndex: number; // 90,
+  breakStartPoint: IPoint; // 11,21,33
   leaderLineIndex: number; // 91
-}
+  vertices: IPoint[]; // 10,20,30
+};
 
-export default class MLeader implements IGeometry {
-  public ForEntityName = 'MULTILEADER' as const;
+const parseLeaderLineData = (
+  scanner: DxfArrayScanner,
+  leader: IMLeaderLeader,
+): void => {
+  let curr = scanner.lastReadGroup as IGroup<GroupValue>;
 
-  public parseEntity(scanner: DxfArrayScanner, curr: IGroup) {
-    const entity = { type: curr.value } as ILeaderEntity;
-    entity.contextData = {
-      leaders: [],
-    } as any;
+  const line = {} as IMLeaderLine;
+  if (!leader.leaderLines) leader.leaderLines = [];
+  leader.leaderLines.push(line);
+
+  while (!scanner.isEOF()) {
+    switch (curr.code) {
+      case 10:
+        if (!line.vertices) {
+          line.vertices = [];
+        }
+        line.vertices.push(parsePoint(scanner));
+        break;
+      case 11:
+        line.breakStartPoint = parsePoint(scanner);
+        break;
+      case 12:
+        line.breakEndPoint = parsePoint(scanner);
+        break;
+      case 90:
+        line.breakPointIndex = curr.value as number;
+        break;
+      case 91:
+        line.leaderLineIndex = curr.value as number;
+        break;
+      case 305: // END LEADER_LINE
+        return;
+      default:
+        break;
+    }
 
     curr = scanner.next();
+  }
+};
 
-    function parseCommonData() {
-      while (!scanner.isEOF()) {
+const serializeLeaderLineData = function* (
+  line: IMLeaderLine,
+): IterableIterator<string> {
+  // START LEADER_LINE
+  yield '304';
+  yield 'LEADER_LINE{';
+  for (const [property, value] of Object.entries(line)) {
+    switch (property) {
+      case 'vertices':
+        for (const vertex of value as IPoint[]) {
+          yield* serializePoint(vertex, 10);
+        }
+        break;
+      case 'breakStartPoint':
+        yield* serializePoint(value as IPoint, 11);
+        break;
+      case 'breakEndPoint':
+        yield* serializePoint(value as IPoint, 12);
+        break;
+      case 'breakPointIndex':
+        yield* serializeGroupValue(90, value as number);
+        break;
+      case 'leaderLineIndex':
+        yield* serializeGroupValue(91, value as number);
+        break;
+    }
+  }
+
+  // END LEADER_LINE
+  yield '305';
+  yield '}';
+};
+
+const leaderPropertyFromCode = new Map<number, keyof IMLeaderLeader>([
+  [40, 'doglegLength'],
+  [90, 'leaderBranchIndex'],
+  [290, 'hasSetLastLeaderLinePoint'],
+  [291, 'hasSetDoglegVector'],
+]);
+
+const codeFromLeaderProperty = new Map<keyof IMLeaderLeader, number>(
+  Array.from(leaderPropertyFromCode.entries()).map(([code, property]) => [
+    property,
+    code,
+  ]),
+);
+
+const parseLeaderData = (
+  scanner: DxfArrayScanner,
+  leaders: IMLeaderLeader[],
+): void => {
+  let curr = scanner.lastReadGroup as IGroup<GroupValue>;
+  const leader = {} as IMLeaderLeader;
+
+  leaders.push(leader);
+
+  while (!scanner.isEOF()) {
+    const property = leaderPropertyFromCode.get(curr.code);
+    if (property != null) {
+      (leader[property] as number | boolean) = curr.value as number | boolean;
+    } else {
+      //special cases
+      switch (curr.code) {
+        case 10:
+          leader.lastLeaderLinePoint = parsePoint(scanner);
+          break;
+        case 11:
+          leader.doglegVector = parsePoint(scanner);
+          break;
+        case 12:
+          leader.breakStartPoint = parsePoint(scanner);
+          break;
+        case 13:
+          leader.breakEndPoint = parsePoint(scanner);
+          break;
+        case 303: // END LEADER
+          return;
+        case 304: // START LEADER_LINE
+          parseLeaderLineData(scanner, leader);
+          break;
+        default:
+          break;
+      }
+    }
+    curr = scanner.next();
+  }
+};
+
+const serializeLeaderData = function* (
+  leader: IMLeaderLeader,
+): IterableIterator<string> {
+  // START LEADER
+  yield '302';
+  yield 'LEADER{';
+
+  for (const [property, value] of Object.entries(leader) as [
+    keyof IMLeaderLeader,
+    IMLeaderLeader[keyof IMLeaderLeader],
+  ][]) {
+    const code = codeFromLeaderProperty.get(property);
+    if (code != null) {
+      yield* serializeGroupValue(code, value as string | number | boolean);
+    } else {
+      //special cases
+      switch (property) {
+        case 'lastLeaderLinePoint':
+          yield* serializePoint(value as IPoint, 10);
+          break;
+        case 'doglegVector':
+          yield* serializePoint(value as IPoint, 11);
+          break;
+        case 'leaderLines':
+          for (const leaderLine of leader.leaderLines) {
+            yield* serializeLeaderLineData(leaderLine);
+          }
+          break;
+      }
+    }
+  }
+
+  // END LEADER
+  yield '303';
+  yield '}';
+};
+
+const contextDataPropertyFromCode = new Map<
+  number,
+  [keyof IMLeaderContextData, boolean?]
+>([
+  [10, ['contentBasePosition', true]],
+  [11, ['textNormalDirection', true]],
+  [12, ['textLocation', true]],
+  [13, ['textDirection', true]],
+  [14, ['blockContentNormalDirection', true]],
+  [15, ['blockContentPosition', true]],
+  [16, ['blockContentScale']],
+  [40, ['contentScale']],
+  [41, ['textHeight']],
+  [42, ['textRotation']],
+  [43, ['textWidth']],
+  [44, ['textHeight2']],
+  [45, ['textLineSpacingFactor']],
+  [46, ['blockContentRotation']],
+  [90, ['breakPointIndex']],
+  [91, ['textBackgroundColor']],
+  [92, ['textBackgroundTransparency']],
+  [93, ['blockContentColor']],
+  [110, ['planeOriginPoint', true]],
+  [111, ['planeXAxisDirection', true]],
+  [112, ['planeYAxisDirection', true]],
+  [140, ['arrowHeadSize']],
+  [141, ['textBackgroundScaleFactor']],
+  [142, ['textColumnWidth']],
+  [143, ['textColumnGutterWidth']],
+  [144, ['textColumnHeight']],
+  [145, ['landingGap']],
+  [170, ['textLineSpacingStyle']],
+  [171, ['textAttachment']],
+  [172, ['textFlowDirection']],
+  [173, ['textColumnType']],
+  [174, ['textAngleType']],
+  [175, ['textAlignmentType']],
+  [176, ['blockContentConnectionType']],
+  [177, ['blockAttributeIndex']],
+  [290, ['hasMText']],
+  [291, ['textBackgroundColorOn']],
+  [292, ['textBackgroundFillOn']],
+  [293, ['textUseAutoHeight']],
+  [294, ['textColumnFlowReversed']],
+  [295, ['textUseWordBreak']],
+  [296, ['hasBlock']],
+  [297, ['planeNormalReversed']],
+  [304, ['defaultTextContents']],
+  [340, ['textStyleId']],
+  [341, ['blockContentId']],
+]);
+
+const codeFromContextDataProperty = new Map<
+  keyof IMLeaderContextData,
+  [number, boolean?]
+>(
+  Array.from(contextDataPropertyFromCode.entries()).map(
+    ([code, [property, isPoint]]) => [
+      property,
+      [code, ...(isPoint ? [isPoint] : [])] as [number, boolean?],
+    ],
+  ),
+);
+
+const parseContextData = (
+  scanner: DxfArrayScanner,
+  contextData: IMLeaderContextData,
+): void => {
+  let curr = scanner.lastReadGroup as IGroup<GroupValue>;
+  while (!scanner.isEOF()) {
+    const propertyAndIsPoint = contextDataPropertyFromCode.get(curr.code);
+    if (propertyAndIsPoint != null) {
+      const [property, isPoint] = propertyAndIsPoint;
+      (contextData[property] as IPoint | string | boolean | number) = isPoint
+        ? parsePoint(scanner)
+        : (curr.value as string | number | boolean);
+    } else {
+      switch (curr.code) {
+        case 47:
+          contextData.blockTransformationMatrix = parseMatrix(scanner, 47);
+          break;
+        case 301: // END CONTEXT_DATA
+          if (
+            contextData.blockTransformationMatrix &&
+            contextData.blockTransformationMatrix.length != 16
+          ) {
+            log.error(
+              `blockTransformationMatrix.length=${contextData.blockTransformationMatrix.length}. Expected 16.`,
+            );
+          }
+          return;
+        case 302: // START LEADER
+          if (!contextData.leaders) {
+            contextData.leaders = [];
+          }
+          parseLeaderData(scanner, contextData.leaders);
+          break;
+        default:
+          break;
+      }
+    }
+
+    curr = scanner.next();
+  }
+};
+
+const serializeContextData = function* (
+  contextData: IMLeaderContextData,
+): IterableIterator<string> {
+  // START CONTEXT_DATA
+  yield '300';
+  yield 'CONTEXT_DATA{';
+
+  for (const [property, value] of Object.entries(contextData) as [
+    keyof IMLeaderContextData,
+    IMLeaderContextData[keyof IMLeaderContextData],
+  ][]) {
+    const codeAndType = codeFromContextDataProperty.get(property);
+    if (codeAndType != null) {
+      const [code, isPoint] = codeAndType;
+      if (isPoint) {
+        yield* serializePoint(value as IPoint, code);
+      } else {
+        yield* serializeGroupValue(code, value as string | number | boolean);
+      }
+    } else {
+      //special cases
+      switch (property) {
+        case 'blockTransformationMatrix':
+          yield* serializeMatrix(value as Matrix4, 47);
+          break;
+        case 'leaders':
+          for (const leader of value as IMLeaderLeader[]) {
+            yield* serializeLeaderData(leader);
+          }
+          break;
+      }
+    }
+  }
+
+  // END CONTEXT_DATA
+  yield '301';
+  yield '}';
+};
+
+const mleaderPropertyFromCode = new Map<number, keyof ILeaderEntity>([
+  [41, 'doglegLength'],
+  [42, 'arrowHeadSize'],
+  [43, 'blockContentRotation'],
+  [44, 'blockAttributeWidth'],
+  [45, 'textLineSpacingStyleFactor'],
+  [90, 'propertyOverrideFlag'],
+  [91, 'leaderLineColor'],
+  [92, 'textColor'],
+  [93, 'blockContentColor'],
+  [94, 'arrowHeadIndex'],
+  [95, 'textRightAttachmentType'],
+  [170, 'leaderLineType'],
+  [171, 'leaderLineWeight'],
+  [172, 'contentType'],
+  [173, 'textLeftAttachmentType'],
+  [174, 'textAngleType'],
+  [175, 'textAlignmentType'],
+  [176, 'blockContentConnectionType'],
+  [177, 'blockAttributeIndex'],
+  [178, 'textAlignInIPE'],
+  [179, 'textAttachmentPoint'],
+  [271, 'textAttachmentDirectionMText'],
+  [272, 'textAttachmentDirectionBottom'],
+  [273, 'textAttachmentDirectionTop'],
+  [290, 'enableLanding'],
+  [291, 'enableDogLeg'],
+  [292, 'enableFrameText'],
+  [293, 'enableAnotationScale'],
+  [294, 'textDirectionNegative'],
+  [302, 'blockAttributeTextString'],
+  [330, 'blockAttributeId'],
+  [340, 'leaderStyleId'],
+  [341, 'leaderLineTypeId'],
+  [342, 'arrowHeadId'],
+  [343, 'textStyleId'],
+  [344, 'blockContentId'],
+]);
+
+const codeFromMLeaderProperty = new Map<keyof ILeaderEntity, number>(
+  Array.from(mleaderPropertyFromCode.entries()).map(([code, property]) => [
+    property,
+    code,
+  ]),
+);
+
+export default class MLeader implements IGeometry<ILeaderEntity> {
+  public ForEntityName = EntityName.Multileader;
+
+  public parseEntity(scanner: DxfArrayScanner): ILeaderEntity {
+    const entity = { type: this.ForEntityName } as ILeaderEntity;
+    scanner.next();
+
+    let curr = scanner.lastReadGroup as IGroup<GroupValue>;
+    while (!scanner.isEOF()) {
+      if (curr.code === 0) {
+        break;
+      }
+      const property = mleaderPropertyFromCode.get(curr.code);
+      if (property != null) {
+        (entity[property] as number | boolean) = curr.value as number | boolean;
+      } else {
         switch (curr.code) {
-          case 0: // END
-            return;
-          case 340:
-            entity.leaderStyleId = curr.value as number;
-            break;
-          case 170:
-            entity.leaderLineType = curr.value as number;
-            break;
-          case 91:
-            entity.leaderLineColor = curr.value as number;
-            break;
-          case 341:
-            entity.leaderLineTypeId = curr.value as number;
-            break;
-          case 171:
-            entity.leaderLineWeight = curr.value as number;
-            break;
-          case 41:
-            entity.doglegLength = curr.value as number;
-            break;
-          case 290:
-            entity.enableLanding = curr.value as boolean;
-            break;
-          case 291:
-            entity.enableDogLeg = curr.value as boolean;
-            break;
-          case 342:
-            entity.arrowHeadId = curr.value as number;
-            break;
-          case 42:
-            entity.arrowHeadSize = curr.value as number;
-            break;
-          case 172:
-            entity.contentType = curr.value as number;
-            break;
-          case 173:
-            entity.textLeftAttachmentType = curr.value as number;
-            break;
-          case 95:
-            entity.textLeftAttachmentType = curr.value as number;
-            break;
-          case 174:
-            entity.textAngleType = curr.value as number;
-            break;
-          case 175:
-            entity.textAlignmentType = curr.value as number;
-            break;
-          case 343:
-            entity.textStyleId = curr.value as number;
-            break;
-          case 92:
-            entity.textColor = curr.value as number;
-            break;
-          case 292:
-            entity.enableFrameText = curr.value as boolean;
-            break;
-          case 344:
-            entity.blockContentId = curr.value as number;
-            break;
-          case 93:
-            entity.blockContentColor = curr.value as number;
-            break;
           case 10:
-            entity.blockContentScale = helpers.parsePoint(scanner);
-            break;
-          case 43:
-            entity.blockContentRotation = curr.value as number;
-            break;
-          case 176:
-            entity.blockContentConnectionType = curr.value as number;
-            break;
-          case 293:
-            entity.enableAnotationScale = curr.value as boolean;
-            break;
-          case 94:
-            entity.arrowHeadIndex = curr.value as number;
-            break;
-          case 330:
-            entity.blockAttributeId = curr.value as number;
-            break;
-          case 177:
-            entity.blockAttributeIndex = curr.value as number;
-            break;
-          case 44:
-            entity.blockAttributeWidth = curr.value as number;
-            break;
-          case 302:
-            entity.blockAttributeTextString = curr.value as string;
-            break;
-          case 294:
-            entity.textDirectionNegative = curr.value as boolean;
-            break;
-          case 178:
-            entity.textAlignInIPE = curr.value as number;
-            break;
-          case 179:
-            entity.textAttachmentPoint = curr.value as number;
-            break;
-          case 271:
-            entity.textAttachmentDirectionMText = curr.value as number;
-            break;
-          case 272:
-            entity.textAttachmentDirectionBottom = curr.value as number;
-            break;
-          case 273:
-            entity.textAttachmentDirectionTop = curr.value as number;
+            entity.blockContentScale = parsePoint(scanner);
             break;
 
           case 300: // START CONTEXT_DATA
-            parseContextData();
+            if (!entity.contextData) {
+              entity.contextData = {} as IMLeaderContextData;
+            }
+            parseContextData(scanner, entity.contextData);
             break;
           default:
-            helpers.checkCommonEntityProperties(entity, curr, scanner);
+            checkCommonEntityProperties(entity, curr, scanner);
             break;
         }
-        curr = scanner.next();
       }
+      curr = scanner.next();
     }
-
-    function parseContextData() {
-      while (!scanner.isEOF()) {
-        switch (curr.code) {
-          case 40:
-            entity.contextData.contentScale = curr.value as number;
-            break;
-          case 10:
-            entity.contextData.contentBasePosition =
-              helpers.parsePoint(scanner);
-            break;
-          case 145:
-            entity.contextData.landingGap = curr.value as number;
-            break;
-          case 290:
-            entity.contextData.hasMText = curr.value as boolean;
-            break;
-          case 304:
-            entity.contextData.defaultTextContents = curr.value as string;
-            break;
-          case 11:
-            entity.contextData.textNormalDirection =
-              helpers.parsePoint(scanner);
-            break;
-          case 12:
-            entity.contextData.textLocation = helpers.parsePoint(scanner);
-            break;
-          case 13:
-            entity.contextData.textDirection = helpers.parsePoint(scanner);
-            break;
-          case 140:
-            entity.contextData.arrowHeadSize = curr.value as number;
-            break;
-          case 41:
-            entity.contextData.textHeight = curr.value as number;
-            break;
-          case 42:
-            entity.contextData.textRotation = curr.value as number;
-            break;
-          case 43:
-            entity.contextData.textWidth = curr.value as number;
-            break;
-          case 44:
-            entity.contextData.textHeight = curr.value as number;
-            break;
-          case 45:
-            entity.contextData.textLineSpacingFactor = curr.value as number;
-            break;
-          case 90:
-            entity.contextData.textColor = curr.value as number;
-            break;
-          case 170:
-            entity.contextData.textLineSpacingStyle = curr.value as number;
-            break;
-          case 171:
-            entity.contextData.textAttachment = curr.value as number;
-            break;
-          case 172:
-            entity.contextData.textFlowDirection = curr.value as number;
-            break;
-          case 141:
-            entity.contextData.textBackgroundScaleFactor = curr.value as number;
-            break;
-          case 92:
-            entity.contextData.textBackgroundTransparency =
-              curr.value as number;
-            break;
-          case 291:
-            entity.contextData.textBackgroundColorOn = curr.value as boolean;
-            break;
-          case 292:
-            entity.contextData.textBackgroundFillOn = curr.value as boolean;
-            break;
-          case 293:
-            entity.contextData.textUseAutoHeight = curr.value as boolean;
-            break;
-          case 173:
-            entity.contextData.textColumnType = curr.value as number;
-            break;
-          case 142:
-            entity.contextData.textColumnWidth = curr.value as number;
-            break;
-          case 143:
-            entity.contextData.textColumnGutterWidth = curr.value as number;
-            break;
-          case 144:
-            entity.contextData.textColumnHeight = curr.value as number;
-            break;
-          case 295:
-            entity.contextData.textUseWordBreak = curr.value as boolean;
-            break;
-          case 296:
-            entity.contextData.hasBlock = curr.value as boolean;
-            break;
-          case 341:
-            entity.contextData.blockContentId = curr.value as number;
-            break;
-          case 14:
-            entity.contextData.blockContentNormalDirection =
-              helpers.parsePoint(scanner);
-            break;
-          case 15:
-            entity.contextData.blockContentPosition =
-              helpers.parsePoint(scanner);
-            break;
-          case 16:
-            entity.contextData.blockContentScale = curr.value as number;
-            break;
-          case 46:
-            entity.contextData.blockContentRotation = curr.value as number;
-            break;
-          case 93:
-            entity.contextData.blockContentColor = curr.value as number;
-            break;
-          case 47:
-            entity.contextData.blockTransformationMatrix = helpers.parseMatrix(
-              scanner,
-              47,
-            );
-            break;
-          case 110:
-            entity.contextData.planeOriginPoint = helpers.parsePoint(scanner);
-            break;
-          case 111:
-            entity.contextData.planeXAxisDirection =
-              helpers.parsePoint(scanner);
-            break;
-          case 112:
-            entity.contextData.planeYAxisDirection =
-              helpers.parsePoint(scanner);
-            break;
-          case 297:
-            entity.contextData.planeNormalReversed = curr.value as boolean;
-            break;
-          case 301: // END CONTEXT_DATA
-            return;
-          case 302: // START LEADER
-            parseLeaderData();
-            break;
-          default:
-            break;
-        }
-
-        curr = scanner.next();
-      }
-    }
-
-    function parseLeaderData() {
-      const leader = {
-        leaderLines: [],
-      } as any as IMLeaderLeader;
-
-      entity.contextData.leaders.push(leader);
-
-      while (!scanner.isEOF()) {
-        switch (curr.code) {
-          case 290:
-            leader.hasSetLastLeaderLinePoint = curr.value as boolean;
-            break;
-          case 291:
-            leader.hasSetDoglegVector = curr.value as boolean;
-            break;
-          case 10:
-            leader.lastLeaderLinePoint = helpers.parsePoint(scanner);
-            break;
-          case 11:
-            leader.doglegVector = helpers.parsePoint(scanner);
-            break;
-          case 90:
-            leader.leaderBranchIndex = curr.value as number;
-            break;
-          case 40:
-            leader.doglegLength = curr.value as number;
-            break;
-          case 303: // END LEADER
-            return;
-          case 304: // START LEADER_LINE
-            parseLeaderLineData();
-            break;
-          default:
-            break;
-        }
-
-        curr = scanner.next();
-      }
-    }
-
-    function parseLeaderLineData() {
-      const leader =
-        entity.contextData.leaders[entity.contextData.leaders.length - 1];
-      const line = {
-        vertices: [[]],
-      } as any as IMLeaderLine;
-      leader.leaderLines.push(line);
-
-      while (!scanner.isEOF()) {
-        switch (curr.code) {
-          case 10:
-            line.vertices[0].push(helpers.parsePoint(scanner));
-            break;
-          case 305: // END LEADER_LINE
-            return;
-          default:
-            break;
-        }
-
-        curr = scanner.next();
-      }
-    }
-
-    parseCommonData();
 
     return entity;
+  }
+
+  public *serializeEntity(entity: ILeaderEntity): IterableIterator<string> {
+    for (const [property, value] of Object.entries(entity) as [
+      keyof ILeaderEntity,
+      ILeaderEntity[keyof ILeaderEntity],
+    ][]) {
+      const code = codeFromMLeaderProperty.get(property);
+      if (code != null) {
+        yield* serializeGroupValue(code, value as string | number | boolean);
+      } else {
+        //special cases
+        switch (property) {
+          case 'blockContentScale':
+            yield* serializePoint(value as IPoint, 10);
+            break;
+          case 'contextData':
+            yield* serializeContextData(value as IMLeaderContextData);
+            break;
+          default:
+            yield* serializeCommonEntityProperty(
+              property,
+              value as string | number | boolean,
+              entity,
+            );
+            break;
+        }
+      }
+    }
   }
 }

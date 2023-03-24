@@ -1,10 +1,13 @@
 {
   "handle": "8",
   "ownerHandle": "0",
+  "maxEntities": 1,
   "viewPorts": [
     {
+      "handle": "94",
       "ownerHandle": "8",
       "name": "*Active",
+      "standardFlags": 0,
       "lowerLeftCorner": {
         "x": 0,
         "y": 0
@@ -39,12 +42,23 @@
         "y": 0,
         "z": 0
       },
+      "height": 37.36562314777483,
+      "width": 2.152129817444218,
       "lensLength": 50,
       "frontClippingPlane": 0,
       "backClippingPlane": 0,
       "snapRotationAngle": 0,
       "viewTwistAngle": 0,
+      "viewMode": 0,
+      "circleSides": 1000,
+      "plotable": 1,
+      "UCSIcon": 2,
+      "groupCode75": 0,
+      "groupCode76": 0,
+      "groupCode77": 0,
+      "groupCode78": 0,
       "renderMode": 0,
+      "groupCode65": 1,
       "ucsOrigin": {
         "x": 0,
         "y": 0,
@@ -61,7 +75,18 @@
         "z": 0
       },
       "orthographicType": 0,
+      "elevation": 0,
+      "visualStyleHardPointer": "9F",
+      "groupCode60": 3,
+      "majorGridLines": 5,
       "defaultLightingOn": true,
+      "defaultLightingType": true,
+      "brightness": 0,
+      "contrast": 0,
+      "ambientColorIndex": 250,
+      "ambientColorGroupCodes": [
+        421
+      ],
       "ambientColor": 3355443
     }
   ]

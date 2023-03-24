@@ -1,28 +1,52 @@
+import log from 'loglevel';
+
 import AUTO_CAD_COLOR_INDEX from './AutoCadColorIndex.js';
-import DxfArrayScanner, { IGroup } from './DxfArrayScanner.js';
-import { IEntity, IPoint } from './entities/geomtry.js';
+import type DxfArrayScanner from './DxfArrayScanner';
+import type { IGroup, GroupValue } from './DxfArrayScanner';
+import { serializeFloat, serializeGroupValue } from './DxfArrayScanner.js';
+import type { ParseState } from './DxfParser';
+import type { IEntity, IPoint } from './entities/geometry';
+import type { IBlock } from './sections/blocks';
 
 /**
  * Returns the truecolor value of the given AutoCad color index value
- * @return {Number} truecolor value as a number
+ * @return truecolor value as a number
  */
-export function getAcadColor(index: number): number {
-  return AUTO_CAD_COLOR_INDEX[index];
-}
+export const getAcadColor = (index: number): number =>
+  AUTO_CAD_COLOR_INDEX[index];
+
+export const groupIs = <T extends GroupValue>(
+  group: IGroup<T>,
+  code: number,
+  value: T,
+): boolean => group.code === code && group.value === value;
+
+export const debugCode = ({ code, value }: IGroup<GroupValue>): string =>
+  `${code}:${value}`;
+
+export const logUnhandledGroup = (curr: IGroup<GroupValue>): void => {
+  log.debug(`unhandled group ${debugCode(curr)}`);
+};
+
+export const ensureHandle = (
+  parseState: ParseState,
+  entity: IEntity | IBlock,
+): void => {
+  if (!entity) throw new TypeError('entity cannot be undefined or null');
+
+  if (!entity.handle) entity.handle = parseState.lastHandle++;
+};
 
 /**
  * Parses the 2D or 3D coordinate, vector, or point. When complete,
  * the scanner remains on the last group of the coordinate.
- * @param {*} scanner
+ * @remarks this is different implementation than parsePoint in './sections/blocks.ts'
  */
-export function parsePoint(scanner: DxfArrayScanner) {
+export const parsePoint = (scanner: DxfArrayScanner): IPoint => {
+  let curr = scanner.lastReadGroup as IGroup<number>;
   const point = {} as IPoint;
-
-  // Reread group for the first coordinate
-  scanner.rewind();
-  let curr = scanner.next();
-
   let code = curr.code;
+
   point.x = curr.value as number;
 
   code += 10;
@@ -47,18 +71,55 @@ export function parsePoint(scanner: DxfArrayScanner) {
   point.z = curr.value as number;
 
   return point;
-}
+};
+
+export const serializePoint = function* (
+  { x, y, z }: IPoint,
+  code: number,
+): IterableIterator<string> {
+  yield `${code}`;
+  yield serializeFloat(x);
+
+  yield `${code + 10}`;
+  yield serializeFloat(y);
+
+  if (z != null) {
+    yield `${code + 20}`;
+    yield serializeFloat(z);
+  }
+};
+
+//Matrix4: A 4x4 matrix
+export type Matrix4 = [
+  number,
+  number,
+  number,
+  number,
+  number,
+  number,
+  number,
+  number,
+  number,
+  number,
+  number,
+  number,
+  number,
+  number,
+  number,
+  number,
+];
 
 /**
  * Parses 16 numbers as an array. When complete,
  * the scanner remains on the last group of the value.
- * @param {*} scanner
- * @param {*} groupCode
  */
-export function parseMatrix(scanner: DxfArrayScanner, groupCode: number) {
+export const parseMatrix = (
+  scanner: DxfArrayScanner,
+  groupCode: number,
+): Matrix4 => {
   // Reread group for the first coordinate
   scanner.rewind();
-  const matrix: number[] = [];
+  const matrix = new Array(16) as Matrix4;
 
   for (let i = 0; i < 16; i++) {
     const curr = scanner.next();
@@ -72,113 +133,148 @@ export function parseMatrix(scanner: DxfArrayScanner, groupCode: number) {
       );
     }
 
-    matrix.push(curr.value as number);
+    matrix[i] = curr.value as number;
   }
   return matrix;
+};
+
+export const serializeMatrix = function* (
+  matrix: Matrix4,
+  code = 47,
+): IterableIterator<string> {
+  for (const n of matrix) {
+    yield `${code}`;
+    yield serializeFloat(n);
+  }
+};
+
+//ValueType is how it is encoded in IEntityType or elsewhere in IDxf
+//Some values are parsed as numbers, but encoded as a boolean or invertedBoolean
+const enum ValueType {
+  boolean = 1, //zero is false, non-zero is true
+  invertBoolean = 2, //zero is true, non-zero is false
 }
+
+const encodeValue = (
+  v: string | number | boolean,
+  t?: ValueType,
+): string | number | boolean =>
+  typeof v === 'number'
+    ? t === ValueType.boolean
+      ? //zero is false, non-zero is true
+        v !== 0
+      : t === ValueType.invertBoolean
+      ? //zero is true, non-zero is false
+        v === 0
+      : //number is unchanged
+        v
+    : //otherwise unchanged (string | boolean)
+      v;
+
+const commonEntityPropertyFromCode = new Map<
+  number,
+  [keyof IEntity, ValueType?]
+>([
+  [0, ['type']],
+  [5, ['handle']],
+  [6, ['lineType']],
+  [8, ['layer']],
+  [48, ['lineTypeScale']],
+  [60, ['visible', ValueType.invertBoolean]],
+  [62, ['colorIndex']],
+  [66, ['entityFollows']],
+  [67, ['inPaperSpace', ValueType.boolean]],
+  [330, ['ownerHandle']],
+  [347, ['materialObjectHandle']],
+  [370, ['lineweight']],
+  [420, ['color']],
+]);
+
+const codeAndTypeFromCommonEntityProperty = new Map<
+  keyof IEntity,
+  [number, ValueType?]
+>(
+  Array.from(commonEntityPropertyFromCode.entries()).map(
+    ([code, [property, valueType]]) => [
+      property,
+      valueType ? [code, valueType] : [code],
+    ],
+  ),
+);
+
+//delete special cases that are are handled differently when serializing and parsing
+codeAndTypeFromCommonEntityProperty.delete('color'); //420
+commonEntityPropertyFromCode.delete(62); //colorIndex
+codeAndTypeFromCommonEntityProperty.delete('handle');
 
 /**
  * Attempts to parse codes common to all entities. Returns true if the group
  * was handled by this function.
- * @param {*} entity - the entity currently being parsed
- * @param {*} curr - the current group being parsed
  */
-export function checkCommonEntityProperties(
+export const checkCommonEntityProperties = <T extends GroupValue>(
   entity: IEntity,
-  curr: IGroup,
+  { code, value }: IGroup<T>,
   scanner: DxfArrayScanner,
-) {
-  switch (curr.code) {
-    case 0:
-      entity.type = curr.value as string;
-      break;
-    case 5:
-      entity.handle = curr.value as number;
-      break;
-    case 6:
-      entity.lineType = curr.value as string;
-      break;
-    case 8: // Layer name
-      entity.layer = curr.value as string;
-      break;
-    case 48:
-      entity.lineTypeScale = curr.value as number;
-      break;
-    case 60:
-      entity.visible = curr.value === 0;
-      break;
-    case 62: // Acad Index Color. 0 inherits ByBlock. 256 inherits ByLayer. Default is bylayer
-      entity.colorIndex = curr.value as number;
-      entity.color = getAcadColor(Math.abs(curr.value as number));
-      break;
-    case 67:
-      entity.inPaperSpace = curr.value !== 0;
-      break;
-    case 100:
-      //ignore
-      break;
-    case 101: // Embedded Object in ACAD 2018.
-      // See https://ezdxf.readthedocs.io/en/master/dxfinternals/dxftags.html#embedded-objects
-      while (curr.code != 0) {
-        curr = scanner.next();
-      }
-      scanner.rewind();
-      break;
-    case 330:
-      entity.ownerHandle = curr.value as string;
-      break;
-    case 347:
-      entity.materialObjectHandle = curr.value as number;
-      break;
-    case 370:
-      //From https://www.woutware.com/Forum/Topic/955/lineweight?returnUrl=%2FForum%2FUserPosts%3FuserId%3D478262319
-      // An integer representing 100th of mm, must be one of the following values:
-      // 0, 5, 9, 13, 15, 18, 20, 25, 30, 35, 40, 50, 53, 60, 70, 80, 90, 100, 106, 120, 140, 158, 200, 211.
-      // -3 = STANDARD, -2 = BYLAYER, -1 = BYBLOCK
-      entity.lineweight = curr.value as
-        | 0
-        | 5
-        | 9
-        | 13
-        | 15
-        | 18
-        | 20
-        | 25
-        | 30
-        | 35
-        | 40
-        | 50
-        | 53
-        | 60
-        | 70
-        | 80
-        | 90
-        | 100
-        | 106
-        | 120
-        | 140
-        | 158
-        | 200
-        | 211
-        | -3
-        | -2
-        | -1;
-      break;
-    case 420: // TrueColor Color
-      entity.color = curr.value as number;
-      break;
-    case 1000:
-      entity.extendedData = entity.extendedData || {};
-      entity.extendedData.customStrings =
-        entity.extendedData.customStrings || [];
-      entity.extendedData.customStrings.push(curr.value as string);
-      break;
-    case 1001:
-      entity.extendedData = entity.extendedData || {};
-      entity.extendedData.applicationName = curr.value as string;
-      break;
-    default:
-      return false;
+): void => {
+  const commonEntityProperty = commonEntityPropertyFromCode.get(code);
+  if (commonEntityProperty != null) {
+    const [property, t] = commonEntityProperty;
+    (entity[property] as GroupValue) = encodeValue(value, t);
+  } else {
+    //Special cases of setting properties
+    switch (code) {
+      case 62: // Acad Index Color. 0 inherits ByBlock. 256 inherits ByLayer. Default is bylayer
+        entity.colorIndex = value as number;
+        entity.color = getAcadColor(Math.abs(value as number));
+        break;
+      case 101: // Embedded Object in ACAD 2018.
+        // See https://ezdxf.readthedocs.io/en/master/dxfinternals/dxftags.html#embedded-objects
+        while (code != 0) {
+          //eslint-disable-next-line no-param-reassign
+          code = scanner.next().code;
+        }
+        scanner.rewind();
+        break;
+    }
   }
-  return true;
-}
+};
+
+export const serializeCommonEntityProperty = function* <
+  T extends IEntity,
+  P extends keyof T,
+>(property: P, value: T[P], entity: T): IterableIterator<string> {
+  const codeAndType = codeAndTypeFromCommonEntityProperty.get(
+    property as keyof IEntity,
+  );
+  if (codeAndType != null) {
+    const [c, t] = codeAndType;
+    if (t === ValueType.boolean) {
+      yield `${c}`;
+      //true is '1', and false is '0'
+      yield value ? '1' : '0';
+    } else if (t === ValueType.invertBoolean) {
+      yield `${c}`;
+      //true is '0', and false is '1'
+      yield value ? '0' : '1';
+    } else {
+      yield* serializeGroupValue(c, value as string | boolean | number);
+    }
+  } else {
+    //Special cases
+    switch (property) {
+      case 'handle':
+        if (typeof value === 'string') {
+          yield '5';
+          yield value;
+        }
+        //otherwise 'handle' was not in original DXF and was added by `ensureHandle()` which created a number
+        break;
+      case 'color': // Acad Index Color. 0 inherits ByBlock. 256 inherits ByLayer. Default is bylayer
+        if (entity.colorIndex == null) {
+          yield '420';
+          yield `${value}`; //integer
+        }
+        break;
+    }
+  }
+};
