@@ -1,6 +1,11 @@
 {
   "blocks": {
     "*D10": {
+      "endBlock": {
+        "handle": "160F",
+        "layer": "0",
+        "ownerHandler": "160D"
+      },
       "entities": [
         {
           "handle": "B2DC",
@@ -182,6 +187,11 @@
       "xrefPath": ""
     },
     "*D100": {
+      "endBlock": {
+        "handle": "44DA",
+        "layer": "0",
+        "ownerHandler": "44D8"
+      },
       "entities": [
         {
           "handle": "B55C",
@@ -383,6 +393,11 @@
       "xrefPath": ""
     },
     "*D101": {
+      "endBlock": {
+        "handle": "44E7",
+        "layer": "0",
+        "ownerHandler": "44E5"
+      },
       "entities": [
         {
           "handle": "B566",
@@ -584,6 +599,11 @@
       "xrefPath": ""
     },
     "*D102": {
+      "endBlock": {
+        "handle": "44F4",
+        "layer": "0",
+        "ownerHandler": "44F2"
+      },
       "entities": [
         {
           "handle": "B570",
@@ -784,6 +804,11 @@
       "xrefPath": ""
     },
     "*D103": {
+      "endBlock": {
+        "handle": "4501",
+        "layer": "0",
+        "ownerHandler": "44FF"
+      },
       "entities": [
         {
           "handle": "B57A",
@@ -985,6 +1010,11 @@
       "xrefPath": ""
     },
     "*D104": {
+      "endBlock": {
+        "handle": "450E",
+        "layer": "0",
+        "ownerHandler": "450C"
+      },
       "entities": [
         {
           "handle": "B584",
@@ -1186,6 +1216,11 @@
       "xrefPath": ""
     },
     "*D105": {
+      "endBlock": {
+        "handle": "451B",
+        "layer": "0",
+        "ownerHandler": "4519"
+      },
       "entities": [
         {
           "handle": "B58E",
@@ -1387,6 +1422,11 @@
       "xrefPath": ""
     },
     "*D106": {
+      "endBlock": {
+        "handle": "4528",
+        "layer": "0",
+        "ownerHandler": "4526"
+      },
       "entities": [
         {
           "handle": "B598",
@@ -1599,6 +1639,11 @@
       "xrefPath": ""
     },
     "*D107": {
+      "endBlock": {
+        "handle": "4536",
+        "layer": "0",
+        "ownerHandler": "4534"
+      },
       "entities": [
         {
           "handle": "B5A3",
@@ -1789,6 +1834,11 @@
       "xrefPath": ""
     },
     "*D108": {
+      "endBlock": {
+        "handle": "4543",
+        "layer": "0",
+        "ownerHandler": "4541"
+      },
       "entities": [
         {
           "handle": "B5AD",
@@ -2001,6 +2051,11 @@
       "xrefPath": ""
     },
     "*D109": {
+      "endBlock": {
+        "handle": "4551",
+        "layer": "0",
+        "ownerHandler": "454F"
+      },
       "entities": [
         {
           "handle": "B5B8",
@@ -2192,6 +2247,11 @@
       "xrefPath": ""
     },
     "*D11": {
+      "endBlock": {
+        "handle": "1627",
+        "layer": "0",
+        "ownerHandler": "1625"
+      },
       "entities": [
         {
           "handle": "B2E5",
@@ -2373,6 +2433,11 @@
       "xrefPath": ""
     },
     "*D110": {
+      "endBlock": {
+        "handle": "455E",
+        "layer": "0",
+        "ownerHandler": "455C"
+      },
       "entities": [
         {
           "handle": "B5C2",
@@ -2564,6 +2629,11 @@
       "xrefPath": ""
     },
     "*D111": {
+      "endBlock": {
+        "handle": "456B",
+        "layer": "0",
+        "ownerHandler": "4569"
+      },
       "entities": [
         {
           "handle": "B5CC",
@@ -2754,6 +2824,11 @@
       "xrefPath": ""
     },
     "*D112": {
+      "endBlock": {
+        "handle": "4578",
+        "layer": "0",
+        "ownerHandler": "4576"
+      },
       "entities": [
         {
           "handle": "B5D6",
@@ -2945,6 +3020,11 @@
       "xrefPath": ""
     },
     "*D113": {
+      "endBlock": {
+        "handle": "4585",
+        "layer": "0",
+        "ownerHandler": "4583"
+      },
       "entities": [
         {
           "handle": "B5E0",
@@ -3136,6 +3216,11 @@
       "xrefPath": ""
     },
     "*D114": {
+      "endBlock": {
+        "handle": "4592",
+        "layer": "0",
+        "ownerHandler": "4590"
+      },
       "entities": [
         {
           "handle": "B5EA",
@@ -3348,6 +3433,11 @@
       "xrefPath": ""
     },
     "*D115": {
+      "endBlock": {
+        "handle": "45A0",
+        "layer": "0",
+        "ownerHandler": "459E"
+      },
       "entities": [
         {
           "handle": "B5F5",
@@ -3538,6 +3628,11 @@
       "xrefPath": ""
     },
     "*D116": {
+      "endBlock": {
+        "handle": "45AD",
+        "layer": "0",
+        "ownerHandler": "45AB"
+      },
       "entities": [
         {
           "color": 0,
@@ -3697,6 +3792,11 @@
       "xrefPath": ""
     },
     "*D117": {
+      "endBlock": {
+        "handle": "45B8",
+        "layer": "0",
+        "ownerHandler": "45B6"
+      },
       "entities": [
         {
           "color": 0,
@@ -3856,6 +3956,11 @@
       "xrefPath": ""
     },
     "*D118": {
+      "endBlock": {
+        "handle": "45C1",
+        "layer": "0",
+        "ownerHandler": "45BF"
+      },
       "entities": [
         {
           "color": 0,
@@ -4015,6 +4120,11 @@
       "xrefPath": ""
     },
     "*D119": {
+      "endBlock": {
+        "handle": "45CA",
+        "layer": "0",
+        "ownerHandler": "45C8"
+      },
       "entities": [
         {
           "color": 0,
@@ -4174,6 +4284,11 @@
       "xrefPath": ""
     },
     "*D12": {
+      "endBlock": {
+        "handle": "163F",
+        "layer": "0",
+        "ownerHandler": "163D"
+      },
       "entities": [
         {
           "handle": "B2EE",
@@ -4355,6 +4470,11 @@
       "xrefPath": ""
     },
     "*D120": {
+      "endBlock": {
+        "handle": "45D3",
+        "layer": "0",
+        "ownerHandler": "45D1"
+      },
       "entities": [
         {
           "color": 0,
@@ -4514,6 +4634,11 @@
       "xrefPath": ""
     },
     "*D121": {
+      "endBlock": {
+        "handle": "45DC",
+        "layer": "0",
+        "ownerHandler": "45DA"
+      },
       "entities": [
         {
           "handle": "B627",
@@ -4705,6 +4830,11 @@
       "xrefPath": ""
     },
     "*D122": {
+      "endBlock": {
+        "handle": "45E9",
+        "layer": "0",
+        "ownerHandler": "45E7"
+      },
       "entities": [
         {
           "handle": "B631",
@@ -4896,6 +5026,11 @@
       "xrefPath": ""
     },
     "*D123": {
+      "endBlock": {
+        "handle": "45F6",
+        "layer": "0",
+        "ownerHandler": "45F4"
+      },
       "entities": [
         {
           "handle": "B63B",
@@ -5108,6 +5243,11 @@
       "xrefPath": ""
     },
     "*D124": {
+      "endBlock": {
+        "handle": "4604",
+        "layer": "0",
+        "ownerHandler": "4602"
+      },
       "entities": [
         {
           "handle": "B646",
@@ -5320,6 +5460,11 @@
       "xrefPath": ""
     },
     "*D125": {
+      "endBlock": {
+        "handle": "4612",
+        "layer": "0",
+        "ownerHandler": "4610"
+      },
       "entities": [
         {
           "handle": "B651",
@@ -5511,6 +5656,11 @@
       "xrefPath": ""
     },
     "*D126": {
+      "endBlock": {
+        "handle": "461F",
+        "layer": "0",
+        "ownerHandler": "461D"
+      },
       "entities": [
         {
           "handle": "B65B",
@@ -5701,6 +5851,11 @@
       "xrefPath": ""
     },
     "*D127": {
+      "endBlock": {
+        "handle": "462B",
+        "layer": "0",
+        "ownerHandler": "4629"
+      },
       "entities": [
         {
           "handle": "B665",
@@ -5891,6 +6046,11 @@
       "xrefPath": ""
     },
     "*D128": {
+      "endBlock": {
+        "handle": "4638",
+        "layer": "0",
+        "ownerHandler": "4636"
+      },
       "entities": [
         {
           "handle": "B66F",
@@ -6082,6 +6242,11 @@
       "xrefPath": ""
     },
     "*D129": {
+      "endBlock": {
+        "handle": "4645",
+        "layer": "0",
+        "ownerHandler": "4643"
+      },
       "entities": [
         {
           "handle": "B679",
@@ -6272,6 +6437,11 @@
       "xrefPath": ""
     },
     "*D13": {
+      "endBlock": {
+        "handle": "1657",
+        "layer": "0",
+        "ownerHandler": "1655"
+      },
       "entities": [
         {
           "handle": "B2F7",
@@ -6417,6 +6587,11 @@
       "xrefPath": ""
     },
     "*D130": {
+      "endBlock": {
+        "handle": "4652",
+        "layer": "0",
+        "ownerHandler": "4650"
+      },
       "entities": [
         {
           "handle": "B683",
@@ -6608,6 +6783,11 @@
       "xrefPath": ""
     },
     "*D131": {
+      "endBlock": {
+        "handle": "465F",
+        "layer": "0",
+        "ownerHandler": "465D"
+      },
       "entities": [
         {
           "color": 0,
@@ -6767,6 +6947,11 @@
       "xrefPath": ""
     },
     "*D132": {
+      "endBlock": {
+        "handle": "466A",
+        "layer": "0",
+        "ownerHandler": "4668"
+      },
       "entities": [
         {
           "handle": "B695",
@@ -6957,6 +7142,11 @@
       "xrefPath": ""
     },
     "*D133": {
+      "endBlock": {
+        "handle": "4677",
+        "layer": "0",
+        "ownerHandler": "4675"
+      },
       "entities": [
         {
           "handle": "B69F",
@@ -7147,6 +7337,11 @@
       "xrefPath": ""
     },
     "*D134": {
+      "endBlock": {
+        "handle": "4684",
+        "layer": "0",
+        "ownerHandler": "4682"
+      },
       "entities": [
         {
           "color": 0,
@@ -7306,6 +7501,11 @@
       "xrefPath": ""
     },
     "*D135": {
+      "endBlock": {
+        "handle": "468D",
+        "layer": "0",
+        "ownerHandler": "468B"
+      },
       "entities": [
         {
           "color": 0,
@@ -7465,6 +7665,11 @@
       "xrefPath": ""
     },
     "*D136": {
+      "endBlock": {
+        "handle": "4696",
+        "layer": "0",
+        "ownerHandler": "4694"
+      },
       "entities": [
         {
           "color": 0,
@@ -7624,6 +7829,11 @@
       "xrefPath": ""
     },
     "*D137": {
+      "endBlock": {
+        "handle": "469F",
+        "layer": "0",
+        "ownerHandler": "469D"
+      },
       "entities": [
         {
           "handle": "B6C1",
@@ -7814,6 +8024,11 @@
       "xrefPath": ""
     },
     "*D138": {
+      "endBlock": {
+        "handle": "46AC",
+        "layer": "0",
+        "ownerHandler": "46AA"
+      },
       "entities": [
         {
           "handle": "B6CB",
@@ -8025,6 +8240,11 @@
       "xrefPath": ""
     },
     "*D139": {
+      "endBlock": {
+        "handle": "46BB",
+        "layer": "0",
+        "ownerHandler": "46B9"
+      },
       "entities": [
         {
           "handle": "B6D7",
@@ -8236,6 +8456,11 @@
       "xrefPath": ""
     },
     "*D14": {
+      "endBlock": {
+        "handle": "1662",
+        "layer": "0",
+        "ownerHandler": "1660"
+      },
       "entities": [
         {
           "handle": "B2FE",
@@ -8381,6 +8606,11 @@
       "xrefPath": ""
     },
     "*D140": {
+      "endBlock": {
+        "handle": "4DB5",
+        "layer": "0",
+        "ownerHandler": "4DB3"
+      },
       "entities": [
         {
           "handle": "B6E3",
@@ -8604,6 +8834,11 @@
       "xrefPath": ""
     },
     "*D141": {
+      "endBlock": {
+        "handle": "4DC3",
+        "layer": "0",
+        "ownerHandler": "4DC1"
+      },
       "entities": [
         {
           "handle": "B6EE",
@@ -8805,6 +9040,11 @@
       "xrefPath": ""
     },
     "*D142": {
+      "endBlock": {
+        "handle": "4DD3",
+        "layer": "0",
+        "ownerHandler": "4DD1"
+      },
       "entities": [
         {
           "handle": "B6F8",
@@ -9006,6 +9246,11 @@
       "xrefPath": ""
     },
     "*D143": {
+      "endBlock": {
+        "handle": "4DE0",
+        "layer": "0",
+        "ownerHandler": "4DDE"
+      },
       "entities": [
         {
           "handle": "B702",
@@ -9207,6 +9452,11 @@
       "xrefPath": ""
     },
     "*D144": {
+      "endBlock": {
+        "handle": "4DED",
+        "layer": "0",
+        "ownerHandler": "4DEB"
+      },
       "entities": [
         {
           "handle": "B70C",
@@ -9407,6 +9657,11 @@
       "xrefPath": ""
     },
     "*D145": {
+      "endBlock": {
+        "handle": "4DFA",
+        "layer": "0",
+        "ownerHandler": "4DF8"
+      },
       "entities": [
         {
           "handle": "B716",
@@ -9607,6 +9862,11 @@
       "xrefPath": ""
     },
     "*D146": {
+      "endBlock": {
+        "handle": "4E07",
+        "layer": "0",
+        "ownerHandler": "4E05"
+      },
       "entities": [
         {
           "handle": "B720",
@@ -9807,6 +10067,11 @@
       "xrefPath": ""
     },
     "*D147": {
+      "endBlock": {
+        "handle": "4E14",
+        "layer": "0",
+        "ownerHandler": "4E12"
+      },
       "entities": [
         {
           "handle": "B72A",
@@ -10007,6 +10272,11 @@
       "xrefPath": ""
     },
     "*D148": {
+      "endBlock": {
+        "handle": "4E21",
+        "layer": "0",
+        "ownerHandler": "4E1F"
+      },
       "entities": [
         {
           "handle": "B734",
@@ -10207,6 +10477,11 @@
       "xrefPath": ""
     },
     "*D149": {
+      "endBlock": {
+        "handle": "4E2E",
+        "layer": "0",
+        "ownerHandler": "4E2C"
+      },
       "entities": [
         {
           "handle": "B73E",
@@ -10408,6 +10683,11 @@
       "xrefPath": ""
     },
     "*D15": {
+      "endBlock": {
+        "handle": "166D",
+        "layer": "0",
+        "ownerHandler": "166B"
+      },
       "entities": [
         {
           "handle": "B305",
@@ -10553,6 +10833,11 @@
       "xrefPath": ""
     },
     "*D150": {
+      "endBlock": {
+        "handle": "4E3B",
+        "layer": "0",
+        "ownerHandler": "4E39"
+      },
       "entities": [
         {
           "handle": "B748",
@@ -10776,6 +11061,11 @@
       "xrefPath": ""
     },
     "*D151": {
+      "endBlock": {
+        "handle": "4E49",
+        "layer": "0",
+        "ownerHandler": "4E47"
+      },
       "entities": [
         {
           "handle": "B753",
@@ -10999,6 +11289,11 @@
       "xrefPath": ""
     },
     "*D152": {
+      "endBlock": {
+        "handle": "4E57",
+        "layer": "0",
+        "ownerHandler": "4E55"
+      },
       "entities": [
         {
           "handle": "B75E",
@@ -11222,6 +11517,11 @@
       "xrefPath": ""
     },
     "*D153": {
+      "endBlock": {
+        "handle": "4E65",
+        "layer": "0",
+        "ownerHandler": "4E63"
+      },
       "entities": [
         {
           "handle": "B769",
@@ -11423,6 +11723,11 @@
       "xrefPath": ""
     },
     "*D154": {
+      "endBlock": {
+        "handle": "4E72",
+        "layer": "0",
+        "ownerHandler": "4E70"
+      },
       "entities": [
         {
           "handle": "B773",
@@ -11646,6 +11951,11 @@
       "xrefPath": ""
     },
     "*D155": {
+      "endBlock": {
+        "handle": "4E80",
+        "layer": "0",
+        "ownerHandler": "4E7E"
+      },
       "entities": [
         {
           "handle": "B77E",
@@ -11847,6 +12157,11 @@
       "xrefPath": ""
     },
     "*D156": {
+      "endBlock": {
+        "handle": "4E8D",
+        "layer": "0",
+        "ownerHandler": "4E8B"
+      },
       "entities": [
         {
           "handle": "B788",
@@ -12048,6 +12363,11 @@
       "xrefPath": ""
     },
     "*D157": {
+      "endBlock": {
+        "handle": "4E9A",
+        "layer": "0",
+        "ownerHandler": "4E98"
+      },
       "entities": [
         {
           "handle": "B792",
@@ -12239,6 +12559,11 @@
       "xrefPath": ""
     },
     "*D158": {
+      "endBlock": {
+        "handle": "4EA7",
+        "layer": "0",
+        "ownerHandler": "4EA5"
+      },
       "entities": [
         {
           "handle": "B79C",
@@ -12451,6 +12776,11 @@
       "xrefPath": ""
     },
     "*D159": {
+      "endBlock": {
+        "handle": "4EB5",
+        "layer": "0",
+        "ownerHandler": "4EB3"
+      },
       "entities": [
         {
           "handle": "B7A7",
@@ -12642,6 +12972,11 @@
       "xrefPath": ""
     },
     "*D16": {
+      "endBlock": {
+        "handle": "1A5C",
+        "layer": "0",
+        "ownerHandler": "1A5A"
+      },
       "entities": [
         {
           "handle": "B30C",
@@ -12823,6 +13158,11 @@
       "xrefPath": ""
     },
     "*D160": {
+      "endBlock": {
+        "handle": "4EC2",
+        "layer": "0",
+        "ownerHandler": "4EC0"
+      },
       "entities": [
         {
           "handle": "B7B1",
@@ -13014,6 +13354,11 @@
       "xrefPath": ""
     },
     "*D161": {
+      "endBlock": {
+        "handle": "4ECF",
+        "layer": "0",
+        "ownerHandler": "4ECD"
+      },
       "entities": [
         {
           "color": 0,
@@ -13173,6 +13518,11 @@
       "xrefPath": ""
     },
     "*D162": {
+      "endBlock": {
+        "handle": "4ED8",
+        "layer": "0",
+        "ownerHandler": "4ED6"
+      },
       "entities": [
         {
           "color": 0,
@@ -13332,6 +13682,11 @@
       "xrefPath": ""
     },
     "*D163": {
+      "endBlock": {
+        "handle": "4EE1",
+        "layer": "0",
+        "ownerHandler": "4EDF"
+      },
       "entities": [
         {
           "color": 0,
@@ -13491,6 +13846,11 @@
       "xrefPath": ""
     },
     "*D164": {
+      "endBlock": {
+        "handle": "4EEA",
+        "layer": "0",
+        "ownerHandler": "4EE8"
+      },
       "entities": [
         {
           "color": 0,
@@ -13650,6 +14010,11 @@
       "xrefPath": ""
     },
     "*D165": {
+      "endBlock": {
+        "handle": "4EF3",
+        "layer": "0",
+        "ownerHandler": "4EF1"
+      },
       "entities": [
         {
           "handle": "B7DB",
@@ -13840,6 +14205,11 @@
       "xrefPath": ""
     },
     "*D166": {
+      "endBlock": {
+        "handle": "4F00",
+        "layer": "0",
+        "ownerHandler": "4EFE"
+      },
       "entities": [
         {
           "handle": "B7E5",
@@ -14030,6 +14400,11 @@
       "xrefPath": ""
     },
     "*D167": {
+      "endBlock": {
+        "handle": "4F0D",
+        "layer": "0",
+        "ownerHandler": "4F0B"
+      },
       "entities": [
         {
           "handle": "B7EF",
@@ -14220,6 +14595,11 @@
       "xrefPath": ""
     },
     "*D168": {
+      "endBlock": {
+        "handle": "4F1A",
+        "layer": "0",
+        "ownerHandler": "4F18"
+      },
       "entities": [
         {
           "handle": "B7F9",
@@ -14411,6 +14791,11 @@
       "xrefPath": ""
     },
     "*D169": {
+      "endBlock": {
+        "handle": "4F27",
+        "layer": "0",
+        "ownerHandler": "4F25"
+      },
       "entities": [
         {
           "handle": "B803",
@@ -14602,6 +14987,11 @@
       "xrefPath": ""
     },
     "*D17": {
+      "endBlock": {
+        "handle": "1A7D",
+        "layer": "0",
+        "ownerHandler": "1A7B"
+      },
       "entities": [
         {
           "handle": "B315",
@@ -14783,6 +15173,11 @@
       "xrefPath": ""
     },
     "*D170": {
+      "endBlock": {
+        "handle": "4F34",
+        "layer": "0",
+        "ownerHandler": "4F32"
+      },
       "entities": [
         {
           "handle": "B80D",
@@ -14995,6 +15390,11 @@
       "xrefPath": ""
     },
     "*D171": {
+      "endBlock": {
+        "handle": "4F42",
+        "layer": "0",
+        "ownerHandler": "4F40"
+      },
       "entities": [
         {
           "handle": "B818",
@@ -15186,6 +15586,11 @@
       "xrefPath": ""
     },
     "*D172": {
+      "endBlock": {
+        "handle": "4F4F",
+        "layer": "0",
+        "ownerHandler": "4F4D"
+      },
       "entities": [
         {
           "handle": "B822",
@@ -15377,6 +15782,11 @@
       "xrefPath": ""
     },
     "*D173": {
+      "endBlock": {
+        "handle": "4F5C",
+        "layer": "0",
+        "ownerHandler": "4F5A"
+      },
       "entities": [
         {
           "color": 0,
@@ -15536,6 +15946,11 @@
       "xrefPath": ""
     },
     "*D174": {
+      "endBlock": {
+        "handle": "4F65",
+        "layer": "0",
+        "ownerHandler": "4F63"
+      },
       "entities": [
         {
           "color": 0,
@@ -15695,6 +16110,11 @@
       "xrefPath": ""
     },
     "*D175": {
+      "endBlock": {
+        "handle": "4F6E",
+        "layer": "0",
+        "ownerHandler": "4F6C"
+      },
       "entities": [
         {
           "color": 0,
@@ -15854,6 +16274,11 @@
       "xrefPath": ""
     },
     "*D176": {
+      "endBlock": {
+        "handle": "4F77",
+        "layer": "0",
+        "ownerHandler": "4F75"
+      },
       "entities": [
         {
           "color": 0,
@@ -16013,6 +16438,11 @@
       "xrefPath": ""
     },
     "*D177": {
+      "endBlock": {
+        "handle": "4F80",
+        "layer": "0",
+        "ownerHandler": "4F7E"
+      },
       "entities": [
         {
           "handle": "B84C",
@@ -16204,6 +16634,11 @@
       "xrefPath": ""
     },
     "*D178": {
+      "endBlock": {
+        "handle": "4F8D",
+        "layer": "0",
+        "ownerHandler": "4F8B"
+      },
       "entities": [
         {
           "handle": "B856",
@@ -16394,6 +16829,11 @@
       "xrefPath": ""
     },
     "*D179": {
+      "endBlock": {
+        "handle": "4F9A",
+        "layer": "0",
+        "ownerHandler": "4F98"
+      },
       "entities": [
         {
           "handle": "B860",
@@ -16594,6 +17034,11 @@
       "xrefPath": ""
     },
     "*D18": {
+      "endBlock": {
+        "handle": "1A8A",
+        "layer": "0",
+        "ownerHandler": "1A88"
+      },
       "entities": [
         {
           "handle": "B31E",
@@ -16775,6 +17220,11 @@
       "xrefPath": ""
     },
     "*D180": {
+      "endBlock": {
+        "handle": "4FA7",
+        "layer": "0",
+        "ownerHandler": "4FA5"
+      },
       "entities": [
         {
           "handle": "B86A",
@@ -16966,6 +17416,11 @@
       "xrefPath": ""
     },
     "*D181": {
+      "endBlock": {
+        "handle": "4FB4",
+        "layer": "0",
+        "ownerHandler": "4FB2"
+      },
       "entities": [
         {
           "handle": "B874",
@@ -17157,6 +17612,11 @@
       "xrefPath": ""
     },
     "*D182": {
+      "endBlock": {
+        "handle": "4FC1",
+        "layer": "0",
+        "ownerHandler": "4FBF"
+      },
       "entities": [
         {
           "color": 0,
@@ -17324,6 +17784,11 @@
       "xrefPath": ""
     },
     "*D183": {
+      "endBlock": {
+        "handle": "5528",
+        "layer": "0",
+        "ownerHandler": "5526"
+      },
       "entities": [
         {
           "handle": "B886",
@@ -17525,6 +17990,11 @@
       "xrefPath": ""
     },
     "*D184": {
+      "endBlock": {
+        "handle": "5535",
+        "layer": "0",
+        "ownerHandler": "5533"
+      },
       "entities": [
         {
           "handle": "B890",
@@ -17725,6 +18195,11 @@
       "xrefPath": ""
     },
     "*D185": {
+      "endBlock": {
+        "handle": "5542",
+        "layer": "0",
+        "ownerHandler": "5540"
+      },
       "entities": [
         {
           "handle": "B89A",
@@ -17925,6 +18400,11 @@
       "xrefPath": ""
     },
     "*D186": {
+      "endBlock": {
+        "handle": "554F",
+        "layer": "0",
+        "ownerHandler": "554D"
+      },
       "entities": [
         {
           "handle": "B8A4",
@@ -18125,6 +18605,11 @@
       "xrefPath": ""
     },
     "*D187": {
+      "endBlock": {
+        "handle": "555C",
+        "layer": "0",
+        "ownerHandler": "555A"
+      },
       "entities": [
         {
           "handle": "B8AE",
@@ -18326,6 +18811,11 @@
       "xrefPath": ""
     },
     "*D188": {
+      "endBlock": {
+        "handle": "5569",
+        "layer": "0",
+        "ownerHandler": "5567"
+      },
       "entities": [
         {
           "handle": "B8B8",
@@ -18549,6 +19039,11 @@
       "xrefPath": ""
     },
     "*D189": {
+      "endBlock": {
+        "handle": "5577",
+        "layer": "0",
+        "ownerHandler": "5575"
+      },
       "entities": [
         {
           "handle": "B8C3",
@@ -18750,6 +19245,11 @@
       "xrefPath": ""
     },
     "*D19": {
+      "endBlock": {
+        "handle": "1B7A",
+        "layer": "0",
+        "ownerHandler": "1B78"
+      },
       "entities": [
         {
           "handle": "A6F6",
@@ -18942,6 +19442,11 @@
       "xrefPath": ""
     },
     "*D190": {
+      "endBlock": {
+        "handle": "5584",
+        "layer": "0",
+        "ownerHandler": "5582"
+      },
       "entities": [
         {
           "handle": "B8CD",
@@ -19165,6 +19670,11 @@
       "xrefPath": ""
     },
     "*D191": {
+      "endBlock": {
+        "handle": "5592",
+        "layer": "0",
+        "ownerHandler": "5590"
+      },
       "entities": [
         {
           "handle": "B8D8",
@@ -19366,6 +19876,11 @@
       "xrefPath": ""
     },
     "*D192": {
+      "endBlock": {
+        "handle": "559F",
+        "layer": "0",
+        "ownerHandler": "559D"
+      },
       "entities": [
         {
           "handle": "B8E2",
@@ -19567,6 +20082,11 @@
       "xrefPath": ""
     },
     "*D193": {
+      "endBlock": {
+        "handle": "55AC",
+        "layer": "0",
+        "ownerHandler": "55AA"
+      },
       "entities": [
         {
           "handle": "B8EC",
@@ -19758,6 +20278,11 @@
       "xrefPath": ""
     },
     "*D194": {
+      "endBlock": {
+        "handle": "55B9",
+        "layer": "0",
+        "ownerHandler": "55B7"
+      },
       "entities": [
         {
           "handle": "B8F6",
@@ -19970,6 +20495,11 @@
       "xrefPath": ""
     },
     "*D195": {
+      "endBlock": {
+        "handle": "55C7",
+        "layer": "0",
+        "ownerHandler": "55C5"
+      },
       "entities": [
         {
           "handle": "B901",
@@ -20161,6 +20691,11 @@
       "xrefPath": ""
     },
     "*D196": {
+      "endBlock": {
+        "handle": "55D4",
+        "layer": "0",
+        "ownerHandler": "55D2"
+      },
       "entities": [
         {
           "handle": "B90B",
@@ -20352,6 +20887,11 @@
       "xrefPath": ""
     },
     "*D197": {
+      "endBlock": {
+        "handle": "55E1",
+        "layer": "0",
+        "ownerHandler": "55DF"
+      },
       "entities": [
         {
           "color": 0,
@@ -20511,6 +21051,11 @@
       "xrefPath": ""
     },
     "*D198": {
+      "endBlock": {
+        "handle": "55EA",
+        "layer": "0",
+        "ownerHandler": "55E8"
+      },
       "entities": [
         {
           "color": 0,
@@ -20670,6 +21215,11 @@
       "xrefPath": ""
     },
     "*D199": {
+      "endBlock": {
+        "handle": "55F3",
+        "layer": "0",
+        "ownerHandler": "55F1"
+      },
       "entities": [
         {
           "color": 0,
@@ -20829,6 +21379,11 @@
       "xrefPath": ""
     },
     "*D20": {
+      "endBlock": {
+        "handle": "1BE1",
+        "layer": "0",
+        "ownerHandler": "1BDF"
+      },
       "entities": [
         {
           "handle": "A701",
@@ -20991,6 +21546,11 @@
       "xrefPath": ""
     },
     "*D200": {
+      "endBlock": {
+        "handle": "55FC",
+        "layer": "0",
+        "ownerHandler": "55FA"
+      },
       "entities": [
         {
           "color": 0,
@@ -21150,6 +21710,11 @@
       "xrefPath": ""
     },
     "*D201": {
+      "endBlock": {
+        "handle": "5605",
+        "layer": "0",
+        "ownerHandler": "5603"
+      },
       "entities": [
         {
           "handle": "B935",
@@ -21340,6 +21905,11 @@
       "xrefPath": ""
     },
     "*D202": {
+      "endBlock": {
+        "handle": "5612",
+        "layer": "0",
+        "ownerHandler": "5610"
+      },
       "entities": [
         {
           "handle": "B93F",
@@ -21530,6 +22100,11 @@
       "xrefPath": ""
     },
     "*D203": {
+      "endBlock": {
+        "handle": "561F",
+        "layer": "0",
+        "ownerHandler": "561D"
+      },
       "entities": [
         {
           "handle": "B949",
@@ -21720,6 +22295,11 @@
       "xrefPath": ""
     },
     "*D204": {
+      "endBlock": {
+        "handle": "562C",
+        "layer": "0",
+        "ownerHandler": "562A"
+      },
       "entities": [
         {
           "handle": "B953",
@@ -21911,6 +22491,11 @@
       "xrefPath": ""
     },
     "*D205": {
+      "endBlock": {
+        "handle": "5639",
+        "layer": "0",
+        "ownerHandler": "5637"
+      },
       "entities": [
         {
           "handle": "B95D",
@@ -22102,6 +22687,11 @@
       "xrefPath": ""
     },
     "*D206": {
+      "endBlock": {
+        "handle": "5646",
+        "layer": "0",
+        "ownerHandler": "5644"
+      },
       "entities": [
         {
           "handle": "B967",
@@ -22314,6 +22904,11 @@
       "xrefPath": ""
     },
     "*D207": {
+      "endBlock": {
+        "handle": "5654",
+        "layer": "0",
+        "ownerHandler": "5652"
+      },
       "entities": [
         {
           "handle": "B972",
@@ -22505,6 +23100,11 @@
       "xrefPath": ""
     },
     "*D208": {
+      "endBlock": {
+        "handle": "5661",
+        "layer": "0",
+        "ownerHandler": "565F"
+      },
       "entities": [
         {
           "handle": "B97C",
@@ -22696,6 +23296,11 @@
       "xrefPath": ""
     },
     "*D209": {
+      "endBlock": {
+        "handle": "566E",
+        "layer": "0",
+        "ownerHandler": "566C"
+      },
       "entities": [
         {
           "color": 0,
@@ -22855,6 +23460,11 @@
       "xrefPath": ""
     },
     "*D21": {
+      "endBlock": {
+        "handle": "1C00",
+        "layer": "0",
+        "ownerHandler": "1BFE"
+      },
       "entities": [
         {
           "handle": "A70A",
@@ -23017,6 +23627,11 @@
       "xrefPath": ""
     },
     "*D210": {
+      "endBlock": {
+        "handle": "5677",
+        "layer": "0",
+        "ownerHandler": "5675"
+      },
       "entities": [
         {
           "color": 0,
@@ -23176,6 +23791,11 @@
       "xrefPath": ""
     },
     "*D211": {
+      "endBlock": {
+        "handle": "5680",
+        "layer": "0",
+        "ownerHandler": "567E"
+      },
       "entities": [
         {
           "color": 0,
@@ -23335,6 +23955,11 @@
       "xrefPath": ""
     },
     "*D212": {
+      "endBlock": {
+        "handle": "5689",
+        "layer": "0",
+        "ownerHandler": "5687"
+      },
       "entities": [
         {
           "color": 0,
@@ -23494,6 +24119,11 @@
       "xrefPath": ""
     },
     "*D213": {
+      "endBlock": {
+        "handle": "5692",
+        "layer": "0",
+        "ownerHandler": "5690"
+      },
       "entities": [
         {
           "handle": "B9A6",
@@ -23685,6 +24315,11 @@
       "xrefPath": ""
     },
     "*D214": {
+      "endBlock": {
+        "handle": "569F",
+        "layer": "0",
+        "ownerHandler": "569D"
+      },
       "entities": [
         {
           "handle": "B9B0",
@@ -23875,6 +24510,11 @@
       "xrefPath": ""
     },
     "*D215": {
+      "endBlock": {
+        "handle": "56AC",
+        "layer": "0",
+        "ownerHandler": "56AA"
+      },
       "entities": [
         {
           "handle": "B9BA",
@@ -24075,6 +24715,11 @@
       "xrefPath": ""
     },
     "*D216": {
+      "endBlock": {
+        "handle": "56B9",
+        "layer": "0",
+        "ownerHandler": "56B7"
+      },
       "entities": [
         {
           "handle": "B9C4",
@@ -24266,6 +24911,11 @@
       "xrefPath": ""
     },
     "*D217": {
+      "endBlock": {
+        "handle": "56C6",
+        "layer": "0",
+        "ownerHandler": "56C4"
+      },
       "entities": [
         {
           "handle": "B9CE",
@@ -24457,6 +25107,11 @@
       "xrefPath": ""
     },
     "*D218": {
+      "endBlock": {
+        "handle": "56D3",
+        "layer": "0",
+        "ownerHandler": "56D1"
+      },
       "entities": [
         {
           "handle": "B9D8",
@@ -24657,6 +25312,11 @@
       "xrefPath": ""
     },
     "*D22": {
+      "endBlock": {
+        "handle": "1C16",
+        "layer": "0",
+        "ownerHandler": "1C14"
+      },
       "entities": [
         {
           "handle": "A713",
@@ -24849,6 +25509,11 @@
       "xrefPath": ""
     },
     "*D221": {
+      "endBlock": {
+        "handle": "5B81",
+        "layer": "0",
+        "ownerHandler": "5B7F"
+      },
       "entities": [
         {
           "handle": "B9E2",
@@ -25039,6 +25704,11 @@
       "xrefPath": ""
     },
     "*D222": {
+      "endBlock": {
+        "handle": "5B8D",
+        "layer": "0",
+        "ownerHandler": "5B8B"
+      },
       "entities": [
         {
           "handle": "B9EC",
@@ -25230,6 +25900,11 @@
       "xrefPath": ""
     },
     "*D223": {
+      "endBlock": {
+        "handle": "5B9A",
+        "layer": "0",
+        "ownerHandler": "5B98"
+      },
       "entities": [
         {
           "handle": "B9F6",
@@ -25421,6 +26096,11 @@
       "xrefPath": ""
     },
     "*D224": {
+      "endBlock": {
+        "handle": "5BA7",
+        "layer": "0",
+        "ownerHandler": "5BA5"
+      },
       "entities": [
         {
           "handle": "BA00",
@@ -25612,6 +26292,11 @@
       "xrefPath": ""
     },
     "*D225": {
+      "endBlock": {
+        "handle": "5BB4",
+        "layer": "0",
+        "ownerHandler": "5BB2"
+      },
       "entities": [
         {
           "handle": "BA0A",
@@ -25803,6 +26488,11 @@
       "xrefPath": ""
     },
     "*D226": {
+      "endBlock": {
+        "handle": "5BC1",
+        "layer": "0",
+        "ownerHandler": "5BBF"
+      },
       "entities": [
         {
           "handle": "BA14",
@@ -25994,6 +26684,11 @@
       "xrefPath": ""
     },
     "*D227": {
+      "endBlock": {
+        "handle": "5BCE",
+        "layer": "0",
+        "ownerHandler": "5BCC"
+      },
       "entities": [
         {
           "handle": "BA1E",
@@ -26185,6 +26880,11 @@
       "xrefPath": ""
     },
     "*D228": {
+      "endBlock": {
+        "handle": "5BDB",
+        "layer": "0",
+        "ownerHandler": "5BD9"
+      },
       "entities": [
         {
           "handle": "BA28",
@@ -26376,6 +27076,11 @@
       "xrefPath": ""
     },
     "*D229": {
+      "endBlock": {
+        "handle": "5BE8",
+        "layer": "0",
+        "ownerHandler": "5BE6"
+      },
       "entities": [
         {
           "handle": "BA32",
@@ -26567,6 +27272,11 @@
       "xrefPath": ""
     },
     "*D23": {
+      "endBlock": {
+        "handle": "1C88",
+        "layer": "0",
+        "ownerHandler": "1C86"
+      },
       "entities": [
         {
           "handle": "B337",
@@ -26717,6 +27427,11 @@
       "xrefPath": ""
     },
     "*D230": {
+      "endBlock": {
+        "handle": "5BF5",
+        "layer": "0",
+        "ownerHandler": "5BF3"
+      },
       "entities": [
         {
           "handle": "BA3C",
@@ -26908,6 +27623,11 @@
       "xrefPath": ""
     },
     "*D231": {
+      "endBlock": {
+        "handle": "5C02",
+        "layer": "0",
+        "ownerHandler": "5C00"
+      },
       "entities": [
         {
           "handle": "BA46",
@@ -27099,6 +27819,11 @@
       "xrefPath": ""
     },
     "*D232": {
+      "endBlock": {
+        "handle": "5C0F",
+        "layer": "0",
+        "ownerHandler": "5C0D"
+      },
       "entities": [
         {
           "handle": "BA50",
@@ -27290,6 +28015,11 @@
       "xrefPath": ""
     },
     "*D233": {
+      "endBlock": {
+        "handle": "5C1C",
+        "layer": "0",
+        "ownerHandler": "5C1A"
+      },
       "entities": [
         {
           "handle": "BA5A",
@@ -27480,6 +28210,11 @@
       "xrefPath": ""
     },
     "*D234": {
+      "endBlock": {
+        "handle": "5C29",
+        "layer": "0",
+        "ownerHandler": "5C27"
+      },
       "entities": [
         {
           "handle": "BA64",
@@ -27671,6 +28406,11 @@
       "xrefPath": ""
     },
     "*D235": {
+      "endBlock": {
+        "handle": "5C36",
+        "layer": "0",
+        "ownerHandler": "5C34"
+      },
       "entities": [
         {
           "handle": "BA6E",
@@ -27862,6 +28602,11 @@
       "xrefPath": ""
     },
     "*D236": {
+      "endBlock": {
+        "handle": "5C43",
+        "layer": "0",
+        "ownerHandler": "5C41"
+      },
       "entities": [
         {
           "handle": "BA78",
@@ -28053,6 +28798,11 @@
       "xrefPath": ""
     },
     "*D237": {
+      "endBlock": {
+        "handle": "5C50",
+        "layer": "0",
+        "ownerHandler": "5C4E"
+      },
       "entities": [
         {
           "handle": "BA82",
@@ -28243,6 +28993,11 @@
       "xrefPath": ""
     },
     "*D238": {
+      "endBlock": {
+        "handle": "5C5D",
+        "layer": "0",
+        "ownerHandler": "5C5B"
+      },
       "entities": [
         {
           "handle": "BA8C",
@@ -28433,6 +29188,11 @@
       "xrefPath": ""
     },
     "*D239": {
+      "endBlock": {
+        "handle": "5C6A",
+        "layer": "0",
+        "ownerHandler": "5C68"
+      },
       "entities": [
         {
           "handle": "BA96",
@@ -28624,6 +29384,11 @@
       "xrefPath": ""
     },
     "*D24": {
+      "endBlock": {
+        "handle": "1C92",
+        "layer": "0",
+        "ownerHandler": "1C90"
+      },
       "entities": [
         {
           "handle": "B327",
@@ -28792,6 +29557,11 @@
       "xrefPath": ""
     },
     "*D240": {
+      "endBlock": {
+        "handle": "5C77",
+        "layer": "0",
+        "ownerHandler": "5C75"
+      },
       "entities": [
         {
           "handle": "BAA0",
@@ -28982,6 +29752,11 @@
       "xrefPath": ""
     },
     "*D241": {
+      "endBlock": {
+        "handle": "5C84",
+        "layer": "0",
+        "ownerHandler": "5C82"
+      },
       "entities": [
         {
           "handle": "BAAA",
@@ -29095,6 +29870,11 @@
       "xrefPath": ""
     },
     "*D242": {
+      "endBlock": {
+        "handle": "5C8D",
+        "layer": "0",
+        "ownerHandler": "5C8B"
+      },
       "entities": [
         {
           "handle": "BAB0",
@@ -29208,6 +29988,11 @@
       "xrefPath": ""
     },
     "*D243": {
+      "endBlock": {
+        "handle": "5C96",
+        "layer": "0",
+        "ownerHandler": "5C94"
+      },
       "entities": [
         {
           "handle": "BAB6",
@@ -29321,6 +30106,11 @@
       "xrefPath": ""
     },
     "*D244": {
+      "endBlock": {
+        "handle": "5C9F",
+        "layer": "0",
+        "ownerHandler": "5C9D"
+      },
       "entities": [
         {
           "handle": "BABC",
@@ -29434,6 +30224,11 @@
       "xrefPath": ""
     },
     "*D245": {
+      "endBlock": {
+        "handle": "5CA8",
+        "layer": "0",
+        "ownerHandler": "5CA6"
+      },
       "entities": [
         {
           "handle": "BAC2",
@@ -29547,6 +30342,11 @@
       "xrefPath": ""
     },
     "*D246": {
+      "endBlock": {
+        "handle": "5CB1",
+        "layer": "0",
+        "ownerHandler": "5CAF"
+      },
       "entities": [
         {
           "handle": "BAC8",
@@ -29737,6 +30537,11 @@
       "xrefPath": ""
     },
     "*D247": {
+      "endBlock": {
+        "handle": "5CBE",
+        "layer": "0",
+        "ownerHandler": "5CBC"
+      },
       "entities": [
         {
           "handle": "BAD2",
@@ -29927,6 +30732,11 @@
       "xrefPath": ""
     },
     "*D248": {
+      "endBlock": {
+        "handle": "5CCB",
+        "layer": "0",
+        "ownerHandler": "5CC9"
+      },
       "entities": [
         {
           "handle": "BADC",
@@ -30040,6 +30850,11 @@
       "xrefPath": ""
     },
     "*D249": {
+      "endBlock": {
+        "handle": "5CD4",
+        "layer": "0",
+        "ownerHandler": "5CD2"
+      },
       "entities": [
         {
           "handle": "BAE2",
@@ -30232,6 +31047,11 @@
       "xrefPath": ""
     },
     "*D25": {
+      "endBlock": {
+        "handle": "1C9E",
+        "layer": "0",
+        "ownerHandler": "1C9C"
+      },
       "entities": [
         {
           "handle": "B32F",
@@ -30400,6 +31220,11 @@
       "xrefPath": ""
     },
     "*D250": {
+      "endBlock": {
+        "handle": "66E9",
+        "layer": "0",
+        "ownerHandler": "66E7"
+      },
       "entities": [
         {
           "handle": "BAED",
@@ -30591,6 +31416,11 @@
       "xrefPath": ""
     },
     "*D251": {
+      "endBlock": {
+        "handle": "66F6",
+        "layer": "0",
+        "ownerHandler": "66F4"
+      },
       "entities": [
         {
           "handle": "BAF7",
@@ -30803,6 +31633,11 @@
       "xrefPath": ""
     },
     "*D252": {
+      "endBlock": {
+        "handle": "6704",
+        "layer": "0",
+        "ownerHandler": "6702"
+      },
       "entities": [
         {
           "handle": "BB02",
@@ -30993,6 +31828,11 @@
       "xrefPath": ""
     },
     "*D253": {
+      "endBlock": {
+        "handle": "6711",
+        "layer": "0",
+        "ownerHandler": "670F"
+      },
       "entities": [
         {
           "handle": "BB0C",
@@ -31183,6 +32023,11 @@
       "xrefPath": ""
     },
     "*D254": {
+      "endBlock": {
+        "handle": "671E",
+        "layer": "0",
+        "ownerHandler": "671C"
+      },
       "entities": [
         {
           "handle": "BB16",
@@ -31374,6 +32219,11 @@
       "xrefPath": ""
     },
     "*D255": {
+      "endBlock": {
+        "handle": "672B",
+        "layer": "0",
+        "ownerHandler": "6729"
+      },
       "entities": [
         {
           "handle": "BB20",
@@ -31565,6 +32415,11 @@
       "xrefPath": ""
     },
     "*D256": {
+      "endBlock": {
+        "handle": "6738",
+        "layer": "0",
+        "ownerHandler": "6736"
+      },
       "entities": [
         {
           "handle": "BB2A",
@@ -31756,6 +32611,11 @@
       "xrefPath": ""
     },
     "*D257": {
+      "endBlock": {
+        "handle": "6745",
+        "layer": "0",
+        "ownerHandler": "6743"
+      },
       "entities": [
         {
           "handle": "BB34",
@@ -31946,6 +32806,11 @@
       "xrefPath": ""
     },
     "*D258": {
+      "endBlock": {
+        "handle": "6752",
+        "layer": "0",
+        "ownerHandler": "6750"
+      },
       "entities": [
         {
           "handle": "BB3E",
@@ -32136,6 +33001,11 @@
       "xrefPath": ""
     },
     "*D259": {
+      "endBlock": {
+        "handle": "675F",
+        "layer": "0",
+        "ownerHandler": "675D"
+      },
       "entities": [
         {
           "handle": "BB48",
@@ -32327,6 +33197,11 @@
       "xrefPath": ""
     },
     "*D26": {
+      "endBlock": {
+        "handle": "1CEE",
+        "layer": "0",
+        "ownerHandler": "1CEC"
+      },
       "entities": [
         {
           "handle": "B33E",
@@ -32513,6 +33388,11 @@
       "xrefPath": ""
     },
     "*D260": {
+      "endBlock": {
+        "handle": "676C",
+        "layer": "0",
+        "ownerHandler": "676A"
+      },
       "entities": [
         {
           "handle": "BB52",
@@ -32704,6 +33584,11 @@
       "xrefPath": ""
     },
     "*D261": {
+      "endBlock": {
+        "handle": "6779",
+        "layer": "0",
+        "ownerHandler": "6777"
+      },
       "entities": [
         {
           "handle": "BB5C",
@@ -32895,6 +33780,11 @@
       "xrefPath": ""
     },
     "*D262": {
+      "endBlock": {
+        "handle": "6786",
+        "layer": "0",
+        "ownerHandler": "6784"
+      },
       "entities": [
         {
           "handle": "BB66",
@@ -33086,6 +33976,11 @@
       "xrefPath": ""
     },
     "*D263": {
+      "endBlock": {
+        "handle": "6793",
+        "layer": "0",
+        "ownerHandler": "6791"
+      },
       "entities": [
         {
           "handle": "BB70",
@@ -33277,6 +34172,11 @@
       "xrefPath": ""
     },
     "*D264": {
+      "endBlock": {
+        "handle": "67A0",
+        "layer": "0",
+        "ownerHandler": "679E"
+      },
       "entities": [
         {
           "handle": "BB7A",
@@ -33467,6 +34367,11 @@
       "xrefPath": ""
     },
     "*D265": {
+      "endBlock": {
+        "handle": "67AD",
+        "layer": "0",
+        "ownerHandler": "67AB"
+      },
       "entities": [
         {
           "handle": "BB84",
@@ -33658,6 +34563,11 @@
       "xrefPath": ""
     },
     "*D266": {
+      "endBlock": {
+        "handle": "67BA",
+        "layer": "0",
+        "ownerHandler": "67B8"
+      },
       "entities": [
         {
           "handle": "BB8E",
@@ -33848,6 +34758,11 @@
       "xrefPath": ""
     },
     "*D267": {
+      "endBlock": {
+        "handle": "67C7",
+        "layer": "0",
+        "ownerHandler": "67C5"
+      },
       "entities": [
         {
           "color": 0,
@@ -34007,6 +34922,11 @@
       "xrefPath": ""
     },
     "*D268": {
+      "endBlock": {
+        "handle": "67D0",
+        "layer": "0",
+        "ownerHandler": "67CE"
+      },
       "entities": [
         {
           "color": 0,
@@ -34166,6 +35086,11 @@
       "xrefPath": ""
     },
     "*D269": {
+      "endBlock": {
+        "handle": "67D9",
+        "layer": "0",
+        "ownerHandler": "67D7"
+      },
       "entities": [
         {
           "handle": "BBA8",
@@ -34357,6 +35282,11 @@
       "xrefPath": ""
     },
     "*D27": {
+      "endBlock": {
+        "handle": "1D1B",
+        "layer": "0",
+        "ownerHandler": "1D19"
+      },
       "entities": [
         {
           "handle": "B347",
@@ -34538,6 +35468,11 @@
       "xrefPath": ""
     },
     "*D270": {
+      "endBlock": {
+        "handle": "67E6",
+        "layer": "0",
+        "ownerHandler": "67E4"
+      },
       "entities": [
         {
           "color": 0,
@@ -34697,6 +35632,11 @@
       "xrefPath": ""
     },
     "*D271": {
+      "endBlock": {
+        "handle": "67EF",
+        "layer": "0",
+        "ownerHandler": "67ED"
+      },
       "entities": [
         {
           "handle": "BBBA",
@@ -34887,6 +35827,11 @@
       "xrefPath": ""
     },
     "*D272": {
+      "endBlock": {
+        "handle": "67FC",
+        "layer": "0",
+        "ownerHandler": "67FA"
+      },
       "entities": [
         {
           "handle": "BBC4",
@@ -35077,6 +36022,11 @@
       "xrefPath": ""
     },
     "*D273": {
+      "endBlock": {
+        "handle": "6809",
+        "layer": "0",
+        "ownerHandler": "6807"
+      },
       "entities": [
         {
           "color": 0,
@@ -35236,6 +36186,11 @@
       "xrefPath": ""
     },
     "*D274": {
+      "endBlock": {
+        "handle": "6812",
+        "layer": "0",
+        "ownerHandler": "6810"
+      },
       "entities": [
         {
           "handle": "BBD6",
@@ -35427,6 +36382,11 @@
       "xrefPath": ""
     },
     "*D275": {
+      "endBlock": {
+        "handle": "681F",
+        "layer": "0",
+        "ownerHandler": "681D"
+      },
       "entities": [
         {
           "handle": "BBE0",
@@ -35618,6 +36578,11 @@
       "xrefPath": ""
     },
     "*D276": {
+      "endBlock": {
+        "handle": "682C",
+        "layer": "0",
+        "ownerHandler": "682A"
+      },
       "entities": [
         {
           "color": 0,
@@ -35777,6 +36742,11 @@
       "xrefPath": ""
     },
     "*D277": {
+      "endBlock": {
+        "handle": "6835",
+        "layer": "0",
+        "ownerHandler": "6833"
+      },
       "entities": [
         {
           "color": 0,
@@ -35936,6 +36906,11 @@
       "xrefPath": ""
     },
     "*D278": {
+      "endBlock": {
+        "handle": "683E",
+        "layer": "0",
+        "ownerHandler": "683C"
+      },
       "entities": [
         {
           "handle": "BBFA",
@@ -36128,6 +37103,11 @@
       "xrefPath": ""
     },
     "*D279": {
+      "endBlock": {
+        "handle": "6B06",
+        "layer": "0",
+        "ownerHandler": "6B04"
+      },
       "entities": [
         {
           "handle": "BC05",
@@ -36318,6 +37298,11 @@
       "xrefPath": ""
     },
     "*D280": {
+      "endBlock": {
+        "handle": "6B13",
+        "layer": "0",
+        "ownerHandler": "6B11"
+      },
       "entities": [
         {
           "handle": "BC0F",
@@ -36508,6 +37493,11 @@
       "xrefPath": ""
     },
     "*D281": {
+      "endBlock": {
+        "handle": "6B20",
+        "layer": "0",
+        "ownerHandler": "6B1E"
+      },
       "entities": [
         {
           "handle": "BC19",
@@ -36699,6 +37689,11 @@
       "xrefPath": ""
     },
     "*D282": {
+      "endBlock": {
+        "handle": "6B2D",
+        "layer": "0",
+        "ownerHandler": "6B2B"
+      },
       "entities": [
         {
           "handle": "BC23",
@@ -36889,6 +37884,11 @@
       "xrefPath": ""
     },
     "*D283": {
+      "endBlock": {
+        "handle": "6B3A",
+        "layer": "0",
+        "ownerHandler": "6B38"
+      },
       "entities": [
         {
           "handle": "BC2D",
@@ -37101,6 +38101,11 @@
       "xrefPath": ""
     },
     "*D284": {
+      "endBlock": {
+        "handle": "6B48",
+        "layer": "0",
+        "ownerHandler": "6B46"
+      },
       "entities": [
         {
           "handle": "BC38",
@@ -37313,6 +38318,11 @@
       "xrefPath": ""
     },
     "*D285": {
+      "endBlock": {
+        "handle": "6B56",
+        "layer": "0",
+        "ownerHandler": "6B54"
+      },
       "entities": [
         {
           "handle": "BC43",
@@ -37504,6 +38514,11 @@
       "xrefPath": ""
     },
     "*D286": {
+      "endBlock": {
+        "handle": "6B63",
+        "layer": "0",
+        "ownerHandler": "6B61"
+      },
       "entities": [
         {
           "color": 0,
@@ -37663,6 +38678,11 @@
       "xrefPath": ""
     },
     "*D287": {
+      "endBlock": {
+        "handle": "6B6C",
+        "layer": "0",
+        "ownerHandler": "6B6A"
+      },
       "entities": [
         {
           "color": 0,
@@ -37822,6 +38842,11 @@
       "xrefPath": ""
     },
     "*D288": {
+      "endBlock": {
+        "handle": "6CF6",
+        "layer": "0",
+        "ownerHandler": "6CF4"
+      },
       "entities": [
         {
           "handle": "BC5D",
@@ -38022,6 +39047,11 @@
       "xrefPath": ""
     },
     "*D289": {
+      "endBlock": {
+        "handle": "6D03",
+        "layer": "0",
+        "ownerHandler": "6D01"
+      },
       "entities": [
         {
           "color": 0,
@@ -38189,6 +39219,11 @@
       "xrefPath": ""
     },
     "*D29": {
+      "endBlock": {
+        "handle": "20FF",
+        "layer": "0",
+        "ownerHandler": "20FD"
+      },
       "entities": [
         {
           "handle": "BD88",
@@ -38357,6 +39392,11 @@
       "xrefPath": ""
     },
     "*D290": {
+      "endBlock": {
+        "handle": "6D0C",
+        "layer": "0",
+        "ownerHandler": "6D0A"
+      },
       "entities": [
         {
           "color": 0,
@@ -38524,6 +39564,11 @@
       "xrefPath": ""
     },
     "*D291": {
+      "endBlock": {
+        "handle": "6D15",
+        "layer": "0",
+        "ownerHandler": "6D13"
+      },
       "entities": [
         {
           "handle": "BC77",
@@ -38724,6 +39769,11 @@
       "xrefPath": ""
     },
     "*D292": {
+      "endBlock": {
+        "handle": "6D22",
+        "layer": "0",
+        "ownerHandler": "6D20"
+      },
       "entities": [
         {
           "handle": "BC81",
@@ -38947,6 +39997,11 @@
       "xrefPath": ""
     },
     "*D293": {
+      "endBlock": {
+        "handle": "6D30",
+        "layer": "0",
+        "ownerHandler": "6D2E"
+      },
       "entities": [
         {
           "handle": "BC8C",
@@ -39147,6 +40202,11 @@
       "xrefPath": ""
     },
     "*D294": {
+      "endBlock": {
+        "handle": "6D3D",
+        "layer": "0",
+        "ownerHandler": "6D3B"
+      },
       "entities": [
         {
           "handle": "BC96",
@@ -39347,6 +40407,11 @@
       "xrefPath": ""
     },
     "*D295": {
+      "endBlock": {
+        "handle": "6D4A",
+        "layer": "0",
+        "ownerHandler": "6D48"
+      },
       "entities": [
         {
           "handle": "BCA0",
@@ -39548,6 +40613,11 @@
       "xrefPath": ""
     },
     "*D296": {
+      "endBlock": {
+        "handle": "6D57",
+        "layer": "0",
+        "ownerHandler": "6D55"
+      },
       "entities": [
         {
           "handle": "BCAA",
@@ -39748,6 +40818,11 @@
       "xrefPath": ""
     },
     "*D297": {
+      "endBlock": {
+        "handle": "6D64",
+        "layer": "0",
+        "ownerHandler": "6D62"
+      },
       "entities": [
         {
           "handle": "BCB4",
@@ -39971,6 +41046,11 @@
       "xrefPath": ""
     },
     "*D298": {
+      "endBlock": {
+        "handle": "6D73",
+        "layer": "0",
+        "ownerHandler": "6D71"
+      },
       "entities": [
         {
           "handle": "BCC0",
@@ -40172,6 +41252,11 @@
       "xrefPath": ""
     },
     "*D299": {
+      "endBlock": {
+        "handle": "6D80",
+        "layer": "0",
+        "ownerHandler": "6D7E"
+      },
       "entities": [
         {
           "handle": "BCCA",
@@ -40373,6 +41458,11 @@
       "xrefPath": ""
     },
     "*D30": {
+      "endBlock": {
+        "handle": "210D",
+        "layer": "0",
+        "ownerHandler": "210B"
+      },
       "entities": [
         {
           "handle": "B358",
@@ -40541,6 +41631,11 @@
       "xrefPath": ""
     },
     "*D300": {
+      "endBlock": {
+        "handle": "6F42",
+        "layer": "0",
+        "ownerHandler": "6F40"
+      },
       "entities": [
         {
           "color": 0,
@@ -40708,6 +41803,11 @@
       "xrefPath": ""
     },
     "*D301": {
+      "endBlock": {
+        "handle": "6F4B",
+        "layer": "0",
+        "ownerHandler": "6F49"
+      },
       "entities": [
         {
           "color": 0,
@@ -40875,6 +41975,11 @@
       "xrefPath": ""
     },
     "*D302": {
+      "endBlock": {
+        "handle": "6F54",
+        "layer": "0",
+        "ownerHandler": "6F52"
+      },
       "entities": [
         {
           "handle": "BCE4",
@@ -41075,6 +42180,11 @@
       "xrefPath": ""
     },
     "*D303": {
+      "endBlock": {
+        "handle": "6F61",
+        "layer": "0",
+        "ownerHandler": "6F5F"
+      },
       "entities": [
         {
           "handle": "BCEE",
@@ -41298,6 +42408,11 @@
       "xrefPath": ""
     },
     "*D304": {
+      "endBlock": {
+        "handle": "6F6F",
+        "layer": "0",
+        "ownerHandler": "6F6D"
+      },
       "entities": [
         {
           "handle": "BCF9",
@@ -41498,6 +42613,11 @@
       "xrefPath": ""
     },
     "*D305": {
+      "endBlock": {
+        "handle": "6F7C",
+        "layer": "0",
+        "ownerHandler": "6F7A"
+      },
       "entities": [
         {
           "handle": "BD03",
@@ -41699,6 +42819,11 @@
       "xrefPath": ""
     },
     "*D306": {
+      "endBlock": {
+        "handle": "6F89",
+        "layer": "0",
+        "ownerHandler": "6F87"
+      },
       "entities": [
         {
           "handle": "BD0D",
@@ -41899,6 +43024,11 @@
       "xrefPath": ""
     },
     "*D307": {
+      "endBlock": {
+        "handle": "6F96",
+        "layer": "0",
+        "ownerHandler": "6F94"
+      },
       "entities": [
         {
           "handle": "BD17",
@@ -42122,6 +43252,11 @@
       "xrefPath": ""
     },
     "*D308": {
+      "endBlock": {
+        "handle": "6FA5",
+        "layer": "0",
+        "ownerHandler": "6FA3"
+      },
       "entities": [
         {
           "handle": "BD23",
@@ -42323,6 +43458,11 @@
       "xrefPath": ""
     },
     "*D309": {
+      "endBlock": {
+        "handle": "6FB2",
+        "layer": "0",
+        "ownerHandler": "6FB0"
+      },
       "entities": [
         {
           "handle": "BD2D",
@@ -42524,6 +43664,11 @@
       "xrefPath": ""
     },
     "*D31": {
+      "endBlock": {
+        "handle": "211B",
+        "layer": "0",
+        "ownerHandler": "2119"
+      },
       "entities": [
         {
           "handle": "B360",
@@ -42692,6 +43837,11 @@
       "xrefPath": ""
     },
     "*D310": {
+      "endBlock": {
+        "handle": "6FBF",
+        "layer": "0",
+        "ownerHandler": "6FBD"
+      },
       "entities": [
         {
           "handle": "BD37",
@@ -42892,6 +44042,11 @@
       "xrefPath": ""
     },
     "*D311": {
+      "endBlock": {
+        "handle": "6FCC",
+        "layer": "0",
+        "ownerHandler": "6FCA"
+      },
       "entities": [
         {
           "handle": "BD41",
@@ -43092,6 +44247,11 @@
       "xrefPath": ""
     },
     "*D313": {
+      "endBlock": {
+        "handle": "74E3",
+        "layer": "0",
+        "ownerHandler": "74E1"
+      },
       "entities": [
         {
           "handle": "BD4B",
@@ -43292,6 +44452,11 @@
       "xrefPath": ""
     },
     "*D314": {
+      "endBlock": {
+        "handle": "74FF",
+        "layer": "0",
+        "ownerHandler": "74FD"
+      },
       "entities": [
         {
           "handle": "BD55",
@@ -43493,6 +44658,11 @@
       "xrefPath": ""
     },
     "*D315": {
+      "endBlock": {
+        "handle": "751B",
+        "layer": "0",
+        "ownerHandler": "7519"
+      },
       "entities": [
         {
           "handle": "BD5F",
@@ -43693,6 +44863,11 @@
       "xrefPath": ""
     },
     "*D316": {
+      "endBlock": {
+        "handle": "755F",
+        "layer": "0",
+        "ownerHandler": "755D"
+      },
       "entities": [
         {
           "handle": "BD69",
@@ -43893,6 +45068,11 @@
       "xrefPath": ""
     },
     "*D317": {
+      "endBlock": {
+        "handle": "7587",
+        "layer": "0",
+        "ownerHandler": "7585"
+      },
       "entities": [
         {
           "handle": "BD73",
@@ -44093,6 +45273,11 @@
       "xrefPath": ""
     },
     "*D318": {
+      "endBlock": {
+        "handle": "759F",
+        "layer": "0",
+        "ownerHandler": "759D"
+      },
       "entities": [
         {
           "handle": "BD7D",
@@ -44316,6 +45501,11 @@
       "xrefPath": ""
     },
     "*D32": {
+      "endBlock": {
+        "handle": "2129",
+        "layer": "0",
+        "ownerHandler": "2127"
+      },
       "entities": [
         {
           "handle": "BD90",
@@ -44484,6 +45674,11 @@
       "xrefPath": ""
     },
     "*D39": {
+      "endBlock": {
+        "handle": "2958",
+        "layer": "0",
+        "ownerHandler": "2956"
+      },
       "entities": [
         {
           "handle": "A75F",
@@ -44676,6 +45871,11 @@
       "xrefPath": ""
     },
     "*D40": {
+      "endBlock": {
+        "handle": "2A8A",
+        "layer": "0",
+        "ownerHandler": "2A88"
+      },
       "entities": [
         {
           "handle": "A76A",
@@ -44874,6 +46074,11 @@
       "xrefPath": ""
     },
     "*D49": {
+      "endBlock": {
+        "handle": "35A2",
+        "layer": "0",
+        "ownerHandler": "35A0"
+      },
       "entities": [
         {
           "handle": "B370",
@@ -45075,6 +46280,11 @@
       "xrefPath": ""
     },
     "*D50": {
+      "endBlock": {
+        "handle": "35AF",
+        "layer": "0",
+        "ownerHandler": "35AD"
+      },
       "entities": [
         {
           "handle": "B37A",
@@ -45276,6 +46486,11 @@
       "xrefPath": ""
     },
     "*D51": {
+      "endBlock": {
+        "handle": "35BC",
+        "layer": "0",
+        "ownerHandler": "35BA"
+      },
       "entities": [
         {
           "handle": "B384",
@@ -45477,6 +46692,11 @@
       "xrefPath": ""
     },
     "*D52": {
+      "endBlock": {
+        "handle": "35C9",
+        "layer": "0",
+        "ownerHandler": "35C7"
+      },
       "entities": [
         {
           "handle": "B38E",
@@ -45678,6 +46898,11 @@
       "xrefPath": ""
     },
     "*D53": {
+      "endBlock": {
+        "handle": "35D6",
+        "layer": "0",
+        "ownerHandler": "35D4"
+      },
       "entities": [
         {
           "handle": "B398",
@@ -45878,6 +47103,11 @@
       "xrefPath": ""
     },
     "*D54": {
+      "endBlock": {
+        "handle": "35E3",
+        "layer": "0",
+        "ownerHandler": "35E1"
+      },
       "entities": [
         {
           "handle": "B3A2",
@@ -46101,6 +47331,11 @@
       "xrefPath": ""
     },
     "*D55": {
+      "endBlock": {
+        "handle": "35F1",
+        "layer": "0",
+        "ownerHandler": "35EF"
+      },
       "entities": [
         {
           "handle": "B3AD",
@@ -46301,6 +47536,11 @@
       "xrefPath": ""
     },
     "*D56": {
+      "endBlock": {
+        "handle": "35FE",
+        "layer": "0",
+        "ownerHandler": "35FC"
+      },
       "entities": [
         {
           "handle": "B3B7",
@@ -46501,6 +47741,11 @@
       "xrefPath": ""
     },
     "*D57": {
+      "endBlock": {
+        "handle": "360B",
+        "layer": "0",
+        "ownerHandler": "3609"
+      },
       "entities": [
         {
           "handle": "B3C1",
@@ -46701,6 +47946,11 @@
       "xrefPath": ""
     },
     "*D58": {
+      "endBlock": {
+        "handle": "3618",
+        "layer": "0",
+        "ownerHandler": "3616"
+      },
       "entities": [
         {
           "handle": "B3CB",
@@ -46901,6 +48151,11 @@
       "xrefPath": ""
     },
     "*D59": {
+      "endBlock": {
+        "handle": "3625",
+        "layer": "0",
+        "ownerHandler": "3623"
+      },
       "entities": [
         {
           "handle": "B3D5",
@@ -47079,6 +48334,11 @@
       "xrefPath": ""
     },
     "*D60": {
+      "endBlock": {
+        "handle": "3631",
+        "layer": "0",
+        "ownerHandler": "362F"
+      },
       "entities": [
         {
           "handle": "B3DE",
@@ -47270,6 +48530,11 @@
       "xrefPath": ""
     },
     "*D61": {
+      "endBlock": {
+        "handle": "363E",
+        "layer": "0",
+        "ownerHandler": "363C"
+      },
       "entities": [
         {
           "handle": "B3E8",
@@ -47461,6 +48726,11 @@
       "xrefPath": ""
     },
     "*D62": {
+      "endBlock": {
+        "handle": "364B",
+        "layer": "0",
+        "ownerHandler": "3649"
+      },
       "entities": [
         {
           "handle": "B3F2",
@@ -47673,6 +48943,11 @@
       "xrefPath": ""
     },
     "*D63": {
+      "endBlock": {
+        "handle": "3659",
+        "layer": "0",
+        "ownerHandler": "3657"
+      },
       "entities": [
         {
           "handle": "B3FD",
@@ -47885,6 +49160,11 @@
       "xrefPath": ""
     },
     "*D64": {
+      "endBlock": {
+        "handle": "3667",
+        "layer": "0",
+        "ownerHandler": "3665"
+      },
       "entities": [
         {
           "handle": "B408",
@@ -48076,6 +49356,11 @@
       "xrefPath": ""
     },
     "*D65": {
+      "endBlock": {
+        "handle": "3674",
+        "layer": "0",
+        "ownerHandler": "3672"
+      },
       "entities": [
         {
           "handle": "B412",
@@ -48189,6 +49474,11 @@
       "xrefPath": ""
     },
     "*D66": {
+      "endBlock": {
+        "handle": "367D",
+        "layer": "0",
+        "ownerHandler": "367B"
+      },
       "entities": [
         {
           "handle": "B418",
@@ -48338,6 +49628,11 @@
       "xrefPath": ""
     },
     "*D67": {
+      "endBlock": {
+        "handle": "3688",
+        "layer": "0",
+        "ownerHandler": "3686"
+      },
       "entities": [
         {
           "handle": "B420",
@@ -48529,6 +49824,11 @@
       "xrefPath": ""
     },
     "*D68": {
+      "endBlock": {
+        "handle": "3695",
+        "layer": "0",
+        "ownerHandler": "3693"
+      },
       "entities": [
         {
           "handle": "B42A",
@@ -48720,6 +50020,11 @@
       "xrefPath": ""
     },
     "*D69": {
+      "endBlock": {
+        "handle": "36A2",
+        "layer": "0",
+        "ownerHandler": "36A0"
+      },
       "entities": [
         {
           "handle": "B434",
@@ -48911,6 +50216,11 @@
       "xrefPath": ""
     },
     "*D7": {
+      "endBlock": {
+        "handle": "1573",
+        "layer": "0",
+        "ownerHandler": "1571"
+      },
       "entities": [
         {
           "handle": "B2C6",
@@ -49061,6 +50371,11 @@
       "xrefPath": ""
     },
     "*D70": {
+      "endBlock": {
+        "handle": "36AF",
+        "layer": "0",
+        "ownerHandler": "36AD"
+      },
       "entities": [
         {
           "handle": "B43E",
@@ -49251,6 +50566,11 @@
       "xrefPath": ""
     },
     "*D71": {
+      "endBlock": {
+        "handle": "36BC",
+        "layer": "0",
+        "ownerHandler": "36BA"
+      },
       "entities": [
         {
           "handle": "B448",
@@ -49420,6 +50740,11 @@
       "xrefPath": ""
     },
     "*D72": {
+      "endBlock": {
+        "handle": "36C8",
+        "layer": "0",
+        "ownerHandler": "36C6"
+      },
       "entities": [
         {
           "handle": "B451",
@@ -49620,6 +50945,11 @@
       "xrefPath": ""
     },
     "*D73": {
+      "endBlock": {
+        "handle": "36D5",
+        "layer": "0",
+        "ownerHandler": "36D3"
+      },
       "entities": [
         {
           "handle": "B45B",
@@ -49820,6 +51150,11 @@
       "xrefPath": ""
     },
     "*D74": {
+      "endBlock": {
+        "handle": "36E2",
+        "layer": "0",
+        "ownerHandler": "36E0"
+      },
       "entities": [
         {
           "handle": "B465",
@@ -50043,6 +51378,11 @@
       "xrefPath": ""
     },
     "*D75": {
+      "endBlock": {
+        "handle": "36F0",
+        "layer": "0",
+        "ownerHandler": "36EE"
+      },
       "entities": [
         {
           "handle": "B470",
@@ -50243,6 +51583,11 @@
       "xrefPath": ""
     },
     "*D76": {
+      "endBlock": {
+        "handle": "36FD",
+        "layer": "0",
+        "ownerHandler": "36FB"
+      },
       "entities": [
         {
           "color": 0,
@@ -50410,6 +51755,11 @@
       "xrefPath": ""
     },
     "*D77": {
+      "endBlock": {
+        "handle": "3708",
+        "layer": "0",
+        "ownerHandler": "3706"
+      },
       "entities": [
         {
           "handle": "B482",
@@ -50633,6 +51983,11 @@
       "xrefPath": ""
     },
     "*D78": {
+      "endBlock": {
+        "handle": "3717",
+        "layer": "0",
+        "ownerHandler": "3715"
+      },
       "entities": [
         {
           "color": 0,
@@ -50800,6 +52155,11 @@
       "xrefPath": ""
     },
     "*D79": {
+      "endBlock": {
+        "handle": "3720",
+        "layer": "0",
+        "ownerHandler": "371E"
+      },
       "entities": [
         {
           "handle": "B496",
@@ -51000,6 +52360,11 @@
       "xrefPath": ""
     },
     "*D8": {
+      "endBlock": {
+        "handle": "157E",
+        "layer": "0",
+        "ownerHandler": "157C"
+      },
       "entities": [
         {
           "handle": "B2CD",
@@ -51150,6 +52515,11 @@
       "xrefPath": ""
     },
     "*D80": {
+      "endBlock": {
+        "handle": "372D",
+        "layer": "0",
+        "ownerHandler": "372B"
+      },
       "entities": [
         {
           "handle": "B4A0",
@@ -51350,6 +52720,11 @@
       "xrefPath": ""
     },
     "*D81": {
+      "endBlock": {
+        "handle": "373A",
+        "layer": "0",
+        "ownerHandler": "3738"
+      },
       "entities": [
         {
           "handle": "B4AA",
@@ -51541,6 +52916,11 @@
       "xrefPath": ""
     },
     "*D82": {
+      "endBlock": {
+        "handle": "3747",
+        "layer": "0",
+        "ownerHandler": "3745"
+      },
       "entities": [
         {
           "handle": "B4B4",
@@ -51741,6 +53121,11 @@
       "xrefPath": ""
     },
     "*D84": {
+      "endBlock": {
+        "handle": "440E",
+        "layer": "0",
+        "ownerHandler": "440C"
+      },
       "entities": [
         {
           "handle": "B4BE",
@@ -51942,6 +53327,11 @@
       "xrefPath": ""
     },
     "*D85": {
+      "endBlock": {
+        "handle": "441B",
+        "layer": "0",
+        "ownerHandler": "4419"
+      },
       "entities": [
         {
           "handle": "B4C8",
@@ -52142,6 +53532,11 @@
       "xrefPath": ""
     },
     "*D86": {
+      "endBlock": {
+        "handle": "4428",
+        "layer": "0",
+        "ownerHandler": "4426"
+      },
       "entities": [
         {
           "handle": "B4D2",
@@ -52342,6 +53737,11 @@
       "xrefPath": ""
     },
     "*D87": {
+      "endBlock": {
+        "handle": "4435",
+        "layer": "0",
+        "ownerHandler": "4433"
+      },
       "entities": [
         {
           "handle": "B4DC",
@@ -52543,6 +53943,11 @@
       "xrefPath": ""
     },
     "*D88": {
+      "endBlock": {
+        "handle": "4442",
+        "layer": "0",
+        "ownerHandler": "4440"
+      },
       "entities": [
         {
           "handle": "B4E6",
@@ -52743,6 +54148,11 @@
       "xrefPath": ""
     },
     "*D89": {
+      "endBlock": {
+        "handle": "444F",
+        "layer": "0",
+        "ownerHandler": "444D"
+      },
       "entities": [
         {
           "handle": "B4F0",
@@ -52933,6 +54343,11 @@
       "xrefPath": ""
     },
     "*D9": {
+      "endBlock": {
+        "handle": "1589",
+        "layer": "0",
+        "ownerHandler": "1587"
+      },
       "entities": [
         {
           "handle": "B2D4",
@@ -53101,6 +54516,11 @@
       "xrefPath": ""
     },
     "*D90": {
+      "endBlock": {
+        "handle": "445C",
+        "layer": "0",
+        "ownerHandler": "445A"
+      },
       "entities": [
         {
           "handle": "B4FA",
@@ -53291,6 +54711,11 @@
       "xrefPath": ""
     },
     "*D91": {
+      "endBlock": {
+        "handle": "4469",
+        "layer": "0",
+        "ownerHandler": "4467"
+      },
       "entities": [
         {
           "handle": "B504",
@@ -53481,6 +54906,11 @@
       "xrefPath": ""
     },
     "*D92": {
+      "endBlock": {
+        "handle": "4476",
+        "layer": "0",
+        "ownerHandler": "4474"
+      },
       "entities": [
         {
           "handle": "B50E",
@@ -53671,6 +55101,11 @@
       "xrefPath": ""
     },
     "*D93": {
+      "endBlock": {
+        "handle": "4483",
+        "layer": "0",
+        "ownerHandler": "4481"
+      },
       "entities": [
         {
           "handle": "B518",
@@ -53861,6 +55296,11 @@
       "xrefPath": ""
     },
     "*D94": {
+      "endBlock": {
+        "handle": "4490",
+        "layer": "0",
+        "ownerHandler": "448E"
+      },
       "entities": [
         {
           "handle": "B522",
@@ -54051,6 +55491,11 @@
       "xrefPath": ""
     },
     "*D95": {
+      "endBlock": {
+        "handle": "449D",
+        "layer": "0",
+        "ownerHandler": "449B"
+      },
       "entities": [
         {
           "handle": "B52C",
@@ -54229,6 +55674,11 @@
       "xrefPath": ""
     },
     "*D96": {
+      "endBlock": {
+        "handle": "44A9",
+        "layer": "0",
+        "ownerHandler": "44A7"
+      },
       "entities": [
         {
           "handle": "B535",
@@ -54429,6 +55879,11 @@
       "xrefPath": ""
     },
     "*D97": {
+      "endBlock": {
+        "handle": "44B6",
+        "layer": "0",
+        "ownerHandler": "44B4"
+      },
       "entities": [
         {
           "handle": "B53F",
@@ -54652,6 +56107,11 @@
       "xrefPath": ""
     },
     "*D98": {
+      "endBlock": {
+        "handle": "44C4",
+        "layer": "0",
+        "ownerHandler": "44C2"
+      },
       "entities": [
         {
           "color": 0,
@@ -54811,6 +56271,11 @@
       "xrefPath": ""
     },
     "*D99": {
+      "endBlock": {
+        "handle": "44CD",
+        "layer": "0",
+        "ownerHandler": "44CB"
+      },
       "entities": [
         {
           "handle": "B552",
@@ -55001,10 +56466,16 @@
       "xrefPath": ""
     },
     "*Model_Space": {
+      "endBlock": {
+        "handle": "21",
+        "layer": "0",
+        "ownerHandler": "1F"
+      },
       "handle": "20",
       "layer": "0",
       "name": "*Model_Space",
       "name2": "*Model_Space",
+      "noBlockType": true,
       "ownerHandle": "1F",
       "position": {
         "x": 0,
@@ -55014,10 +56485,17 @@
       "xrefPath": ""
     },
     "*Paper_Space": {
+      "endBlock": {
+        "handle": "2A2",
+        "layer": "0",
+        "ownerHandler": "29F",
+        "paperSpace": true
+      },
       "handle": "2A1",
       "layer": "0",
       "name": "*Paper_Space",
       "name2": "*Paper_Space",
+      "noBlockType": true,
       "ownerHandle": "29F",
       "paperSpace": true,
       "position": {
@@ -55028,8 +56506,15 @@
       "xrefPath": ""
     },
     "*Paper_Space28": {
+      "endBlock": {
+        "handle": "20C2",
+        "layer": "0",
+        "ownerHandler": "20A5",
+        "paperSpace": true
+      },
       "entities": [
         {
+          "entityFollows": 1,
           "handle": "323F",
           "inPaperSpace": true,
           "layer": "FG-Title",
@@ -55043,6 +56528,7 @@
           "type": "INSERT"
         },
         {
+          "entityFollows": 1,
           "handle": "3244",
           "inPaperSpace": true,
           "layer": "FG-Title",
@@ -55056,6 +56542,7 @@
           "type": "INSERT"
         },
         {
+          "entityFollows": 1,
           "handle": "3249",
           "inPaperSpace": true,
           "layer": "FG-Title",
@@ -55069,6 +56556,7 @@
           "type": "INSERT"
         },
         {
+          "entityFollows": 1,
           "handle": "B1FA",
           "inPaperSpace": true,
           "layer": "0",
@@ -55086,6 +56574,7 @@
       "layer": "0",
       "name": "*Paper_Space28",
       "name2": "*Paper_Space28",
+      "noBlockType": true,
       "ownerHandle": "20A5",
       "paperSpace": true,
       "position": {
@@ -55096,8 +56585,15 @@
       "xrefPath": ""
     },
     "*Paper_Space312": {
+      "endBlock": {
+        "handle": "1FFD",
+        "layer": "0",
+        "ownerHandler": "1FDD",
+        "paperSpace": true
+      },
       "entities": [
         {
+          "entityFollows": 1,
           "handle": "321D",
           "inPaperSpace": true,
           "layer": "FG-Title",
@@ -55111,6 +56607,7 @@
           "type": "INSERT"
         },
         {
+          "entityFollows": 1,
           "handle": "3222",
           "inPaperSpace": true,
           "layer": "FG-Title",
@@ -55124,6 +56621,7 @@
           "type": "INSERT"
         },
         {
+          "entityFollows": 1,
           "handle": "3227",
           "inPaperSpace": true,
           "layer": "FG-Title",
@@ -55137,6 +56635,7 @@
           "type": "INSERT"
         },
         {
+          "entityFollows": 1,
           "handle": "B1DC",
           "inPaperSpace": true,
           "layer": "0",
@@ -55154,6 +56653,7 @@
       "layer": "0",
       "name": "*Paper_Space312",
       "name2": "*Paper_Space312",
+      "noBlockType": true,
       "ownerHandle": "1FDD",
       "paperSpace": true,
       "position": {
@@ -55164,8 +56664,15 @@
       "xrefPath": ""
     },
     "*Paper_Space38": {
+      "endBlock": {
+        "handle": "21D1",
+        "layer": "0",
+        "ownerHandler": "21B1",
+        "paperSpace": true
+      },
       "entities": [
         {
+          "entityFollows": 1,
           "handle": "3261",
           "inPaperSpace": true,
           "layer": "FG-Title",
@@ -55206,6 +56713,9 @@
           "contentType": 2,
           "contextData": {
             "arrowHeadSize": 0.125,
+            "blockAttributeIndex": 0,
+            "blockContentConnectionType": 2,
+            "breakPointIndex": -1073741824,
             "contentBasePosition": {
               "x": 1.207879192248365,
               "y": 6.86829423922173,
@@ -55234,14 +56744,13 @@
                 "leaderBranchIndex": 1,
                 "leaderLines": [
                   {
+                    "leaderLineIndex": 0,
                     "vertices": [
-                      [
-                        {
-                          "x": 2.744709268274831,
-                          "y": 7.563006047719426,
-                          "z": 0
-                        }
-                      ]
+                      {
+                        "x": 2.744709268274831,
+                        "y": 7.563006047719426,
+                        "z": 0
+                      }
                     ]
                   }
                 ]
@@ -55263,12 +56772,15 @@
               "y": 1,
               "z": 0
             },
+            "textAlignmentType": 1,
+            "textAngleType": 1,
             "textAttachment": 3,
+            "textBackgroundColor": -1073741824,
             "textBackgroundColorOn": false,
             "textBackgroundFillOn": false,
             "textBackgroundScaleFactor": 0,
             "textBackgroundTransparency": 0,
-            "textColor": -1073741824,
+            "textColumnFlowReversed": false,
             "textColumnGutterWidth": 0,
             "textColumnType": 0,
             "textColumnWidth": 0,
@@ -55278,7 +56790,8 @@
               "z": 0
             },
             "textFlowDirection": 5,
-            "textHeight": 0,
+            "textHeight": 0.09375,
+            "textHeight2": 0,
             "textLineSpacingFactor": 1,
             "textLineSpacingStyle": 1,
             "textLocation": {
@@ -55292,6 +56805,7 @@
               "z": 1
             },
             "textRotation": 0,
+            "textStyleId": "167",
             "textUseAutoHeight": false,
             "textUseWordBreak": false,
             "textWidth": 0
@@ -55309,6 +56823,7 @@
           "leaderLineTypeId": "15",
           "leaderLineWeight": -1,
           "leaderStyleId": "C1C",
+          "propertyOverrideFlag": 17056768,
           "textAlignInIPE": 0,
           "textAlignmentType": 0,
           "textAngleType": 1,
@@ -55319,6 +56834,8 @@
           "textColor": -1073741824,
           "textDirectionNegative": false,
           "textLeftAttachmentType": 1,
+          "textLineSpacingStyleFactor": 1,
+          "textRightAttachmentType": 1,
           "textStyleId": "167",
           "type": "MULTILEADER"
         },
@@ -55336,6 +56853,9 @@
           "contentType": 2,
           "contextData": {
             "arrowHeadSize": 0.125,
+            "blockAttributeIndex": 0,
+            "blockContentConnectionType": 0,
+            "breakPointIndex": -1073741824,
             "contentBasePosition": {
               "x": 5.342585802146561,
               "y": 5.710869380453859,
@@ -55364,14 +56884,13 @@
                 "leaderBranchIndex": 0,
                 "leaderLines": [
                   {
+                    "leaderLineIndex": 0,
                     "vertices": [
-                      [
-                        {
-                          "x": 4.728859194085259,
-                          "y": 6.201524565742403,
-                          "z": 0
-                        }
-                      ]
+                      {
+                        "x": 4.728859194085259,
+                        "y": 6.201524565742403,
+                        "z": 0
+                      }
                     ]
                   }
                 ]
@@ -55393,12 +56912,15 @@
               "y": 1,
               "z": 0
             },
+            "textAlignmentType": 1,
+            "textAngleType": 1,
             "textAttachment": 1,
+            "textBackgroundColor": -1073741824,
             "textBackgroundColorOn": false,
             "textBackgroundFillOn": false,
             "textBackgroundScaleFactor": 0,
             "textBackgroundTransparency": 0,
-            "textColor": -1073741824,
+            "textColumnFlowReversed": false,
             "textColumnGutterWidth": 0,
             "textColumnType": 0,
             "textColumnWidth": 0,
@@ -55408,7 +56930,8 @@
               "z": 0
             },
             "textFlowDirection": 5,
-            "textHeight": 0,
+            "textHeight": 0.09375,
+            "textHeight2": 0,
             "textLineSpacingFactor": 1,
             "textLineSpacingStyle": 1,
             "textLocation": {
@@ -55422,6 +56945,7 @@
               "z": 1
             },
             "textRotation": 0,
+            "textStyleId": "167",
             "textUseAutoHeight": false,
             "textUseWordBreak": false,
             "textWidth": 0
@@ -55439,6 +56963,7 @@
           "leaderLineTypeId": "15",
           "leaderLineWeight": -1,
           "leaderStyleId": "C1C",
+          "propertyOverrideFlag": 17056768,
           "textAlignInIPE": 0,
           "textAlignmentType": 0,
           "textAngleType": 1,
@@ -55449,6 +56974,8 @@
           "textColor": -1073741824,
           "textDirectionNegative": false,
           "textLeftAttachmentType": 1,
+          "textLineSpacingStyleFactor": 1,
+          "textRightAttachmentType": 1,
           "textStyleId": "167",
           "type": "MULTILEADER"
         },
@@ -55466,6 +56993,9 @@
           "contentType": 2,
           "contextData": {
             "arrowHeadSize": 0.125,
+            "blockAttributeIndex": 0,
+            "blockContentConnectionType": 2,
+            "breakPointIndex": -1073741824,
             "contentBasePosition": {
               "x": 1.177952660639776,
               "y": 8.856291257782845,
@@ -55494,14 +57024,13 @@
                 "leaderBranchIndex": 1,
                 "leaderLines": [
                   {
+                    "leaderLineIndex": 0,
                     "vertices": [
-                      [
-                        {
-                          "x": 2.389333340306315,
-                          "y": 8.657907798157478,
-                          "z": 0
-                        }
-                      ]
+                      {
+                        "x": 2.389333340306315,
+                        "y": 8.657907798157478,
+                        "z": 0
+                      }
                     ]
                   }
                 ]
@@ -55523,12 +57052,15 @@
               "y": 1,
               "z": 0
             },
+            "textAlignmentType": 1,
+            "textAngleType": 1,
             "textAttachment": 3,
+            "textBackgroundColor": -1073741824,
             "textBackgroundColorOn": false,
             "textBackgroundFillOn": false,
             "textBackgroundScaleFactor": 0,
             "textBackgroundTransparency": 0,
-            "textColor": -1073741824,
+            "textColumnFlowReversed": false,
             "textColumnGutterWidth": 0,
             "textColumnType": 0,
             "textColumnWidth": 0,
@@ -55538,7 +57070,8 @@
               "z": 0
             },
             "textFlowDirection": 5,
-            "textHeight": 0,
+            "textHeight": 0.09375,
+            "textHeight2": 0,
             "textLineSpacingFactor": 1,
             "textLineSpacingStyle": 1,
             "textLocation": {
@@ -55552,6 +57085,7 @@
               "z": 1
             },
             "textRotation": 0,
+            "textStyleId": "167",
             "textUseAutoHeight": false,
             "textUseWordBreak": false,
             "textWidth": 0
@@ -55569,6 +57103,7 @@
           "leaderLineTypeId": "15",
           "leaderLineWeight": -1,
           "leaderStyleId": "C1C",
+          "propertyOverrideFlag": 17056768,
           "textAlignInIPE": 0,
           "textAlignmentType": 0,
           "textAngleType": 1,
@@ -55579,6 +57114,8 @@
           "textColor": -1073741824,
           "textDirectionNegative": false,
           "textLeftAttachmentType": 1,
+          "textLineSpacingStyleFactor": 1,
+          "textRightAttachmentType": 1,
           "textStyleId": "167",
           "type": "MULTILEADER"
         },
@@ -55611,6 +57148,7 @@
           "type": "TEXT"
         },
         {
+          "entityFollows": 1,
           "handle": "B218",
           "inPaperSpace": true,
           "layer": "0",
@@ -55628,6 +57166,7 @@
       "layer": "0",
       "name": "*Paper_Space38",
       "name2": "*Paper_Space38",
+      "noBlockType": true,
       "ownerHandle": "21B1",
       "paperSpace": true,
       "position": {
@@ -55638,16 +57177,20 @@
       "xrefPath": ""
     },
     "*U33": {
+      "endBlock": {
+        "handle": "220B",
+        "layer": "0",
+        "ownerHandler": "2209"
+      },
       "entities": [
         {
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
+          "expectedVerticesCount": 4,
           "handle": "220C",
           "hasContinuousLinetypePattern": false,
           "layer": "0",
           "ownerHandle": "2209",
           "shape": true,
+          "standardFlags": 1,
           "type": "LWPOLYLINE",
           "vertices": [
             {
@@ -55666,12 +57209,10 @@
               "x": 0,
               "y": 0.1875
             }
-          ]
+          ],
+          "width": 0
         },
         {
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "handle": "220D",
           "layer": "0",
           "ownerHandle": "2209",
@@ -55698,9 +57239,6 @@
             "y": -0.0733173076923079,
             "z": 0
           },
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "handle": "220E",
           "horizontalJustification": 1,
           "invisible": false,
@@ -55709,6 +57247,9 @@
           "preset": false,
           "prompt": "Sheet Number?",
           "scale": 0.85,
+          "serializeScale": true,
+          "serializeTextStyle": true,
+          "standardFlags": 0,
           "startPoint": {
             "x": -0.0265625,
             "y": -0.1201923076923079,
@@ -55731,9 +57272,6 @@
             "y": 0.0733173076923075,
             "z": 0
           },
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "handle": "220F",
           "horizontalJustification": 1,
           "invisible": false,
@@ -55742,6 +57280,9 @@
           "preset": false,
           "prompt": "Detail Number?",
           "scale": 0.85,
+          "serializeScale": true,
+          "serializeTextStyle": true,
+          "standardFlags": 0,
           "startPoint": {
             "x": -0.0265625,
             "y": 0.0264423076923075,
@@ -55756,9 +57297,6 @@
           "verticalJustification": 2
         },
         {
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "handle": "2210",
           "layer": "0",
           "ownerHandle": "2209",
@@ -55791,16 +57329,20 @@
       "xrefPath": ""
     },
     "*U34": {
+      "endBlock": {
+        "handle": "226A",
+        "layer": "0",
+        "ownerHandler": "2268"
+      },
       "entities": [
         {
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
+          "expectedVerticesCount": 4,
           "handle": "226B",
           "hasContinuousLinetypePattern": false,
           "layer": "0",
           "ownerHandle": "2268",
           "shape": true,
+          "standardFlags": 1,
           "type": "LWPOLYLINE",
           "vertices": [
             {
@@ -55819,12 +57361,10 @@
               "x": 0,
               "y": 0.1875
             }
-          ]
+          ],
+          "width": 0
         },
         {
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "handle": "226C",
           "layer": "0",
           "ownerHandle": "2268",
@@ -55851,9 +57391,6 @@
             "y": -0.0733173076923079,
             "z": 0
           },
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "handle": "226D",
           "horizontalJustification": 1,
           "invisible": false,
@@ -55862,6 +57399,9 @@
           "preset": false,
           "prompt": "Sheet Number?",
           "scale": 0.85,
+          "serializeScale": true,
+          "serializeTextStyle": true,
+          "standardFlags": 0,
           "startPoint": {
             "x": -0.0265625,
             "y": -0.1201923076923079,
@@ -55884,9 +57424,6 @@
             "y": 0.0733173076923075,
             "z": 0
           },
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "handle": "226E",
           "horizontalJustification": 1,
           "invisible": false,
@@ -55895,6 +57432,9 @@
           "preset": false,
           "prompt": "Detail Number?",
           "scale": 0.85,
+          "serializeScale": true,
+          "serializeTextStyle": true,
+          "standardFlags": 0,
           "startPoint": {
             "x": -0.0265625,
             "y": 0.0264423076923075,
@@ -55909,9 +57449,6 @@
           "verticalJustification": 2
         },
         {
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "handle": "226F",
           "layer": "0",
           "ownerHandle": "2268",
@@ -55944,16 +57481,20 @@
       "xrefPath": ""
     },
     "*U35": {
+      "endBlock": {
+        "handle": "22A7",
+        "layer": "0",
+        "ownerHandler": "22A5"
+      },
       "entities": [
         {
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
+          "expectedVerticesCount": 4,
           "handle": "22A8",
           "hasContinuousLinetypePattern": false,
           "layer": "0",
           "ownerHandle": "22A5",
           "shape": true,
+          "standardFlags": 1,
           "type": "LWPOLYLINE",
           "vertices": [
             {
@@ -55972,12 +57513,10 @@
               "x": 0,
               "y": 0.1875
             }
-          ]
+          ],
+          "width": 0
         },
         {
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "handle": "22A9",
           "layer": "0",
           "ownerHandle": "22A5",
@@ -56004,9 +57543,6 @@
             "y": -0.0733173076923079,
             "z": 0
           },
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "handle": "22AA",
           "horizontalJustification": 1,
           "invisible": false,
@@ -56015,6 +57551,9 @@
           "preset": false,
           "prompt": "Sheet Number?",
           "scale": 0.85,
+          "serializeScale": true,
+          "serializeTextStyle": true,
+          "standardFlags": 0,
           "startPoint": {
             "x": -0.0265625,
             "y": -0.1201923076923079,
@@ -56037,9 +57576,6 @@
             "y": 0.0733173076923075,
             "z": 0
           },
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "handle": "22AB",
           "horizontalJustification": 1,
           "invisible": false,
@@ -56048,6 +57584,9 @@
           "preset": false,
           "prompt": "Detail Number?",
           "scale": 0.85,
+          "serializeScale": true,
+          "serializeTextStyle": true,
+          "standardFlags": 0,
           "startPoint": {
             "x": -0.0265625,
             "y": 0.0264423076923075,
@@ -56062,9 +57601,6 @@
           "verticalJustification": 2
         },
         {
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "handle": "22AC",
           "layer": "0",
           "ownerHandle": "22A5",
@@ -56097,16 +57633,20 @@
       "xrefPath": ""
     },
     "*U36": {
+      "endBlock": {
+        "handle": "22C4",
+        "layer": "0",
+        "ownerHandler": "22C2"
+      },
       "entities": [
         {
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
+          "expectedVerticesCount": 4,
           "handle": "22C5",
           "hasContinuousLinetypePattern": false,
           "layer": "0",
           "ownerHandle": "22C2",
           "shape": true,
+          "standardFlags": 1,
           "type": "LWPOLYLINE",
           "vertices": [
             {
@@ -56125,12 +57665,10 @@
               "x": 0,
               "y": 0.1875
             }
-          ]
+          ],
+          "width": 0
         },
         {
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "handle": "22C6",
           "layer": "0",
           "ownerHandle": "22C2",
@@ -56157,9 +57695,6 @@
             "y": -0.0733173076923079,
             "z": 0
           },
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "handle": "22C7",
           "horizontalJustification": 1,
           "invisible": false,
@@ -56168,6 +57703,9 @@
           "preset": false,
           "prompt": "Sheet Number?",
           "scale": 0.85,
+          "serializeScale": true,
+          "serializeTextStyle": true,
+          "standardFlags": 0,
           "startPoint": {
             "x": -0.0265625,
             "y": -0.1201923076923079,
@@ -56190,9 +57728,6 @@
             "y": 0.0733173076923075,
             "z": 0
           },
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "handle": "22C8",
           "horizontalJustification": 1,
           "invisible": false,
@@ -56201,6 +57736,9 @@
           "preset": false,
           "prompt": "Detail Number?",
           "scale": 0.85,
+          "serializeScale": true,
+          "serializeTextStyle": true,
+          "standardFlags": 0,
           "startPoint": {
             "x": -0.0265625,
             "y": 0.0264423076923075,
@@ -56215,9 +57753,6 @@
           "verticalJustification": 2
         },
         {
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "handle": "22C9",
           "layer": "0",
           "ownerHandle": "22C2",
@@ -56250,16 +57785,20 @@
       "xrefPath": ""
     },
     "*U37": {
+      "endBlock": {
+        "handle": "22E1",
+        "layer": "0",
+        "ownerHandler": "22DF"
+      },
       "entities": [
         {
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
+          "expectedVerticesCount": 4,
           "handle": "22E2",
           "hasContinuousLinetypePattern": false,
           "layer": "FG-Border",
           "ownerHandle": "22DF",
           "shape": true,
+          "standardFlags": 1,
           "type": "LWPOLYLINE",
           "vertices": [
             {
@@ -56278,12 +57817,10 @@
               "x": 0.5,
               "y": 10.25
             }
-          ]
+          ],
+          "width": 0
         },
         {
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "handle": "22E3",
           "layer": "Vport",
           "ownerHandle": "22DF",
@@ -56295,9 +57832,6 @@
           "type": "POINT"
         },
         {
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "handle": "22E4",
           "layer": "FG-Border",
           "ownerHandle": "22DF",
@@ -56316,9 +57850,6 @@
           ]
         },
         {
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "handle": "22E5",
           "layer": "FG-Note",
           "ownerHandle": "22DF",
@@ -56333,9 +57864,6 @@
           "xScale": 0.85
         },
         {
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "handle": "22E6",
           "layer": "FG-Border",
           "ownerHandle": "22DF",
@@ -56354,9 +57882,6 @@
           ]
         },
         {
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "handle": "22E7",
           "layer": "FG-Note",
           "ownerHandle": "22DF",
@@ -56371,9 +57896,6 @@
           "xScale": 0.85
         },
         {
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "handle": "22E8",
           "layer": "FG-Border",
           "ownerHandle": "22DF",
@@ -56392,9 +57914,6 @@
           ]
         },
         {
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "handle": "22E9",
           "layer": "FG-Border",
           "ownerHandle": "22DF",
@@ -56413,9 +57932,6 @@
           ]
         },
         {
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "handle": "22EA",
           "layer": "FG-Note",
           "ownerHandle": "22DF",
@@ -56430,9 +57946,6 @@
           "xScale": 0.85
         },
         {
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "handle": "22EB",
           "layer": "FG-Note",
           "ownerHandle": "22DF",
@@ -56447,9 +57960,6 @@
           "xScale": 0.85
         },
         {
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "handle": "22EC",
           "layer": "FG-Border",
           "ownerHandle": "22DF",
@@ -56468,9 +57978,6 @@
           ]
         },
         {
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "handle": "22ED",
           "layer": "FG-Note",
           "ownerHandle": "22DF",
@@ -56485,9 +57992,6 @@
           "xScale": 0.85
         },
         {
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "handle": "22EE",
           "layer": "FG-Note",
           "ownerHandle": "22DF",
@@ -56503,9 +58007,6 @@
           "xScale": 0.85
         },
         {
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "handle": "22EF",
           "layer": "FG-Border",
           "ownerHandle": "22DF",
@@ -56524,9 +58025,6 @@
           ]
         },
         {
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "handle": "22F0",
           "layer": "FG-Border",
           "ownerHandle": "22DF",
@@ -56545,9 +58043,6 @@
           ]
         },
         {
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "handle": "22F1",
           "layer": "FG-Border",
           "ownerHandle": "22DF",
@@ -56566,9 +58061,6 @@
           ]
         },
         {
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "handle": "22F2",
           "layer": "FG-Border",
           "ownerHandle": "22DF",
@@ -56587,9 +58079,6 @@
           ]
         },
         {
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "handle": "22F3",
           "layer": "FG-Logo",
           "ownerHandle": "22DF",
@@ -56608,9 +58097,6 @@
           ]
         },
         {
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "handle": "22F4",
           "layer": "FG-Logo",
           "ownerHandle": "22DF",
@@ -56629,9 +58115,6 @@
           ]
         },
         {
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "handle": "22F5",
           "layer": "FG-Logo",
           "ownerHandle": "22DF",
@@ -56650,9 +58133,6 @@
           ]
         },
         {
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "handle": "22F6",
           "layer": "FG-Logo",
           "ownerHandle": "22DF",
@@ -56676,9 +58156,6 @@
             "y": 8.483758506895393,
             "z": 0
           },
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "halign": 1,
           "handle": "22F7",
           "layer": "FG-Note",
@@ -56698,9 +58175,6 @@
             "x": 15.43459372187382,
             "y": 9.01982170810002,
             "z": 0
-          },
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
           },
           "halign": 1,
           "handle": "22F8",
@@ -56722,9 +58196,6 @@
             "y": 9.927267587031489,
             "z": 0
           },
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "halign": 1,
           "handle": "22F9",
           "layer": "FG-Note",
@@ -56744,9 +58215,6 @@
             "x": 15.47614878817657,
             "y": 10.1444273202113,
             "z": 0
-          },
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
           },
           "halign": 1,
           "handle": "22FA",
@@ -56768,9 +58236,6 @@
             "y": 10.1444273202113,
             "z": 0
           },
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "halign": 1,
           "handle": "22FB",
           "layer": "FG-Note",
@@ -56790,9 +58255,6 @@
             "x": 15.47614878817657,
             "y": 9.624213818829995,
             "z": 0
-          },
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
           },
           "halign": 1,
           "handle": "22FC",
@@ -56814,9 +58276,6 @@
             "y": 9.624213818829995,
             "z": 0
           },
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "halign": 1,
           "handle": "22FD",
           "layer": "FG-Note",
@@ -56832,9 +58291,6 @@
           "type": "TEXT"
         },
         {
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "handle": "22FE",
           "layer": "FG-Logo",
           "ownerHandle": "22DF",
@@ -56853,9 +58309,6 @@
           ]
         },
         {
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "handle": "22FF",
           "layer": "FG-Logo",
           "ownerHandle": "22DF",
@@ -56874,9 +58327,6 @@
           ]
         },
         {
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "handle": "2300",
           "layer": "FG-Logo",
           "ownerHandle": "22DF",
@@ -56895,9 +58345,6 @@
           ]
         },
         {
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "handle": "2301",
           "layer": "FG-Logo",
           "ownerHandle": "22DF",
@@ -56922,9 +58369,6 @@
             "y": 3.15625,
             "z": 0
           },
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "handle": "2302",
           "horizontalJustification": 1,
           "invisible": false,
@@ -56934,6 +58378,8 @@
           "prompt": "Project Loction",
           "rotation": 90,
           "scale": 1,
+          "serializeTextStyle": true,
+          "standardFlags": 0,
           "startPoint": {
             "x": 15.97514981098344,
             "y": 2.753495907230559,
@@ -56953,9 +58399,6 @@
             "y": 3.15625,
             "z": 0
           },
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "handle": "2303",
           "horizontalJustification": 1,
           "invisible": false,
@@ -56965,6 +58408,8 @@
           "prompt": "Project Title Line 2",
           "rotation": 90,
           "scale": 1,
+          "serializeTextStyle": true,
+          "standardFlags": 0,
           "startPoint": {
             "x": 15.77434831030132,
             "y": 2.695301841746248,
@@ -56984,9 +58429,6 @@
             "y": 3.15625,
             "z": 0
           },
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "handle": "2304",
           "horizontalJustification": 1,
           "invisible": false,
@@ -56996,6 +58438,8 @@
           "prompt": "Project Title Line 1",
           "rotation": 90,
           "scale": 1,
+          "serializeTextStyle": true,
+          "standardFlags": 0,
           "startPoint": {
             "x": 15.57354680961919,
             "y": 2.695301841746248,
@@ -57015,9 +58459,6 @@
             "y": 1.590448017116665,
             "z": 0
           },
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "handle": "2305",
           "horizontalJustification": 1,
           "invisible": false,
@@ -57026,6 +58467,8 @@
           "preset": false,
           "prompt": "Project No.",
           "scale": 1,
+          "serializeTextStyle": true,
+          "standardFlags": 0,
           "startPoint": {
             "x": 15.57310916713996,
             "y": 1.590448017116665,
@@ -57045,9 +58488,6 @@
             "y": 1.191807083027317,
             "z": 0
           },
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "handle": "2306",
           "horizontalJustification": 1,
           "invisible": false,
@@ -57056,6 +58496,8 @@
           "preset": false,
           "prompt": "Date?",
           "scale": 1,
+          "serializeTextStyle": true,
+          "standardFlags": 0,
           "startPoint": {
             "x": 15.89403014930068,
             "y": 1.191807083027317,
@@ -57075,9 +58517,6 @@
             "y": 1.191807083027317,
             "z": 0
           },
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "handle": "2307",
           "horizontalJustification": 1,
           "invisible": false,
@@ -57086,6 +58525,8 @@
           "preset": false,
           "prompt": "Drawn By?",
           "scale": 1,
+          "serializeTextStyle": true,
+          "standardFlags": 0,
           "startPoint": {
             "x": 15.43644999923252,
             "y": 1.191807083027317,
@@ -57105,9 +58546,6 @@
             "y": 0.8160405170521904,
             "z": 0
           },
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "handle": "2308",
           "horizontalJustification": 1,
           "invisible": false,
@@ -57116,6 +58554,8 @@
           "preset": false,
           "prompt": "Scale?",
           "scale": 1,
+          "serializeTextStyle": true,
+          "standardFlags": 0,
           "startPoint": {
             "x": 15.56916140859481,
             "y": 0.8160405170521904,
@@ -57135,9 +58575,6 @@
             "y": 0.1431021352662505,
             "z": 0
           },
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "handle": "2309",
           "horizontalJustification": 1,
           "invisible": false,
@@ -57146,6 +58583,8 @@
           "preset": false,
           "prompt": "Sheet Number?",
           "scale": 1,
+          "serializeTextStyle": true,
+          "standardFlags": 0,
           "startPoint": {
             "x": 15.43835266030013,
             "y": 0.1431021352662505,
@@ -57159,9 +58598,6 @@
           "verificationRequired": false
         },
         {
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "handle": "230A",
           "layer": "FG-Border",
           "ownerHandle": "22DF",
@@ -57186,9 +58622,6 @@
             "y": 3.15625,
             "z": 0
           },
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "handle": "230B",
           "horizontalJustification": 1,
           "invisible": false,
@@ -57198,6 +58631,8 @@
           "prompt": "Sheet Title?",
           "rotation": 90,
           "scale": 1,
+          "serializeTextStyle": true,
+          "standardFlags": 0,
           "startPoint": {
             "x": 16.43136960442813,
             "y": 2.748763642564802,
@@ -57211,9 +58646,6 @@
           "verificationRequired": false
         },
         {
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "handle": "230C",
           "layer": "FG-Note",
           "ownerHandle": "22DF",
@@ -57229,9 +58661,6 @@
           "xScale": 0.85
         },
         {
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "handle": "230D",
           "layer": "FG-Note",
           "lineType": "Continuous",
@@ -57247,9 +58676,6 @@
           "type": "TEXT"
         },
         {
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "handle": "230E",
           "layer": "FG-Note",
           "lineType": "Continuous",
@@ -57265,9 +58691,6 @@
           "type": "TEXT"
         },
         {
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "handle": "2312",
           "layer": "FG-Note",
           "lineType": "Continuous",
@@ -57283,9 +58706,6 @@
           "type": "TEXT"
         },
         {
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "handle": "2313",
           "layer": "FG-Note",
           "lineType": "Continuous",
@@ -57301,9 +58721,6 @@
           "type": "TEXT"
         },
         {
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "handle": "2314",
           "layer": "FG-Note",
           "lineType": "Continuous",
@@ -57319,9 +58736,6 @@
           "type": "TEXT"
         },
         {
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "handle": "2315",
           "layer": "FG-Note",
           "lineType": "Continuous",
@@ -57337,9 +58751,6 @@
           "type": "TEXT"
         },
         {
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "handle": "2316",
           "layer": "FG-Note",
           "lineType": "Continuous",
@@ -57355,9 +58766,6 @@
           "type": "TEXT"
         },
         {
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "handle": "2317",
           "layer": "FG-Note",
           "lineType": "Continuous",
@@ -57373,14 +58781,13 @@
           "type": "TEXT"
         },
         {
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
+          "expectedVerticesCount": 3,
           "handle": "2318",
           "hasContinuousLinetypePattern": false,
           "layer": "FG-Note",
           "ownerHandle": "22DF",
           "shape": true,
+          "standardFlags": 1,
           "type": "LWPOLYLINE",
           "vertices": [
             {
@@ -57395,17 +58802,17 @@
               "x": 15.79026691666356,
               "y": 4.847315726797587
             }
-          ]
+          ],
+          "width": 0
         },
         {
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
+          "expectedVerticesCount": 4,
           "handle": "231A",
           "hasContinuousLinetypePattern": false,
           "layer": "FG-Border",
           "ownerHandle": "22DF",
           "shape": true,
+          "standardFlags": 1,
           "type": "LWPOLYLINE",
           "vertices": [
             {
@@ -57425,16 +58832,14 @@
               "y": 5.5625
             }
           ],
-          "visible": false
+          "visible": false,
+          "width": 0
         },
         {
           "endPoint": {
             "x": 15.80487678893379,
             "y": 6.766898462159226,
             "z": 0
-          },
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
           },
           "halign": 1,
           "handle": "231F",
@@ -57458,9 +58863,6 @@
             "y": 6.766898462159226,
             "z": 0
           },
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "halign": 1,
           "handle": "2320",
           "layer": "FG-Logo",
@@ -57483,9 +58885,6 @@
             "y": 8.22432530753071,
             "z": 0
           },
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "halign": 1,
           "handle": "2321",
           "layer": "FG-Note",
@@ -57506,9 +58905,6 @@
             "x": 15.875,
             "y": 8.117182450387851,
             "z": 0
-          },
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
           },
           "halign": 1,
           "handle": "2322",
@@ -57531,9 +58927,6 @@
             "y": 8.010039593244995,
             "z": 0
           },
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "halign": 1,
           "handle": "2323",
           "layer": "FG-Note",
@@ -57554,9 +58947,6 @@
             "x": 15.875,
             "y": 7.902896736102137,
             "z": 0
-          },
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
           },
           "halign": 1,
           "handle": "2324",
@@ -57588,16 +58978,20 @@
       "xrefPath": ""
     },
     "*U41": {
+      "endBlock": {
+        "handle": "2B5D",
+        "layer": "0",
+        "ownerHandler": "2B5B"
+      },
       "entities": [
         {
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
+          "expectedVerticesCount": 4,
           "handle": "2B5E",
           "hasContinuousLinetypePattern": false,
           "layer": "0",
           "ownerHandle": "2B5B",
           "shape": true,
+          "standardFlags": 1,
           "type": "LWPOLYLINE",
           "vertices": [
             {
@@ -57616,12 +59010,10 @@
               "x": 0,
               "y": 0.1875
             }
-          ]
+          ],
+          "width": 0
         },
         {
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "handle": "2B5F",
           "layer": "0",
           "ownerHandle": "2B5B",
@@ -57648,9 +59040,6 @@
             "y": -0.0733173076923079,
             "z": 0
           },
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "handle": "2B60",
           "horizontalJustification": 1,
           "invisible": false,
@@ -57659,6 +59048,9 @@
           "preset": false,
           "prompt": "Sheet Number?",
           "scale": 0.85,
+          "serializeScale": true,
+          "serializeTextStyle": true,
+          "standardFlags": 0,
           "startPoint": {
             "x": -0.0265625,
             "y": -0.1201923076923079,
@@ -57681,9 +59073,6 @@
             "y": 0.0733173076923075,
             "z": 0
           },
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "handle": "2B61",
           "horizontalJustification": 1,
           "invisible": false,
@@ -57692,6 +59081,9 @@
           "preset": false,
           "prompt": "Detail Number?",
           "scale": 0.85,
+          "serializeScale": true,
+          "serializeTextStyle": true,
+          "standardFlags": 0,
           "startPoint": {
             "x": -0.0265625,
             "y": 0.0264423076923075,
@@ -57706,9 +59098,6 @@
           "verticalJustification": 2
         },
         {
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "handle": "2B62",
           "layer": "0",
           "ownerHandle": "2B5B",
@@ -57741,17 +59130,21 @@
       "xrefPath": ""
     },
     "027-853": {
+      "endBlock": {
+        "handle": "1416",
+        "layer": "0",
+        "ownerHandler": "1410"
+      },
       "entities": [
         {
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
+          "expectedVerticesCount": 12,
           "handle": "1414",
           "hasContinuousLinetypePattern": false,
           "layer": "0",
           "lineType": "Continuous",
           "ownerHandle": "1410",
           "shape": true,
+          "standardFlags": 1,
           "type": "LWPOLYLINE",
           "vertices": [
             {
@@ -57804,13 +59197,15 @@
               "x": -6.500000000000028,
               "y": 1.875
             }
-          ]
+          ],
+          "width": 0
         }
       ],
       "handle": "1413",
       "layer": "0",
       "name": "027-853",
       "name2": "027-853",
+      "noBlockType": true,
       "ownerHandle": "1410",
       "position": {
         "x": 0,
@@ -57820,6 +59215,11 @@
       "xrefPath": ""
     },
     "11x17": {
+      "endBlock": {
+        "handle": "99F3",
+        "layer": "0",
+        "ownerHandler": "99C2"
+      },
       "entities": [
         {
           "handle": "99C6",
@@ -57984,9 +59384,6 @@
           ]
         },
         {
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "handle": "99CF",
           "layer": "01-detail",
           "ownerHandle": "99C2",
@@ -58005,9 +59402,6 @@
           ]
         },
         {
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "handle": "99D0",
           "layer": "A-ANNO-NOTES",
           "lineType": "Continuous",
@@ -58024,9 +59418,6 @@
           "xScale": 0.85
         },
         {
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "handle": "99D1",
           "layer": "A-ANNO-NOTES",
           "lineType": "Continuous",
@@ -58043,9 +59434,6 @@
           "xScale": 0.85
         },
         {
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "handle": "99D5",
           "layer": "A-ANNO-NOTES",
           "lineType": "Continuous",
@@ -58062,9 +59450,6 @@
           "xScale": 0.85
         },
         {
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "handle": "99D6",
           "layer": "A-ANNO-NOTES",
           "lineType": "Continuous",
@@ -58081,9 +59466,6 @@
           "xScale": 0.85
         },
         {
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "handle": "99D7",
           "layer": "A-ANNO-NOTES",
           "lineType": "Continuous",
@@ -58100,9 +59482,6 @@
           "xScale": 0.85
         },
         {
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "handle": "99D8",
           "layer": "A-ANNO-NOTES",
           "lineType": "Continuous",
@@ -58119,9 +59498,6 @@
           "xScale": 0.85
         },
         {
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "handle": "99D9",
           "layer": "A-ANNO-NOTES",
           "lineType": "Continuous",
@@ -58138,9 +59514,6 @@
           "xScale": 0.85
         },
         {
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "handle": "99DA",
           "layer": "A-ANNO-NOTES",
           "lineType": "Continuous",
@@ -58157,14 +59530,13 @@
           "xScale": 0.85
         },
         {
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
+          "expectedVerticesCount": 3,
           "handle": "99DB",
           "hasContinuousLinetypePattern": false,
           "layer": "A-ANNO-NOTES",
           "ownerHandle": "99C2",
           "shape": true,
+          "standardFlags": 1,
           "type": "LWPOLYLINE",
           "vertices": [
             {
@@ -58179,12 +59551,10 @@
               "x": 38.67969204293503,
               "y": 7.283361595257133
             }
-          ]
+          ],
+          "width": 0
         },
         {
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "handle": "99DD",
           "layer": "A-ANNO-NOTES",
           "lineType": "Continuous",
@@ -58201,9 +59571,6 @@
           "xScale": 0.85
         },
         {
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "handle": "99DE",
           "layer": "A-ANNO-NOTES",
           "lineType": "Continuous",
@@ -58220,9 +59587,6 @@
           "xScale": 0.85
         },
         {
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "handle": "99DF",
           "layer": "A-ANNO-NOTES",
           "lineType": "Continuous",
@@ -58257,9 +59621,6 @@
           ]
         },
         {
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "handle": "99E1",
           "layer": "A-ANNO-NOTES",
           "lineType": "Continuous",
@@ -58276,9 +59637,6 @@
           "xScale": 0.85
         },
         {
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "handle": "99E2",
           "layer": "A-ANNO-NOTES",
           "lineType": "Continuous",
@@ -58295,9 +59653,6 @@
           "xScale": 0.85
         },
         {
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "handle": "99E3",
           "layer": "A-ANNO-NOTES",
           "lineType": "Continuous",
@@ -58314,9 +59669,6 @@
           "xScale": 0.85
         },
         {
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "handle": "99E4",
           "layer": "A-ANNO-NOTES",
           "lineType": "Continuous",
@@ -58351,9 +59703,6 @@
           ]
         },
         {
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "handle": "99E6",
           "layer": "A-ANNO-NOTES",
           "lineType": "Continuous",
@@ -58370,9 +59719,6 @@
           "xScale": 0.85
         },
         {
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "handle": "99E7",
           "layer": "A-ANNO-NOTES",
           "lineType": "Continuous",
@@ -58389,9 +59735,6 @@
           "xScale": 0.85
         },
         {
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "handle": "99E8",
           "layer": "A-ANNO-NOTES",
           "lineType": "Continuous",
@@ -58408,9 +59751,6 @@
           "xScale": 0.85
         },
         {
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "handle": "99E9",
           "layer": "A-ANNO-NOTES",
           "lineType": "Continuous",
@@ -58427,9 +59767,6 @@
           "xScale": 0.85
         },
         {
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "handle": "99EA",
           "layer": "A-ANNO-NOTES",
           "lineType": "Continuous",
@@ -58464,9 +59801,6 @@
           ]
         },
         {
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "handle": "99EC",
           "layer": "A-ANNO-NOTES",
           "lineType": "Continuous",
@@ -58492,6 +59826,9 @@
           "prompt": "Customer",
           "rotation": 90,
           "scale": 0.85,
+          "serializeScale": true,
+          "serializeTextStyle": true,
+          "standardFlags": 0,
           "startPoint": {
             "x": 38.32749879713279,
             "y": 3.796602387892264,
@@ -58514,6 +59851,9 @@
           "prompt": "Assembly",
           "rotation": 90,
           "scale": 0.85,
+          "serializeScale": true,
+          "serializeTextStyle": true,
+          "standardFlags": 0,
           "startPoint": {
             "x": 38.5721660417183,
             "y": 3.79871366928215,
@@ -58536,6 +59876,9 @@
           "prompt": "Scale",
           "rotation": 90,
           "scale": 0.85,
+          "serializeScale": true,
+          "serializeTextStyle": true,
+          "standardFlags": 0,
           "startPoint": {
             "x": 38.82145410231667,
             "y": 3.798709520754627,
@@ -58558,6 +59901,9 @@
           "prompt": "Drawn_By",
           "rotation": 90,
           "scale": 0.85,
+          "serializeScale": true,
+          "serializeTextStyle": true,
+          "standardFlags": 0,
           "startPoint": {
             "x": 39.07011812657281,
             "y": 3.792844779312176,
@@ -58580,6 +59926,9 @@
           "prompt": "Date",
           "rotation": 90,
           "scale": 0.85,
+          "serializeScale": true,
+          "serializeTextStyle": true,
+          "standardFlags": 0,
           "startPoint": {
             "x": 39.31959671750038,
             "y": 3.792844779312176,
@@ -58602,6 +59951,9 @@
           "prompt": "Sheet",
           "rotation": 90,
           "scale": 0.85,
+          "serializeScale": true,
+          "serializeTextStyle": true,
+          "standardFlags": 0,
           "startPoint": {
             "x": 39.32118608110299,
             "y": 5.523692154493588,
@@ -58629,13 +59981,20 @@
       "xrefPath": ""
     },
     "A$C117B7FB2": {
+      "endBlock": {
+        "handle": "95A5",
+        "layer": "0",
+        "ownerHandler": "959C"
+      },
       "entities": [
         {
+          "expectedVerticesCount": 53,
           "handle": "959E",
           "hasContinuousLinetypePattern": false,
           "layer": "SHAPE",
           "ownerHandle": "959C",
           "shape": true,
+          "standardFlags": 1,
           "type": "LWPOLYLINE",
           "vertices": [
             {
@@ -58868,7 +60227,8 @@
               "x": 557.3059319074121,
               "y": 331.2883676899464
             }
-          ]
+          ],
+          "width": 0
         },
         {
           "handle": "959F",
@@ -58920,6 +60280,9 @@
           "contentType": 2,
           "contextData": {
             "arrowHeadSize": 0.25,
+            "blockAttributeIndex": 0,
+            "blockContentConnectionType": 2,
+            "breakPointIndex": -1073741824,
             "contentBasePosition": {
               "x": 551.7335280306236,
               "y": 332.8227492160072,
@@ -58948,14 +60311,13 @@
                 "leaderBranchIndex": 0,
                 "leaderLines": [
                   {
+                    "leaderLineIndex": 0,
                     "vertices": [
-                      [
-                        {
-                          "x": 555.1799319074123,
-                          "y": 332.2919957437774,
-                          "z": 0
-                        }
-                      ]
+                      {
+                        "x": 555.1799319074123,
+                        "y": 332.2919957437774,
+                        "z": 0
+                      }
                     ]
                   }
                 ]
@@ -58977,12 +60339,15 @@
               "y": 1,
               "z": 0
             },
+            "textAlignmentType": 1,
+            "textAngleType": 1,
             "textAttachment": 3,
+            "textBackgroundColor": -1073741824,
             "textBackgroundColorOn": false,
             "textBackgroundFillOn": false,
             "textBackgroundScaleFactor": 0,
             "textBackgroundTransparency": 0,
-            "textColor": -1073741824,
+            "textColumnFlowReversed": false,
             "textColumnGutterWidth": 0,
             "textColumnType": 0,
             "textColumnWidth": 0,
@@ -58992,7 +60357,8 @@
               "z": 0
             },
             "textFlowDirection": 5,
-            "textHeight": 0,
+            "textHeight": 0.1875,
+            "textHeight2": 0,
             "textLineSpacingFactor": 1,
             "textLineSpacingStyle": 1,
             "textLocation": {
@@ -59006,6 +60372,7 @@
               "z": 1
             },
             "textRotation": 0,
+            "textStyleId": "167",
             "textUseAutoHeight": false,
             "textUseWordBreak": false,
             "textWidth": 0
@@ -59022,6 +60389,7 @@
           "leaderLineTypeId": "15",
           "leaderLineWeight": -1,
           "leaderStyleId": "C1C",
+          "propertyOverrideFlag": 67388416,
           "textAlignInIPE": 3,
           "textAlignmentType": 2,
           "textAngleType": 1,
@@ -59032,6 +60400,8 @@
           "textColor": -1073741824,
           "textDirectionNegative": false,
           "textLeftAttachmentType": 1,
+          "textLineSpacingStyleFactor": 2,
+          "textRightAttachmentType": 1,
           "textStyleId": "167",
           "type": "MULTILEADER"
         }
@@ -59040,6 +60410,7 @@
       "layer": "0",
       "name": "A$C117B7FB2",
       "name2": "A$C117B7FB2",
+      "noBlockType": true,
       "ownerHandle": "959C",
       "position": {
         "x": 0,
@@ -59049,13 +60420,20 @@
       "xrefPath": ""
     },
     "A$C2EE2731E": {
+      "endBlock": {
+        "handle": "A54B",
+        "layer": "0",
+        "ownerHandler": "A546"
+      },
       "entities": [
         {
+          "expectedVerticesCount": 56,
           "handle": "A547",
           "hasContinuousLinetypePattern": false,
           "layer": "SHAPE",
           "ownerHandle": "A546",
           "shape": true,
+          "standardFlags": 1,
           "type": "LWPOLYLINE",
           "vertices": [
             {
@@ -59300,13 +60678,15 @@
               "x": 1.189998657030969,
               "y": 0.0999993079508954
             }
-          ]
+          ],
+          "width": 0
         }
       ],
       "handle": "A54A",
       "layer": "0",
       "name": "A$C2EE2731E",
       "name2": "A$C2EE2731E",
+      "noBlockType": true,
       "ownerHandle": "A546",
       "position": {
         "x": 0,
@@ -59316,15 +60696,17 @@
       "xrefPath": ""
     },
     "CL": {
+      "endBlock": {
+        "handle": "34F3",
+        "layer": "0",
+        "ownerHandler": "34EF"
+      },
       "entities": [
         {
           "endPoint": {
             "x": 0,
             "y": 0.0160843249549316,
             "z": 0
-          },
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
           },
           "halign": 1,
           "handle": "409D",
@@ -59346,9 +60728,6 @@
             "y": 0.008042154335886,
             "z": 0
           },
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "halign": 1,
           "handle": "409E",
           "layer": "0",
@@ -59368,6 +60747,7 @@
       "layer": "0",
       "name": "CL",
       "name2": "CL",
+      "noBlockType": true,
       "ownerHandle": "34EF",
       "position": {
         "x": 0,
@@ -59377,6 +60757,11 @@
       "xrefPath": ""
     },
     "DTA2": {
+      "endBlock": {
+        "handle": "334F",
+        "layer": "0",
+        "ownerHandler": "334B"
+      },
       "entities": [
         {
           "endPoint": {
@@ -59423,6 +60808,7 @@
       "layer": "0",
       "name": "DTA2",
       "name2": "DTA2",
+      "noBlockType": true,
       "ownerHandle": "334B",
       "position": {
         "x": 0,
@@ -59432,11 +60818,13 @@
       "xrefPath": ""
     },
     "Detail Title": {
+      "endBlock": {
+        "handle": "320E",
+        "layer": "0",
+        "ownerHandler": "3201"
+      },
       "entities": [
         {
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "handle": "3204",
           "layer": "0",
           "ownerHandle": "3201",
@@ -59460,9 +60848,6 @@
             "y": -0.117137496905297,
             "z": 0
           },
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "handle": "3205",
           "layer": "0",
           "ownerHandle": "3201",
@@ -59477,9 +60862,6 @@
           "valign": 2
         },
         {
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "handle": "3206",
           "layer": "0",
           "ownerHandle": "3201",
@@ -59498,9 +60880,6 @@
           ]
         },
         {
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "handle": "3207",
           "layer": "0",
           "ownerHandle": "3201",
@@ -59519,9 +60898,6 @@
           ]
         },
         {
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "handle": "3208",
           "layer": "0",
           "ownerHandle": "3201",
@@ -59535,9 +60911,6 @@
           "type": "TEXT"
         },
         {
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "handle": "3209",
           "layer": "0",
           "ownerHandle": "3201",
@@ -59551,14 +60924,13 @@
           "type": "TEXT"
         },
         {
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
+          "expectedVerticesCount": 4,
           "handle": "320A",
           "hasContinuousLinetypePattern": false,
           "layer": "0",
           "ownerHandle": "3201",
           "shape": true,
+          "standardFlags": 1,
           "type": "LWPOLYLINE",
           "vertices": [
             {
@@ -59577,7 +60949,8 @@
               "x": -1.8e-15,
               "y": -0.609274993810594
             }
-          ]
+          ],
+          "width": 0
         },
         {
           "constant": false,
@@ -59585,9 +60958,6 @@
             "x": 0.4374999999999983,
             "y": -0.421774993810594,
             "z": 0
-          },
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
           },
           "handle": "320B",
           "horizontalJustification": 1,
@@ -59597,6 +60967,8 @@
           "preset": false,
           "prompt": "Detail Number?",
           "scale": 1,
+          "serializeTextStyle": true,
+          "standardFlags": 0,
           "startPoint": {
             "x": 0.1463165075034089,
             "y": -0.578024993810594,
@@ -59617,9 +60989,6 @@
             "y": -0.3811777376743812,
             "z": 0
           },
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "handle": "320C",
           "horizontalJustification": 2,
           "invisible": false,
@@ -59628,6 +60997,9 @@
           "preset": false,
           "prompt": "Architectural Reference?",
           "scale": 0.85,
+          "serializeScale": true,
+          "serializeTextStyle": true,
+          "standardFlags": 0,
           "startPoint": {
             "x": 2.308115684938186,
             "y": -0.3811777376743812,
@@ -59647,9 +61019,6 @@
             "y": -0.5671272951337798,
             "z": 0
           },
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "handle": "320D",
           "horizontalJustification": 2,
           "invisible": false,
@@ -59658,6 +61027,9 @@
           "preset": false,
           "prompt": "Scale?",
           "scale": 0.85,
+          "serializeScale": true,
+          "serializeTextStyle": true,
+          "standardFlags": 0,
           "startPoint": {
             "x": 2.308115684938185,
             "y": -0.5671272951337798,
@@ -59685,16 +61057,20 @@
       "xrefPath": ""
     },
     "FG-11x17 Border": {
+      "endBlock": {
+        "handle": "E69",
+        "layer": "0",
+        "ownerHandler": "E1C"
+      },
       "entities": [
         {
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
+          "expectedVerticesCount": 4,
           "handle": "E26",
           "hasContinuousLinetypePattern": false,
           "layer": "FG-Border",
           "ownerHandle": "E1C",
           "shape": true,
+          "standardFlags": 1,
           "type": "LWPOLYLINE",
           "vertices": [
             {
@@ -59713,12 +61089,10 @@
               "x": 0.5,
               "y": 10.25
             }
-          ]
+          ],
+          "width": 0
         },
         {
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "handle": "E27",
           "layer": "Vport",
           "ownerHandle": "E1C",
@@ -59730,9 +61104,6 @@
           "type": "POINT"
         },
         {
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "handle": "E28",
           "layer": "FG-Border",
           "ownerHandle": "E1C",
@@ -59751,9 +61122,6 @@
           ]
         },
         {
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "handle": "E29",
           "layer": "FG-Note",
           "ownerHandle": "E1C",
@@ -59768,9 +61136,6 @@
           "xScale": 0.85
         },
         {
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "handle": "E2A",
           "layer": "FG-Border",
           "ownerHandle": "E1C",
@@ -59789,9 +61154,6 @@
           ]
         },
         {
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "handle": "E2B",
           "layer": "FG-Note",
           "ownerHandle": "E1C",
@@ -59806,9 +61168,6 @@
           "xScale": 0.85
         },
         {
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "handle": "E2C",
           "layer": "FG-Border",
           "ownerHandle": "E1C",
@@ -59827,9 +61186,6 @@
           ]
         },
         {
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "handle": "E2D",
           "layer": "FG-Border",
           "ownerHandle": "E1C",
@@ -59848,9 +61204,6 @@
           ]
         },
         {
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "handle": "E2E",
           "layer": "FG-Note",
           "ownerHandle": "E1C",
@@ -59865,9 +61218,6 @@
           "xScale": 0.85
         },
         {
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "handle": "E2F",
           "layer": "FG-Note",
           "ownerHandle": "E1C",
@@ -59882,9 +61232,6 @@
           "xScale": 0.85
         },
         {
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "handle": "E30",
           "layer": "FG-Border",
           "ownerHandle": "E1C",
@@ -59903,9 +61250,6 @@
           ]
         },
         {
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "handle": "E31",
           "layer": "FG-Note",
           "ownerHandle": "E1C",
@@ -59920,9 +61264,6 @@
           "xScale": 0.85
         },
         {
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "handle": "E32",
           "layer": "FG-Note",
           "ownerHandle": "E1C",
@@ -59938,9 +61279,6 @@
           "xScale": 0.85
         },
         {
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "handle": "E33",
           "layer": "FG-Border",
           "ownerHandle": "E1C",
@@ -59959,9 +61297,6 @@
           ]
         },
         {
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "handle": "E34",
           "layer": "FG-Border",
           "ownerHandle": "E1C",
@@ -59980,9 +61315,6 @@
           ]
         },
         {
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "handle": "E35",
           "layer": "FG-Border",
           "ownerHandle": "E1C",
@@ -60001,9 +61333,6 @@
           ]
         },
         {
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "handle": "E36",
           "layer": "FG-Border",
           "ownerHandle": "E1C",
@@ -60022,9 +61351,6 @@
           ]
         },
         {
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "handle": "E37",
           "layer": "FG-Logo",
           "ownerHandle": "E1C",
@@ -60043,9 +61369,6 @@
           ]
         },
         {
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "handle": "E38",
           "layer": "FG-Logo",
           "ownerHandle": "E1C",
@@ -60064,9 +61387,6 @@
           ]
         },
         {
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "handle": "E39",
           "layer": "FG-Logo",
           "ownerHandle": "E1C",
@@ -60085,9 +61405,6 @@
           ]
         },
         {
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "handle": "E3A",
           "layer": "FG-Logo",
           "ownerHandle": "E1C",
@@ -60111,9 +61428,6 @@
             "y": 8.483758506895393,
             "z": 0
           },
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "halign": 1,
           "handle": "E3B",
           "layer": "FG-Note",
@@ -60133,9 +61447,6 @@
             "x": 15.43459372187382,
             "y": 9.01982170810002,
             "z": 0
-          },
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
           },
           "halign": 1,
           "handle": "E3C",
@@ -60157,9 +61468,6 @@
             "y": 9.927267587031489,
             "z": 0
           },
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "halign": 1,
           "handle": "E3D",
           "layer": "FG-Note",
@@ -60179,9 +61487,6 @@
             "x": 15.47614878817657,
             "y": 10.1444273202113,
             "z": 0
-          },
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
           },
           "halign": 1,
           "handle": "E3E",
@@ -60203,9 +61508,6 @@
             "y": 10.1444273202113,
             "z": 0
           },
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "halign": 1,
           "handle": "E3F",
           "layer": "FG-Note",
@@ -60225,9 +61527,6 @@
             "x": 15.47614878817657,
             "y": 9.624213818829995,
             "z": 0
-          },
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
           },
           "halign": 1,
           "handle": "E40",
@@ -60249,9 +61548,6 @@
             "y": 9.624213818829995,
             "z": 0
           },
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "halign": 1,
           "handle": "E41",
           "layer": "FG-Note",
@@ -60267,9 +61563,6 @@
           "type": "TEXT"
         },
         {
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "handle": "E42",
           "layer": "FG-Logo",
           "ownerHandle": "E1C",
@@ -60288,9 +61581,6 @@
           ]
         },
         {
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "handle": "E43",
           "layer": "FG-Logo",
           "ownerHandle": "E1C",
@@ -60309,9 +61599,6 @@
           ]
         },
         {
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "handle": "E44",
           "layer": "FG-Logo",
           "ownerHandle": "E1C",
@@ -60330,9 +61617,6 @@
           ]
         },
         {
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "handle": "E45",
           "layer": "FG-Logo",
           "ownerHandle": "E1C",
@@ -60357,9 +61641,6 @@
             "y": 3.15625,
             "z": 0
           },
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "handle": "E46",
           "horizontalJustification": 1,
           "invisible": false,
@@ -60369,6 +61650,8 @@
           "prompt": "Project Loction",
           "rotation": 90,
           "scale": 1,
+          "serializeTextStyle": true,
+          "standardFlags": 0,
           "startPoint": {
             "x": 15.97514981098344,
             "y": 2.753495907230559,
@@ -60388,9 +61671,6 @@
             "y": 3.15625,
             "z": 0
           },
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "handle": "E47",
           "horizontalJustification": 1,
           "invisible": false,
@@ -60400,6 +61680,8 @@
           "prompt": "Project Title Line 2",
           "rotation": 90,
           "scale": 1,
+          "serializeTextStyle": true,
+          "standardFlags": 0,
           "startPoint": {
             "x": 15.77434831030132,
             "y": 2.695301841746248,
@@ -60419,9 +61701,6 @@
             "y": 3.15625,
             "z": 0
           },
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "handle": "E48",
           "horizontalJustification": 1,
           "invisible": false,
@@ -60431,6 +61710,8 @@
           "prompt": "Project Title Line 1",
           "rotation": 90,
           "scale": 1,
+          "serializeTextStyle": true,
+          "standardFlags": 0,
           "startPoint": {
             "x": 15.57354680961919,
             "y": 2.695301841746248,
@@ -60450,9 +61731,6 @@
             "y": 1.590448017116665,
             "z": 0
           },
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "handle": "E49",
           "horizontalJustification": 1,
           "invisible": false,
@@ -60461,6 +61739,8 @@
           "preset": false,
           "prompt": "Project No.",
           "scale": 1,
+          "serializeTextStyle": true,
+          "standardFlags": 0,
           "startPoint": {
             "x": 15.57310916713996,
             "y": 1.590448017116665,
@@ -60480,9 +61760,6 @@
             "y": 1.191807083027317,
             "z": 0
           },
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "handle": "E4A",
           "horizontalJustification": 1,
           "invisible": false,
@@ -60491,6 +61768,8 @@
           "preset": false,
           "prompt": "Date?",
           "scale": 1,
+          "serializeTextStyle": true,
+          "standardFlags": 0,
           "startPoint": {
             "x": 15.89403014930068,
             "y": 1.191807083027317,
@@ -60510,9 +61789,6 @@
             "y": 1.191807083027317,
             "z": 0
           },
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "handle": "E4B",
           "horizontalJustification": 1,
           "invisible": false,
@@ -60521,6 +61797,8 @@
           "preset": false,
           "prompt": "Drawn By?",
           "scale": 1,
+          "serializeTextStyle": true,
+          "standardFlags": 0,
           "startPoint": {
             "x": 15.43644999923252,
             "y": 1.191807083027317,
@@ -60540,9 +61818,6 @@
             "y": 0.8160405170521904,
             "z": 0
           },
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "handle": "E4C",
           "horizontalJustification": 1,
           "invisible": false,
@@ -60551,6 +61826,8 @@
           "preset": false,
           "prompt": "Scale?",
           "scale": 1,
+          "serializeTextStyle": true,
+          "standardFlags": 0,
           "startPoint": {
             "x": 15.56916140859481,
             "y": 0.8160405170521904,
@@ -60570,9 +61847,6 @@
             "y": 0.1431021352662505,
             "z": 0
           },
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "handle": "E4D",
           "horizontalJustification": 1,
           "invisible": false,
@@ -60581,6 +61855,8 @@
           "preset": false,
           "prompt": "Sheet Number?",
           "scale": 1,
+          "serializeTextStyle": true,
+          "standardFlags": 0,
           "startPoint": {
             "x": 15.43835266030013,
             "y": 0.1431021352662505,
@@ -60594,9 +61870,6 @@
           "verificationRequired": false
         },
         {
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "handle": "E4E",
           "layer": "FG-Border",
           "ownerHandle": "E1C",
@@ -60621,9 +61894,6 @@
             "y": 3.15625,
             "z": 0
           },
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "handle": "E4F",
           "horizontalJustification": 1,
           "invisible": false,
@@ -60633,6 +61903,8 @@
           "prompt": "Sheet Title?",
           "rotation": 90,
           "scale": 1,
+          "serializeTextStyle": true,
+          "standardFlags": 0,
           "startPoint": {
             "x": 16.43136960442813,
             "y": 2.748763642564802,
@@ -60646,9 +61918,6 @@
           "verificationRequired": false
         },
         {
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "handle": "E50",
           "layer": "FG-Note",
           "ownerHandle": "E1C",
@@ -60664,9 +61933,6 @@
           "xScale": 0.85
         },
         {
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "handle": "E51",
           "layer": "FG-Note",
           "lineType": "Continuous",
@@ -60683,9 +61949,6 @@
           "visible": false
         },
         {
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "handle": "E52",
           "layer": "FG-Note",
           "lineType": "Continuous",
@@ -60702,9 +61965,6 @@
           "visible": false
         },
         {
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "handle": "E56",
           "layer": "FG-Note",
           "lineType": "Continuous",
@@ -60721,9 +61981,6 @@
           "visible": false
         },
         {
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "handle": "E57",
           "layer": "FG-Note",
           "lineType": "Continuous",
@@ -60740,9 +61997,6 @@
           "visible": false
         },
         {
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "handle": "E58",
           "layer": "FG-Note",
           "lineType": "Continuous",
@@ -60759,9 +62013,6 @@
           "visible": false
         },
         {
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "handle": "E59",
           "layer": "FG-Note",
           "lineType": "Continuous",
@@ -60778,9 +62029,6 @@
           "visible": false
         },
         {
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "handle": "E5A",
           "layer": "FG-Note",
           "lineType": "Continuous",
@@ -60797,9 +62045,6 @@
           "visible": false
         },
         {
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "handle": "E5B",
           "layer": "FG-Note",
           "lineType": "Continuous",
@@ -60816,14 +62061,13 @@
           "visible": false
         },
         {
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
+          "expectedVerticesCount": 3,
           "handle": "E5C",
           "hasContinuousLinetypePattern": false,
           "layer": "FG-Note",
           "ownerHandle": "E1C",
           "shape": true,
+          "standardFlags": 1,
           "type": "LWPOLYLINE",
           "vertices": [
             {
@@ -60839,17 +62083,17 @@
               "y": 4.847315726797587
             }
           ],
-          "visible": false
+          "visible": false,
+          "width": 0
         },
         {
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
+          "expectedVerticesCount": 4,
           "handle": "E5E",
           "hasContinuousLinetypePattern": false,
           "layer": "FG-Border",
           "ownerHandle": "E1C",
           "shape": true,
+          "standardFlags": 1,
           "type": "LWPOLYLINE",
           "vertices": [
             {
@@ -60868,16 +62112,14 @@
               "x": 15.375,
               "y": 5.5625
             }
-          ]
+          ],
+          "width": 0
         },
         {
           "endPoint": {
             "x": 15.80487678893379,
             "y": 6.766898462159226,
             "z": 0
-          },
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
           },
           "halign": 1,
           "handle": "E63",
@@ -60900,9 +62142,6 @@
             "y": 6.766898462159226,
             "z": 0
           },
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "halign": 1,
           "handle": "E64",
           "layer": "FG-Logo",
@@ -60924,9 +62163,6 @@
             "y": 8.22432530753071,
             "z": 0
           },
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "halign": 1,
           "handle": "E65",
           "layer": "FG-Note",
@@ -60946,9 +62182,6 @@
             "x": 15.875,
             "y": 8.117182450387851,
             "z": 0
-          },
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
           },
           "halign": 1,
           "handle": "E66",
@@ -60970,9 +62203,6 @@
             "y": 8.010039593244995,
             "z": 0
           },
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "halign": 1,
           "handle": "E67",
           "layer": "FG-Note",
@@ -60992,9 +62222,6 @@
             "x": 15.875,
             "y": 7.902896736102137,
             "z": 0
-          },
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
           },
           "halign": 1,
           "handle": "E68",
@@ -61025,11 +62252,13 @@
       "xrefPath": ""
     },
     "Fast-128-284-S": {
+      "endBlock": {
+        "handle": "13FD",
+        "layer": "0",
+        "ownerHandler": "13F9"
+      },
       "entities": [
         {
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "handle": "13FB",
           "layer": "0",
           "lineType": "CENTER2",
@@ -61049,14 +62278,13 @@
           ]
         },
         {
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
+          "expectedVerticesCount": 8,
           "handle": "13FC",
           "hasContinuousLinetypePattern": false,
           "layer": "0",
           "ownerHandle": "13F9",
           "shape": true,
+          "standardFlags": 1,
           "type": "LWPOLYLINE",
           "vertices": [
             {
@@ -61092,13 +62320,15 @@
               "x": 0.6626587131563042,
               "y": 0.1080000000000041
             }
-          ]
+          ],
+          "width": 0
         }
       ],
       "handle": "13FA",
       "layer": "0",
       "name": "Fast-128-284-S",
       "name2": "Fast-128-284-S",
+      "noBlockType": true,
       "ownerHandle": "13F9",
       "position": {
         "x": 0,
@@ -61108,13 +62338,20 @@
       "xrefPath": ""
     },
     "Fast-128-394-T": {
+      "endBlock": {
+        "handle": "140F",
+        "layer": "0",
+        "ownerHandler": "1409"
+      },
       "entities": [
         {
+          "expectedVerticesCount": 17,
           "handle": "140B",
           "hasContinuousLinetypePattern": false,
           "layer": "0",
           "ownerHandle": "1409",
           "shape": false,
+          "standardFlags": 0,
           "type": "LWPOLYLINE",
           "vertices": [
             {
@@ -61189,7 +62426,8 @@
               "x": 0.081749980000069,
               "y": -0.0169999599999926
             }
-          ]
+          ],
+          "width": 0
         },
         {
           "handle": "140C",
@@ -61246,6 +62484,7 @@
       "layer": "0",
       "name": "Fast-128-394-T",
       "name2": "Fast-128-394-T",
+      "noBlockType": true,
       "ownerHandle": "1409",
       "position": {
         "x": 0,
@@ -61255,11 +62494,13 @@
       "xrefPath": ""
     },
     "Fast-128-406-S": {
+      "endBlock": {
+        "handle": "1408",
+        "layer": "0",
+        "ownerHandler": "13FE"
+      },
       "entities": [
         {
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "handle": "1400",
           "layer": "0",
           "lineType": "CENTER2",
@@ -61279,14 +62520,13 @@
           ]
         },
         {
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
+          "expectedVerticesCount": 2,
           "handle": "1401",
           "hasContinuousLinetypePattern": false,
           "layer": "0",
           "ownerHandle": "13FE",
           "shape": false,
+          "standardFlags": 0,
           "type": "LWPOLYLINE",
           "vertices": [
             {
@@ -61297,17 +62537,17 @@
               "x": -0.0400000000000205,
               "y": 0.1014549999999872
             }
-          ]
+          ],
+          "width": 0
         },
         {
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
+          "expectedVerticesCount": 2,
           "handle": "1402",
           "hasContinuousLinetypePattern": false,
           "layer": "0",
           "ownerHandle": "13FE",
           "shape": false,
+          "standardFlags": 0,
           "type": "LWPOLYLINE",
           "vertices": [
             {
@@ -61318,17 +62558,17 @@
               "x": -0.0400000000000205,
               "y": -0.1014649999999904
             }
-          ]
+          ],
+          "width": 0
         },
         {
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
+          "expectedVerticesCount": 2,
           "handle": "1403",
           "hasContinuousLinetypePattern": false,
           "layer": "0",
           "ownerHandle": "13FE",
           "shape": false,
+          "standardFlags": 0,
           "type": "LWPOLYLINE",
           "vertices": [
             {
@@ -61339,17 +62579,17 @@
               "x": -0.2146050000000059,
               "y": -0.1521950000000061
             }
-          ]
+          ],
+          "width": 0
         },
         {
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
+          "expectedVerticesCount": 6,
           "handle": "1404",
           "hasContinuousLinetypePattern": false,
           "layer": "0",
           "ownerHandle": "13FE",
           "shape": false,
+          "standardFlags": 0,
           "type": "LWPOLYLINE",
           "vertices": [
             {
@@ -61379,17 +62619,17 @@
               "x": -0.0400000000000205,
               "y": -0.202920000000006
             }
-          ]
+          ],
+          "width": 0
         },
         {
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
+          "expectedVerticesCount": 4,
           "handle": "1405",
           "hasContinuousLinetypePattern": false,
           "layer": "0",
           "ownerHandle": "13FE",
           "shape": false,
+          "standardFlags": 0,
           "type": "LWPOLYLINE",
           "vertices": [
             {
@@ -61408,17 +62648,17 @@
               "x": -0.2023100000000113,
               "y": -0.1865999999999985
             }
-          ]
+          ],
+          "width": 0
         },
         {
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
+          "expectedVerticesCount": 4,
           "handle": "1406",
           "hasContinuousLinetypePattern": false,
           "layer": "0",
           "ownerHandle": "13FE",
           "shape": true,
+          "standardFlags": 1,
           "type": "LWPOLYLINE",
           "vertices": [
             {
@@ -61437,17 +62677,17 @@
               "x": 0,
               "y": -0.25
             }
-          ]
+          ],
+          "width": 0
         },
         {
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
+          "expectedVerticesCount": 5,
           "handle": "1407",
           "hasContinuousLinetypePattern": false,
           "layer": "0",
           "ownerHandle": "13FE",
           "shape": false,
+          "standardFlags": 0,
           "type": "LWPOLYLINE",
           "vertices": [
             {
@@ -61470,13 +62710,15 @@
               "x": 0,
               "y": 0.1253800000000069
             }
-          ]
+          ],
+          "width": 0
         }
       ],
       "handle": "13FF",
       "layer": "0",
       "name": "Fast-128-406-S",
       "name2": "Fast-128-406-S",
+      "noBlockType": true,
       "ownerHandle": "13FE",
       "position": {
         "x": 0,
@@ -61486,6 +62728,11 @@
       "xrefPath": ""
     },
     "HI90": {
+      "endBlock": {
+        "handle": "5AEC",
+        "layer": "0",
+        "ownerHandler": "5AE5"
+      },
       "entities": [
         {
           "endPoint": {
@@ -61562,6 +62809,8 @@
           "preset": false,
           "prompt": "HOW HIGH?",
           "scale": 0.8,
+          "serializeScale": true,
+          "standardFlags": 0,
           "startPoint": {
             "x": 0.0450951536329658,
             "y": 0.1126624729523638,
@@ -61589,6 +62838,8 @@
           "preset": false,
           "prompt": "HOW MANY?",
           "scale": 0.8,
+          "serializeScale": true,
+          "standardFlags": 0,
           "startPoint": {
             "x": 0.0323380282919095,
             "y": -0.2252170611912008,
@@ -61616,15 +62867,17 @@
       "xrefPath": ""
     },
     "SYM": {
+      "endBlock": {
+        "handle": "4353",
+        "layer": "0",
+        "ownerHandler": "4350"
+      },
       "entities": [
         {
           "endPoint": {
             "x": 0.0011131493913883,
             "y": 0.004021094615787,
             "z": 0
-          },
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
           },
           "halign": 1,
           "handle": "4B0C",
@@ -61645,6 +62898,7 @@
       "layer": "0",
       "name": "SYM",
       "name2": "SYM",
+      "noBlockType": true,
       "ownerHandle": "4350",
       "position": {
         "x": 0,
@@ -61654,16 +62908,20 @@
       "xrefPath": ""
     },
     "Section Callout": {
+      "endBlock": {
+        "handle": "2DE",
+        "layer": "0",
+        "ownerHandler": "2DC"
+      },
       "entities": [
         {
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
+          "expectedVerticesCount": 4,
           "handle": "3AC",
           "hasContinuousLinetypePattern": false,
           "layer": "0",
           "ownerHandle": "2DC",
           "shape": true,
+          "standardFlags": 1,
           "type": "LWPOLYLINE",
           "vertices": [
             {
@@ -61682,12 +62940,10 @@
               "x": 0,
               "y": 0.1875
             }
-          ]
+          ],
+          "width": 0
         },
         {
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "handle": "3AD",
           "layer": "0",
           "ownerHandle": "2DC",
@@ -61714,9 +62970,6 @@
             "y": -0.0733173076923079,
             "z": 0
           },
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "handle": "3AE",
           "horizontalJustification": 1,
           "invisible": false,
@@ -61725,6 +62978,9 @@
           "preset": false,
           "prompt": "Sheet Number?",
           "scale": 0.85,
+          "serializeScale": true,
+          "serializeTextStyle": true,
+          "standardFlags": 0,
           "startPoint": {
             "x": -0.2580357142857142,
             "y": -0.1201923076923079,
@@ -61747,9 +63003,6 @@
             "y": 0.0733173076923075,
             "z": 0
           },
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "handle": "3AF",
           "horizontalJustification": 1,
           "invisible": false,
@@ -61758,6 +63011,9 @@
           "preset": false,
           "prompt": "Detail Number?",
           "scale": 0.85,
+          "serializeScale": true,
+          "serializeTextStyle": true,
+          "standardFlags": 0,
           "startPoint": {
             "x": -0.1821428571428571,
             "y": 0.0264423076923075,
@@ -61772,9 +63028,6 @@
           "verticalJustification": 2
         },
         {
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "handle": "3B0",
           "layer": "0",
           "ownerHandle": "2DC",
@@ -61807,11 +63060,13 @@
       "xrefPath": ""
     },
     "Section Title": {
+      "endBlock": {
+        "handle": "31C2",
+        "layer": "0",
+        "ownerHandler": "31B5"
+      },
       "entities": [
         {
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "handle": "31B8",
           "layer": "0",
           "ownerHandle": "31B5",
@@ -61835,9 +63090,6 @@
             "y": -0.117137496905297,
             "z": 0
           },
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "handle": "31B9",
           "layer": "0",
           "ownerHandle": "31B5",
@@ -61852,9 +63104,6 @@
           "valign": 2
         },
         {
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "handle": "31BA",
           "layer": "0",
           "ownerHandle": "31B5",
@@ -61873,9 +63122,6 @@
           ]
         },
         {
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "handle": "31BB",
           "layer": "0",
           "ownerHandle": "31B5",
@@ -61894,9 +63140,6 @@
           ]
         },
         {
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "handle": "31BC",
           "layer": "0",
           "ownerHandle": "31B5",
@@ -61910,9 +63153,6 @@
           "type": "TEXT"
         },
         {
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "handle": "31BD",
           "layer": "0",
           "ownerHandle": "31B5",
@@ -61926,14 +63166,13 @@
           "type": "TEXT"
         },
         {
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
+          "expectedVerticesCount": 4,
           "handle": "31BE",
           "hasContinuousLinetypePattern": false,
           "layer": "0",
           "ownerHandle": "31B5",
           "shape": true,
+          "standardFlags": 1,
           "type": "LWPOLYLINE",
           "vertices": [
             {
@@ -61952,7 +63191,8 @@
               "x": -1.8e-15,
               "y": -0.609274993810594
             }
-          ]
+          ],
+          "width": 0
         },
         {
           "constant": false,
@@ -61960,9 +63200,6 @@
             "x": 0.4374999999999983,
             "y": -0.421774993810594,
             "z": 0
-          },
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
           },
           "handle": "31BF",
           "horizontalJustification": 1,
@@ -61972,6 +63209,8 @@
           "preset": false,
           "prompt": "Section Number?",
           "scale": 1,
+          "serializeTextStyle": true,
+          "standardFlags": 0,
           "startPoint": {
             "x": 0.1463165075034089,
             "y": -0.578024993810594,
@@ -61992,9 +63231,6 @@
             "y": -0.3811777376743812,
             "z": 0
           },
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "handle": "31C0",
           "horizontalJustification": 2,
           "invisible": false,
@@ -62003,6 +63239,9 @@
           "preset": false,
           "prompt": "Architectural Reference?",
           "scale": 0.85,
+          "serializeScale": true,
+          "serializeTextStyle": true,
+          "standardFlags": 0,
           "startPoint": {
             "x": 2.308115684938186,
             "y": -0.3811777376743812,
@@ -62022,9 +63261,6 @@
             "y": -0.5671272951337798,
             "z": 0
           },
-          "extendedData": {
-            "applicationName": "AcDbBlockRepETag"
-          },
           "handle": "31C1",
           "horizontalJustification": 2,
           "invisible": false,
@@ -62033,6 +63269,9 @@
           "preset": false,
           "prompt": "Scale?",
           "scale": 0.85,
+          "serializeScale": true,
+          "serializeTextStyle": true,
+          "standardFlags": 0,
           "startPoint": {
             "x": 2.308115684938185,
             "y": -0.5671272951337798,
@@ -62060,6 +63299,11 @@
       "xrefPath": ""
     },
     "TYP": {
+      "endBlock": {
+        "handle": "34EE",
+        "layer": "0",
+        "ownerHandler": "34EA"
+      },
       "entities": [
         {
           "endPoint": {
@@ -62096,6 +63340,8 @@
           "preset": false,
           "prompt": "HOW MANY?",
           "scale": 0.8,
+          "serializeScale": true,
+          "standardFlags": 0,
           "startPoint": {
             "x": -0.0071161210463473,
             "y": -0.0617968433486147,
@@ -62123,6 +63369,11 @@
       "xrefPath": ""
     },
     "V90": {
+      "endBlock": {
+        "handle": "5AF4",
+        "layer": "0",
+        "ownerHandler": "5AED"
+      },
       "entities": [
         {
           "endPoint": {
@@ -62199,6 +63450,8 @@
           "preset": false,
           "prompt": "HOW DEEP?",
           "scale": 0.8,
+          "serializeScale": true,
+          "standardFlags": 0,
           "startPoint": {
             "x": 0.0281863108945473,
             "y": 0.1182977636045694,
@@ -62226,6 +63479,8 @@
           "preset": false,
           "prompt": "HOW MANY?",
           "scale": 0.8,
+          "serializeScale": true,
+          "standardFlags": 0,
           "startPoint": {
             "x": 0.0154291855534909,
             "y": -0.2195817705389951,
@@ -62253,6 +63508,11 @@
       "xrefPath": ""
     },
     "_OPEN": {
+      "endBlock": {
+        "handle": "3344",
+        "layer": "0",
+        "ownerHandler": "333F"
+      },
       "entities": [
         {
           "color": 0,
@@ -62322,6 +63582,7 @@
       "layer": "0",
       "name": "_OPEN",
       "name2": "_OPEN",
+      "noBlockType": true,
       "ownerHandle": "333F",
       "position": {
         "x": 0,
@@ -62331,6 +63592,11 @@
       "xrefPath": ""
     },
     "_Oblique": {
+      "endBlock": {
+        "handle": "166",
+        "layer": "0",
+        "ownerHandler": "163"
+      },
       "entities": [
         {
           "color": 0,
@@ -62359,6 +63625,7 @@
       "layer": "0",
       "name": "_Oblique",
       "name2": "_Oblique",
+      "noBlockType": true,
       "ownerHandle": "163",
       "position": {
         "x": 0,
@@ -62368,6 +63635,11 @@
       "xrefPath": ""
     },
     "_Open30": {
+      "endBlock": {
+        "handle": "334A",
+        "layer": "0",
+        "ownerHandler": "3345"
+      },
       "entities": [
         {
           "color": 0,
@@ -62437,6 +63709,7 @@
       "layer": "0",
       "name": "_Open30",
       "name2": "_Open30",
+      "noBlockType": true,
       "ownerHandle": "3345",
       "position": {
         "x": 0,

@@ -1,25 +1,46 @@
 {
   "handle": "5",
   "ownerHandle": "0",
+  "maxEntities": 10,
   "lineTypes": {
     "ByBlock": {
+      "handle": "14",
+      "ownerHandle": "5",
       "name": "ByBlock",
+      "standardFlags": 0,
       "description": "",
+      "alignmentCode": 65,
+      "elementCount": 0,
       "patternLength": 0
     },
     "ByLayer": {
+      "handle": "15",
+      "ownerHandle": "5",
       "name": "ByLayer",
+      "standardFlags": 0,
       "description": "",
+      "alignmentCode": 65,
+      "elementCount": 0,
       "patternLength": 0
     },
     "Continuous": {
+      "handle": "16",
+      "ownerHandle": "5",
       "name": "Continuous",
+      "standardFlags": 0,
       "description": "Solid line",
+      "alignmentCode": 65,
+      "elementCount": 0,
       "patternLength": 0
     },
     "PHANTOM2": {
+      "handle": "1A9",
+      "ownerHandle": "5",
       "name": "PHANTOM2",
+      "standardFlags": 0,
       "description": "Phantom (.5x) ___ _ _ ___ _ _ ___ _ _ ___ _ _",
+      "alignmentCode": 65,
+      "elementCount": 6,
       "pattern": [
         0.625,
         -0.125,
@@ -28,87 +49,175 @@
         0.125,
         -0.125
       ],
-      "patternLength": 1.25
+      "patternLength": 1.25,
+      "patternTypes": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
     },
     "CENTER1": {
+      "handle": "1C4",
+      "ownerHandle": "5",
       "name": "CENTER1",
+      "standardFlags": 0,
       "description": "Center (.5x) ___ _ ___ _ ___ _ ___ _ ___ _ ___",
+      "alignmentCode": 65,
+      "elementCount": 4,
       "pattern": [
         0.75,
         -0.125,
         0.125,
         -0.125
       ],
-      "patternLength": 1.125
+      "patternLength": 1.125,
+      "patternTypes": [
+        0,
+        0,
+        0,
+        0
+      ]
     },
     "CENTER2": {
+      "handle": "1C5",
+      "ownerHandle": "5",
       "name": "CENTER2",
+      "standardFlags": 0,
       "description": "Center (2x) ________  __  ________  __  _____",
+      "alignmentCode": 65,
+      "elementCount": 4,
       "pattern": [
         2.5,
         -0.5,
         0.5,
         -0.5
       ],
-      "patternLength": 4
+      "patternLength": 4,
+      "patternTypes": [
+        0,
+        0,
+        0,
+        0
+      ]
     },
     "DASHDOT1": {
+      "handle": "1C7",
+      "ownerHandle": "5",
       "name": "DASHDOT1",
+      "standardFlags": 0,
       "description": "Dash dot (.5x) _._._._._._._._._._._._._._._.",
+      "alignmentCode": 65,
+      "elementCount": 4,
       "pattern": [
         0.25,
         -0.125,
         0,
         -0.125
       ],
-      "patternLength": 0.5
+      "patternLength": 0.5,
+      "patternTypes": [
+        0,
+        0,
+        0,
+        0
+      ]
     },
     "DASHDOT2": {
+      "handle": "1C8",
+      "ownerHandle": "5",
       "name": "DASHDOT2",
+      "standardFlags": 0,
       "description": "Dash dot (2x) ____  .  ____  .  ____  .  ___",
+      "alignmentCode": 65,
+      "elementCount": 4,
       "pattern": [
         1,
         -0.5,
         0,
         -0.5
       ],
-      "patternLength": 2
+      "patternLength": 2,
+      "patternTypes": [
+        0,
+        0,
+        0,
+        0
+      ]
     },
     "DASHED1": {
+      "handle": "1CA",
+      "ownerHandle": "5",
       "name": "DASHED1",
+      "standardFlags": 0,
       "description": "Dashed (.5x) _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _",
+      "alignmentCode": 65,
+      "elementCount": 2,
       "pattern": [
         0.25,
         -0.125
       ],
-      "patternLength": 0.375
+      "patternLength": 0.375,
+      "patternTypes": [
+        0,
+        0
+      ]
     },
     "DASHED2": {
+      "handle": "1CB",
+      "ownerHandle": "5",
       "name": "DASHED2",
+      "standardFlags": 0,
       "description": "Dashed (2x) ____  ____  ____  ____  ____  ___",
+      "alignmentCode": 65,
+      "elementCount": 2,
       "pattern": [
         1,
         -0.5
       ],
-      "patternLength": 1.5
+      "patternLength": 1.5,
+      "patternTypes": [
+        0,
+        0
+      ]
     },
     "DOT1": {
+      "handle": "1CD",
+      "ownerHandle": "5",
       "name": "DOT1",
+      "standardFlags": 0,
       "description": "Dot (.5x) .....................................",
+      "alignmentCode": 65,
+      "elementCount": 2,
       "pattern": [
         0,
         -0.125
       ],
-      "patternLength": 0.125
+      "patternLength": 0.125,
+      "patternTypes": [
+        0,
+        0
+      ]
     },
     "DOT2": {
+      "handle": "1CE",
+      "ownerHandle": "5",
       "name": "DOT2",
-      "description": "Dot (2x) .  .  .  .  .  .  .  .  .  .  .  .  .",
+      "standardFlags": 0,
+      "description": "Dot (2x) .  .  .  .  .  .  .  .  .  .  .  .  . ",
+      "alignmentCode": 65,
+      "elementCount": 2,
       "pattern": [
         0,
         -0.5
       ],
-      "patternLength": 0.5
+      "patternLength": 0.5,
+      "patternTypes": [
+        0,
+        0
+      ]
     }
   }
 }

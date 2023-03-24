@@ -1,54 +1,34 @@
-import DxfArrayScanner, { IGroup } from '../DxfArrayScanner.js';
-import * as helpers from '../ParseHelpers.js';
-import IGeometry, { IEntity, IPoint } from './geomtry.js';
+import type DxfArrayScanner from '../DxfArrayScanner';
+import type { IGroup, GroupValue } from '../DxfArrayScanner';
+import {
+  checkCommonEntityProperties,
+  serializeCommonEntityProperty,
+  serializePoint,
+} from '../ParseHelpers.js';
+import type IGeometry from './geometry';
+import type { IEntity, IPoint } from './geometry';
+import { EntityName } from './geometry.js';
 
-export interface I3DfaceEntity extends IEntity {
+export type I3DfaceEntity = IEntity & {
+  type: EntityName.ThreeDFace;
   shape: boolean;
   hasContinuousLinetypePattern: boolean;
   vertices: IPoint[];
-}
+};
 
-export default class ThreeDface implements IGeometry {
-  public ForEntityName = '3DFACE' as const;
-  public parseEntity(scanner: DxfArrayScanner, curr: IGroup) {
-    const entity = {
-      type: curr.value as string,
-      vertices: [] as IPoint[],
-    } as I3DfaceEntity;
-    curr = scanner.next();
-    while (!scanner.isEOF()) {
-      if (curr.code === 0) break;
-      switch (curr.code) {
-        case 70: // 1 = Closed shape, 128 = plinegen?, 0 = default
-          entity.shape = ((curr.value as number) & 1) === 1;
-          entity.hasContinuousLinetypePattern =
-            ((curr.value as number) & 128) === 128;
-          break;
-        case 10: // X coordinate of point
-          entity.vertices = parse3dFaceVertices(scanner, curr);
-          curr = scanner.lastReadGroup;
-          break;
-        default:
-          helpers.checkCommonEntityProperties(entity, curr, scanner);
-          break;
-      }
-      curr = scanner.next();
-    }
-    return entity;
-  }
-}
+const verticesPer3dFace = 4; // there can be up to four vertices per face, although 3 is most used for TIN
 
-function parse3dFaceVertices(
+const parse3dFaceVertices = (
   scanner: DxfArrayScanner,
-  curr: IGroup,
-): I3DfaceEntity['vertices'] {
-  var vertices: I3DfaceEntity['vertices'] = [];
-  var vertexIsStarted = false;
-  var vertexIsFinished = false;
-  var verticesPer3dFace = 4; // there can be up to four vertices per face, although 3 is most used for TIN
+): I3DfaceEntity['vertices'] => {
+  let curr = scanner.lastReadGroup as IGroup<GroupValue>;
+
+  const vertices: I3DfaceEntity['vertices'] = [];
+  let vertexIsStarted = false;
+  let vertexIsFinished = false;
 
   for (let i = 0; i <= verticesPer3dFace; i++) {
-    var vertex = {} as IPoint;
+    const vertex = {} as IPoint;
     while (!scanner.isEOF()) {
       if (curr.code === 0 || vertexIsFinished) break;
 
@@ -90,4 +70,58 @@ function parse3dFaceVertices(
   }
   scanner.rewind();
   return vertices;
+};
+
+export default class ThreeDface implements IGeometry<I3DfaceEntity> {
+  public ForEntityName = EntityName.ThreeDFace;
+  public parseEntity(scanner: DxfArrayScanner): I3DfaceEntity {
+    const entity = { type: this.ForEntityName } as I3DfaceEntity;
+    let curr = scanner.next();
+    while (!scanner.isEOF()) {
+      if (curr.code === 0) break;
+      switch (curr.code) {
+        case 70: // 1 = Closed shape, 128 = plinegen?, 0 = default
+          entity.standardFlags = curr.value as number;
+          entity.shape = ((curr.value as number) & 1) === 1;
+          entity.hasContinuousLinetypePattern =
+            ((curr.value as number) & 128) === 128;
+          break;
+        case 10: // X coordinate of point
+          entity.vertices = parse3dFaceVertices(scanner);
+          curr = scanner.lastReadGroup as IGroup<GroupValue>;
+          break;
+        default:
+          checkCommonEntityProperties(entity, curr, scanner);
+          break;
+      }
+      curr = scanner.next();
+    }
+    return entity;
+  }
+
+  public *serializeEntity(entity: I3DfaceEntity): IterableIterator<string> {
+    for (const [property, value] of Object.entries(entity) as [
+      keyof I3DfaceEntity,
+      I3DfaceEntity[keyof I3DfaceEntity],
+    ][]) {
+      switch (property) {
+        case 'standardFlags':
+          yield '70';
+          yield `${value}`;
+          break;
+        case 'vertices':
+          for (const [index, vertex] of (value as IPoint[]).entries()) {
+            yield* serializePoint(vertex, index + 10);
+          }
+          break;
+        default:
+          yield* serializeCommonEntityProperty(
+            property,
+            value as string | number | boolean,
+            entity,
+          );
+          break;
+      }
+    }
+  }
 }

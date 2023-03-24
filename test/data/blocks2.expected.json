@@ -4,26 +4,37 @@
       "handle": "1",
       "layer": "0",
       "name": "$MODEL_SPACE",
+      "noBlockType": true,
       "position": {
         "x": 0,
         "y": 0,
         "z": 0
       },
       "name2": "$MODEL_SPACE",
-      "xrefPath": ""
+      "xrefPath": "",
+      "endBlock": {
+        "handle": "21",
+        "layer": "0"
+      }
     },
     "$PAPER_SPACE": {
       "handle": "2",
       "paperSpace": true,
       "layer": "0",
       "name": "$PAPER_SPACE",
+      "noBlockType": true,
       "position": {
         "x": 0,
         "y": 0,
         "z": 0
       },
       "name2": "$PAPER_SPACE",
-      "xrefPath": ""
+      "xrefPath": "",
+      "endBlock": {
+        "handle": "1D",
+        "paperSpace": true,
+        "layer": "0"
+      }
     }
   }
 }

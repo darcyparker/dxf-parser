@@ -30,18 +30,22 @@ describe('Parser', function () {
     });
     var parser = new DxfParser();
 
-    parser.parseStream(file).then(
-      (result) => {
+    parser
+      .parseStream(file)
+      .then((result) => {
         var expected = fs.readFileSync(__dirname + '/data/header.parser.out', {
           encoding: 'utf8',
         });
-        result.should.eql(JSON.parse(expected));
+        //serialize and re-parse resultJson because of `Date` objects in header
+        var resultJson = JSON.parse(JSON.stringify(result));
+        resultJson.should.eql(JSON.parse(expected));
         done();
-      },
-      (err) => {
+        console.log('done first');
+      })
+      .catch((err) => {
+        console.error(err);
         should.not.exist(err);
-      },
-    );
+      });
   });
 
   var tables;
@@ -50,11 +54,16 @@ describe('Parser', function () {
     var file = fs.createReadStream(__dirname + '/data/tables.dxf', {
       encoding: 'utf8',
     });
+    console.log('file read');
     var parser = new DxfParser();
 
-    parser.parseStream(file).then(
-      (result) => {
+    parser
+      .parseStream(file)
+      .then((result) => {
+        console.log('parsed');
         tables = result.tables;
+        console.log(__dirname);
+        console.log('writing files');
         fs.writeFileSync(
           path.join(__dirname, 'data', 'layer-table.actual.json'),
           JSON.stringify(tables.layer, null, 2),
@@ -67,13 +76,14 @@ describe('Parser', function () {
           path.join(__dirname, 'data', 'viewport-table.actual.json'),
           JSON.stringify(tables.viewPort, null, 2),
         );
+        console.log('done writing files');
         done();
-      },
-      (err) => {
+      })
+      .catch((err) => {
+        console.error(err);
         var errMsg = err ? err.stack : undefined;
         should.not.exist(err, errMsg);
-      },
-    );
+      });
   });
 
   it('should parse the dxf layers', function () {

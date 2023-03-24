@@ -1,10 +1,16 @@
 {
   "blocks": {
     "*Model_Space": {
+      "endBlock": {
+        "handle": "21",
+        "layer": "0",
+        "ownerHandler": "1F"
+      },
       "handle": "20",
       "layer": "0",
       "name": "*Model_Space",
       "name2": "*Model_Space",
+      "noBlockType": true,
       "ownerHandle": "1F",
       "position": {
         "x": 0,
@@ -14,10 +20,17 @@
       "xrefPath": ""
     },
     "*Paper_Space": {
+      "endBlock": {
+        "handle": "5B",
+        "layer": "0",
+        "ownerHandler": "58",
+        "paperSpace": true
+      },
       "handle": "5A",
       "layer": "0",
       "name": "*Paper_Space",
       "name2": "*Paper_Space",
+      "noBlockType": true,
       "ownerHandle": "58",
       "paperSpace": true,
       "position": {
@@ -28,10 +41,17 @@
       "xrefPath": ""
     },
     "*Paper_Space0": {
+      "endBlock": {
+        "handle": "60",
+        "layer": "0",
+        "ownerHandler": "5D",
+        "paperSpace": true
+      },
       "handle": "5F",
       "layer": "0",
       "name": "*Paper_Space0",
       "name2": "*Paper_Space0",
+      "noBlockType": true,
       "ownerHandle": "5D",
       "paperSpace": true,
       "position": {
@@ -42,17 +62,156 @@
       "xrefPath": ""
     }
   },
+  "classes": {
+    "ACDBDETAILVIEWSTYLE": {
+      "applicationName": "ObjectDBX Classes",
+      "instanceCount": 1,
+      "isAnEntityFlag": 0,
+      "name": "AcDbDetailViewStyle",
+      "proxyFlags": 1025,
+      "recordName": "ACDBDETAILVIEWSTYLE",
+      "wasAProxyFlag": 0
+    },
+    "ACDBDICTIONARYWDFLT": {
+      "applicationName": "ObjectDBX Classes",
+      "instanceCount": 1,
+      "isAnEntityFlag": 0,
+      "name": "AcDbDictionaryWithDefault",
+      "proxyFlags": 0,
+      "recordName": "ACDBDICTIONARYWDFLT",
+      "wasAProxyFlag": 0
+    },
+    "ACDBSECTIONVIEWSTYLE": {
+      "applicationName": "ObjectDBX Classes",
+      "instanceCount": 1,
+      "isAnEntityFlag": 0,
+      "name": "AcDbSectionViewStyle",
+      "proxyFlags": 1025,
+      "recordName": "ACDBSECTIONVIEWSTYLE",
+      "wasAProxyFlag": 0
+    },
+    "ACDB_MTEXTOBJECTCONTEXTDATA_CLASS": {
+      "applicationName": "ObjectDBX Classes",
+      "instanceCount": 2,
+      "isAnEntityFlag": 0,
+      "name": "AcDbMTextObjectContextData",
+      "proxyFlags": 1153,
+      "recordName": "ACDB_MTEXTOBJECTCONTEXTDATA_CLASS",
+      "wasAProxyFlag": 0
+    },
+    "CELLSTYLEMAP": {
+      "applicationName": "ObjectDBX Classes",
+      "instanceCount": 2,
+      "isAnEntityFlag": 0,
+      "name": "AcDbCellStyleMap",
+      "proxyFlags": 1152,
+      "recordName": "CELLSTYLEMAP",
+      "wasAProxyFlag": 0
+    },
+    "DICTIONARYVAR": {
+      "applicationName": "ObjectDBX Classes",
+      "instanceCount": 9,
+      "isAnEntityFlag": 0,
+      "name": "AcDbDictionaryVar",
+      "proxyFlags": 0,
+      "recordName": "DICTIONARYVAR",
+      "wasAProxyFlag": 0
+    },
+    "EXACXREFPANELOBJECT": {
+      "applicationName": "EXAC_ESW",
+      "instanceCount": 0,
+      "isAnEntityFlag": 0,
+      "name": "ExAcXREFPanelObject",
+      "proxyFlags": 1025,
+      "recordName": "EXACXREFPANELOBJECT",
+      "wasAProxyFlag": 0
+    },
+    "IDBUFFER": {
+      "applicationName": "ObjectDBX Classes",
+      "instanceCount": 0,
+      "isAnEntityFlag": 0,
+      "name": "AcDbIdBuffer",
+      "proxyFlags": 0,
+      "recordName": "IDBUFFER",
+      "wasAProxyFlag": 0
+    },
+    "LAYER_INDEX": {
+      "applicationName": "ObjectDBX Classes",
+      "instanceCount": 0,
+      "isAnEntityFlag": 0,
+      "name": "AcDbLayerIndex",
+      "proxyFlags": 0,
+      "recordName": "LAYER_INDEX",
+      "wasAProxyFlag": 0
+    },
+    "MATERIAL": {
+      "applicationName": "ObjectDBX Classes",
+      "instanceCount": 3,
+      "isAnEntityFlag": 0,
+      "name": "AcDbMaterial",
+      "proxyFlags": 1153,
+      "recordName": "MATERIAL",
+      "wasAProxyFlag": 0
+    },
+    "MLEADERSTYLE": {
+      "applicationName": "ACDB_MLEADERSTYLE_CLASS",
+      "instanceCount": 2,
+      "isAnEntityFlag": 0,
+      "name": "AcDbMLeaderStyle",
+      "proxyFlags": 4095,
+      "recordName": "MLEADERSTYLE",
+      "wasAProxyFlag": 0
+    },
+    "NPOCOLLECTION": {
+      "applicationName": "ObjectDBX Classes",
+      "instanceCount": 0,
+      "isAnEntityFlag": 0,
+      "name": "AcDbImpNonPersistentObjectsCollection",
+      "proxyFlags": 1153,
+      "recordName": "NPOCOLLECTION",
+      "wasAProxyFlag": 0
+    },
+    "SCALE": {
+      "applicationName": "ObjectDBX Classes",
+      "instanceCount": 33,
+      "isAnEntityFlag": 0,
+      "name": "AcDbScale",
+      "proxyFlags": 1153,
+      "recordName": "SCALE",
+      "wasAProxyFlag": 0
+    },
+    "SPATIAL_INDEX": {
+      "applicationName": "ObjectDBX Classes",
+      "instanceCount": 0,
+      "isAnEntityFlag": 0,
+      "name": "AcDbSpatialIndex",
+      "proxyFlags": 0,
+      "recordName": "SPATIAL_INDEX",
+      "wasAProxyFlag": 0
+    },
+    "TABLESTYLE": {
+      "applicationName": "ObjectDBX Classes",
+      "instanceCount": 1,
+      "isAnEntityFlag": 0,
+      "name": "AcDbTableStyle",
+      "proxyFlags": 4095,
+      "recordName": "TABLESTYLE",
+      "wasAProxyFlag": 0
+    },
+    "VISUALSTYLE": {
+      "applicationName": "ObjectDBX Classes",
+      "instanceCount": 24,
+      "isAnEntityFlag": 0,
+      "name": "AcDbVisualStyle",
+      "proxyFlags": 4095,
+      "recordName": "VISUALSTYLE",
+      "wasAProxyFlag": 0
+    }
+  },
   "entities": [
     {
       "attachmentPoint": 1,
       "drawingDirection": 5,
-      "extendedData": {
-        "applicationName": "ACAD",
-        "customStrings": [
-          "ACAD_MTEXT_COLUMN_INFO_BEGIN",
-          "ACAD_MTEXT_COLUMN_INFO_END"
-        ]
-      },
       "handle": "26B",
       "height": 0.2,
       "layer": "0",
@@ -62,7 +221,7 @@
         "y": 5.389340577865198,
         "z": 0
       },
-      "text": "Lorem ipsum dolor sit amet consectetur adipiscing elit vitae, congue mus odio lobortis habitasse parturient sem. Rutrum volutpat sagittis fringilla sollicitudin cum nisl suspendisse non, mi habitant habitasse nunc pellentesque vitae maecenas, cursuslectus nascetur nulla parturient leo luctus. Interdum sapien augue ullamcorper dis ultrices mollis leo netus ante, platea quam at eros urna natoque habitasse nulla fringilla curabitur, egestas facilisis iaculis euismod tempor aliquet curae molestie.Dapibus bibendum scelerisque tempus netus mus hac euismod vestibulum proin tristique non, congue ultrices cras lobortis nam lacus magnis iaculis at donec justo maecenas, est convallis inceptos vel nisi eu natoque ante nisl sapien. Facilisi per dui lobortis eleifend facilisis quam luctus, nunc semper neque cubilia cursus fringilla, nisl vehicula viverra diam auctor vitae. Est enim gravida nibh non pretium aptent nulla egestas praesent, varius malesuada felis commodo leo id lacinia montes, magna turpis sagittis imperdie.",
+      "text": "Lorem ipsum dolor sit amet consectetur adipiscing elit vitae, congue mus odio lobortis habitasse parturient sem. Rutrum volutpat sagittis fringilla sollicitudin cum nisl suspendisse non, mi habitant habitasse nunc pellentesque vitae maecenas, cursus lectus nascetur nulla parturient leo luctus. Interdum sapien augue ullamcorper dis ultrices mollis leo netus ante, platea quam at eros urna natoque habitasse nulla fringilla curabitur, egestas facilisis iaculis euismod tempor aliquet curae molestie. Dapibus bibendum scelerisque tempus netus mus hac euismod vestibulum proin tristique non, congue ultrices cras lobortis nam lacus magnis iaculis at donec justo maecenas, est convallis inceptos vel nisi eu natoque ante nisl sapien. Facilisi per dui lobortis eleifend facilisis quam luctus, nunc semper neque cubilia cursus fringilla, nisl vehicula viverra diam auctor vitae. Est enim gravida nibh non pretium aptent nulla egestas praesent, varius malesuada felis commodo leo id lacinia montes, magna turpis sagittis imperdie.",
       "type": "MTEXT",
       "width": 8.98565600810167
     },
@@ -365,12 +524,12 @@
     "$SURFTYPE": 6,
     "$SURFU": 6,
     "$SURFV": 6,
-    "$TDCREATE": 2458528.811944445,
+    "$TDCREATE": "2019-02-13T07:29:12.000Z",
     "$TDINDWG": 0.0113888889,
-    "$TDUCREATE": 2458529.145277778,
-    "$TDUPDATE": 2458528.989722222,
+    "$TDUCREATE": "2019-02-13T15:29:12.000Z",
+    "$TDUPDATE": "2019-02-13T11:45:11.999Z",
     "$TDUSRTIMER": 0.0113888889,
-    "$TDUUPDATE": 2458529.323055556,
+    "$TDUUPDATE": "2019-02-13T19:45:12.000Z",
     "$TEXTSIZE": 0.2,
     "$TEXTSTYLE": "Standard",
     "$THICKNESS": 0,
@@ -448,64 +607,120 @@
   },
   "tables": {
     "layer": {
+      "applicationGroups": {
+        "ACAD_XDICTIONARY": {
+          "360": "18E"
+        }
+      },
       "handle": "2",
       "layers": {
         "0": {
+          "applicationGroups": {
+            "ACAD_XDICTIONARY": {
+              "360": "E6"
+            }
+          },
           "color": 16777215,
           "colorIndex": 7,
           "frozen": false,
+          "handle": "10",
+          "lineType": "Continuous",
+          "lineWeight": -3,
+          "materialObject": "98",
           "name": "0",
-          "visible": true
+          "ownerHandle": "2",
+          "plotStyleName": "F",
+          "standardFlags": 0,
+          "visible": true,
+          "visualStyle": "0"
         }
       },
+      "maxEntities": 1,
       "ownerHandle": "0"
     },
     "lineType": {
       "handle": "5",
       "lineTypes": {
         "ByBlock": {
+          "alignmentCode": 65,
           "description": "",
+          "elementCount": 0,
+          "handle": "14",
           "name": "ByBlock",
-          "patternLength": 0
+          "ownerHandle": "5",
+          "patternLength": 0,
+          "standardFlags": 0
         },
         "ByLayer": {
+          "alignmentCode": 65,
           "description": "",
+          "elementCount": 0,
+          "handle": "15",
           "name": "ByLayer",
-          "patternLength": 0
+          "ownerHandle": "5",
+          "patternLength": 0,
+          "standardFlags": 0
         },
         "Continuous": {
+          "alignmentCode": 65,
           "description": "Solid line",
+          "elementCount": 0,
+          "handle": "16",
           "name": "Continuous",
-          "patternLength": 0
+          "ownerHandle": "5",
+          "patternLength": 0,
+          "standardFlags": 0
         }
       },
+      "maxEntities": 2,
       "ownerHandle": "0"
     },
     "viewPort": {
       "handle": "8",
+      "maxEntities": 1,
       "ownerHandle": "0",
       "viewPorts": [
         {
+          "UCSIcon": 3,
           "ambientColor": 3355443,
+          "ambientColorGroupCodes": [
+            421
+          ],
+          "ambientColorIndex": 250,
           "backClippingPlane": 0,
+          "brightness": 0,
           "center": {
             "x": 13.93835439371528,
             "y": 3.720281475640653
           },
+          "circleSides": 1000,
+          "contrast": 0,
           "defaultLightingOn": true,
+          "defaultLightingType": true,
+          "elevation": 0,
           "frontClippingPlane": 0,
           "gridSpacing": {
             "x": 0.5,
             "y": 0.5
           },
+          "groupCode60": 3,
+          "groupCode65": 1,
+          "groupCode75": 0,
+          "groupCode76": 1,
+          "groupCode77": 0,
+          "groupCode78": 0,
+          "handle": "94",
+          "height": 25.22544163189859,
           "lensLength": 50,
           "lowerLeftCorner": {
             "x": 0,
             "y": 0
           },
+          "majorGridLines": 5,
           "name": "*Active",
           "orthographicType": 0,
           "ownerHandle": "8",
+          "plotable": 1,
           "renderMode": 0,
           "snapBasePoint": {
             "x": 0,
@@ -516,6 +731,7 @@
             "x": 0.5,
             "y": 0.5
           },
+          "standardFlags": 0,
           "ucsOrigin": {
             "x": 0,
             "y": 0,
@@ -540,12 +756,15 @@
             "y": 0,
             "z": 1
           },
+          "viewMode": 0,
           "viewTarget": {
             "x": 0,
             "y": 0,
             "z": 0
           },
-          "viewTwistAngle": 0
+          "viewTwistAngle": 0,
+          "visualStyleHardPointer": "9F",
+          "width": 2.318681318681318
         }
       ]
     }

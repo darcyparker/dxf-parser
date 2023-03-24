@@ -1,8 +1,17 @@
-import DxfArrayScanner, { IGroup } from '../DxfArrayScanner.js';
-import * as helpers from '../ParseHelpers.js';
-import IGeometry, { IEntity, IPoint } from './geomtry.js';
+import type DxfArrayScanner from '../DxfArrayScanner';
+import { serializeGroupValue } from '../DxfArrayScanner.js';
+import {
+  checkCommonEntityProperties,
+  parsePoint,
+  serializeCommonEntityProperty,
+  serializePoint,
+} from '../ParseHelpers.js';
+import type IGeometry from './geometry';
+import type { IEntity, IPoint } from './geometry';
+import { EntityName } from './geometry.js';
 
-export interface IDimensionEntity extends IEntity {
+export type IDimensionEntity = IEntity & {
+  type: EntityName.Dimension;
   block: string;
   anchorPoint: IPoint;
   middleOfText: IPoint;
@@ -16,63 +25,76 @@ export interface IDimensionEntity extends IEntity {
   actualMeasurement: number;
   text: string;
   angle: number;
-}
+};
 
-export default class Dimension implements IGeometry {
-  public ForEntityName = 'DIMENSION' as const;
-  public parseEntity(scanner: DxfArrayScanner, curr: IGroup) {
-    const entity = { type: curr.value } as IDimensionEntity;
-    curr = scanner.next();
+const dimensionPropertyFromCode = new Map<
+  number,
+  [keyof IDimensionEntity, boolean?]
+>([
+  [2, ['block']], // Referenced block name
+  [10, ['anchorPoint', true]], // X coordinate of 'first alignment point'
+  [11, ['middleOfText', true]],
+  [12, ['insertionPoint', true]], // Insertion point for clones of a dimension
+  [13, ['linearOrAngularPoint1', true]], // Definition point for linear and angular dimensions
+  [14, ['linearOrAngularPoint2', true]], // Definition point for linear and angular dimensions
+  [15, ['diameterOrRadiusPoint', true]], // Definition point for diameter, radius, and angular dimensions
+  [16, ['arcPoint', true]], // Point defining dimension arc for angular dimensions
+  [70, ['dimensionType']], // Dimension type
+  [71, ['attachmentPoint']], // 5 = Middle center
+  [42, ['actualMeasurement']], // Actual measurement
+  [1, ['text']], // Text entered by user explicitly
+  [50, ['angle']], // Text entered by user explicitly
+]);
+
+const codeFromDimensionProperty = new Map<
+  keyof IDimensionEntity,
+  [number, boolean?]
+>(
+  Array.from(dimensionPropertyFromCode.entries()).map(
+    ([code, [property, isPoint]]) => [
+      property,
+      [code, ...(isPoint ? [isPoint] : [])] as [number, boolean?],
+    ],
+  ),
+);
+
+export default class Dimension implements IGeometry<IDimensionEntity> {
+  public ForEntityName = EntityName.Dimension;
+  public parseEntity(scanner: DxfArrayScanner): IDimensionEntity {
+    const entity = { type: this.ForEntityName } as IDimensionEntity;
+    let curr = scanner.next();
     while (!scanner.isEOF()) {
       if (curr.code === 0) break;
-
-      switch (curr.code) {
-        case 2: // Referenced block name
-          entity.block = curr.value as string;
-          break;
-        case 10: // X coordinate of 'first alignment point'
-          entity.anchorPoint = helpers.parsePoint(scanner);
-          break;
-        case 11:
-          entity.middleOfText = helpers.parsePoint(scanner);
-          break;
-        case 12: // Insertion point for clones of a dimension
-          entity.insertionPoint = helpers.parsePoint(scanner);
-          break;
-        case 13: // Definition point for linear and angular dimensions
-          entity.linearOrAngularPoint1 = helpers.parsePoint(scanner);
-          break;
-        case 14: // Definition point for linear and angular dimensions
-          entity.linearOrAngularPoint2 = helpers.parsePoint(scanner);
-          break;
-        case 15: // Definition point for diameter, radius, and angular dimensions
-          entity.diameterOrRadiusPoint = helpers.parsePoint(scanner);
-          break;
-        case 16: // Point defining dimension arc for angular dimensions
-          entity.arcPoint = helpers.parsePoint(scanner);
-          break;
-        case 70: // Dimension type
-          entity.dimensionType = curr.value as number;
-          break;
-        case 71: // 5 = Middle center
-          entity.attachmentPoint = curr.value as number;
-          break;
-        case 42: // Actual measurement
-          entity.actualMeasurement = curr.value as number;
-          break;
-        case 1: // Text entered by user explicitly
-          entity.text = curr.value as string;
-          break;
-        case 50: // Angle of rotated, horizontal, or vertical dimensions
-          entity.angle = curr.value as number;
-          break;
-        default: // check common entity attributes
-          helpers.checkCommonEntityProperties(entity, curr, scanner);
-          break;
+      const propertyAndIsPoint = dimensionPropertyFromCode.get(curr.code);
+      if (propertyAndIsPoint != null) {
+        const [property, isPoint] = propertyAndIsPoint;
+        (entity[property] as string | number | IPoint) = isPoint
+          ? parsePoint(scanner)
+          : (curr.value as string | number);
+      } else {
+        checkCommonEntityProperties(entity, curr, scanner);
       }
       curr = scanner.next();
     }
 
     return entity;
+  }
+  public *serializeEntity(entity: IDimensionEntity): IterableIterator<string> {
+    for (const [property, value] of Object.entries(entity) as [
+      keyof IDimensionEntity,
+      IDimensionEntity[keyof IDimensionEntity],
+    ][]) {
+      const codeAndIsPoint = codeFromDimensionProperty.get(property);
+      if (codeAndIsPoint != null) {
+        const [code, isPoint] = codeAndIsPoint;
+        if (isPoint) {
+          yield* serializePoint(value as IPoint, code);
+        } else {
+          yield* serializeGroupValue(code, value as string | number | boolean);
+        }
+      } else {
+        yield* serializeCommonEntityProperty(property, value, entity);
+      }
+    }
   }
 }

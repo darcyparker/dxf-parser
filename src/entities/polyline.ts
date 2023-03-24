@@ -1,9 +1,21 @@
-import * as helpers from '../ParseHelpers.js';
-import VertexParser, { IVertexEntity } from './vertex.js';
-import IGeometry, { IEntity, IPoint } from './geomtry.js';
-import DxfArrayScanner, { IGroup } from '../DxfArrayScanner.js';
+import type DxfArrayScanner from '../DxfArrayScanner';
+import { serializeGroupValue } from '../DxfArrayScanner.js';
+import type { IGroup, GroupValue } from '../DxfArrayScanner';
+import { DXFSymbol } from '../DxfParser.js';
+import {
+  checkCommonEntityProperties,
+  parsePoint,
+  serializeCommonEntityProperty,
+  serializePoint,
+} from '../ParseHelpers.js';
+import type IGeometry from './geometry';
+import type { IEntity, IPoint } from './geometry';
+import { EntityName } from './geometry.js';
+import VertexParser from './vertex.js';
+import type { IVertexEntity } from './vertex';
 
-export interface IPolylineEntity extends IEntity {
+export type IPolylineEntity = IEntity & {
+  type: EntityName.Polyline;
   vertices: IVertexEntity[];
   thickness: number;
   shape: boolean;
@@ -15,21 +27,51 @@ export interface IPolylineEntity extends IEntity {
   isPolyfaceMesh: boolean;
   hasContinuousLinetypePattern: boolean;
   extrusionDirection: IPoint;
-}
+  zeroPoint: IPoint; //Always {x: 0, y: 0, z: 0} but useful for serialization
+};
 
-export default class Polyline implements IGeometry {
-  public ForEntityName = 'POLYLINE' as const;
-  public parseEntity(scanner: DxfArrayScanner, curr: IGroup) {
-    var entity = {
-      type: curr.value,
-      vertices: [] as IVertexEntity[],
-    } as IPolylineEntity;
-    curr = scanner.next();
+const vertexParser = new VertexParser();
+
+const parsePolylineVertices = (scanner: DxfArrayScanner): IVertexEntity[] => {
+  const vertices: IVertexEntity[] = [];
+  let curr = scanner.lastReadGroup as IGroup<GroupValue>;
+  while (!scanner.isEOF()) {
+    if (curr.code === 0) {
+      if (curr.value === EntityName.Vertex) {
+        vertices.push(vertexParser.parseEntity(scanner));
+        curr = scanner.lastReadGroup as IGroup<GroupValue>;
+      } else if (curr.value === DXFSymbol.SeqEnd) {
+        while (!scanner.isEOF() && curr.code !== 0) {
+          curr = scanner.next();
+        }
+        break;
+      }
+    }
+  }
+  return vertices;
+};
+
+const serializePolylineVertices = function* (
+  vertices: IVertexEntity[],
+): IterableIterator<string> {
+  for (const vertex of vertices) {
+    yield* vertexParser.serializeEntity(vertex);
+  }
+  yield '0';
+  yield DXFSymbol.SeqEnd;
+};
+
+export default class Polyline implements IGeometry<IPolylineEntity> {
+  public ForEntityName = EntityName.Polyline;
+  public parseEntity(scanner: DxfArrayScanner): IPolylineEntity {
+    const entity = { type: this.ForEntityName } as IPolylineEntity;
+    let curr = scanner.next();
     while (!scanner.isEOF()) {
       if (curr.code === 0) break;
 
       switch (curr.code) {
         case 10: // always 0
+          entity.zeroPoint = parsePoint(scanner); //Always {x: 0, y: 0, z: 0} but useful for serialization
           break;
         case 20: // always 0
           break;
@@ -43,6 +85,7 @@ export default class Polyline implements IGeometry {
         case 41: // end width
           break;
         case 70:
+          entity.standardFlags = curr.value as number;
           entity.shape = ((curr.value as number) & 1) !== 0;
           entity.includesCurveFitVertices = ((curr.value as number) & 2) !== 0;
           entity.includesSplineFitVertices = ((curr.value as number) & 4) !== 0;
@@ -64,47 +107,49 @@ export default class Polyline implements IGeometry {
         case 75: // Curves and smooth surface type
           break;
         case 210:
-          entity.extrusionDirection = helpers.parsePoint(scanner);
+          entity.extrusionDirection = parsePoint(scanner);
           break;
         default:
-          helpers.checkCommonEntityProperties(entity, curr, scanner);
+          checkCommonEntityProperties(entity, curr, scanner);
           break;
       }
       curr = scanner.next();
     }
 
-    entity.vertices = parsePolylineVertices(scanner, curr);
+    entity.vertices = parsePolylineVertices(scanner);
 
     return entity;
   }
-}
 
-function parsePolylineVertices(scanner: DxfArrayScanner, curr: IGroup) {
-  const vertexParser = new VertexParser();
-
-  const vertices = [];
-  while (!scanner.isEOF()) {
-    if (curr.code === 0) {
-      if (curr.value === 'VERTEX') {
-        vertices.push(vertexParser.parseEntity(scanner, curr));
-        curr = scanner.lastReadGroup;
-      } else if (curr.value === 'SEQEND') {
-        parseSeqEnd(scanner, curr);
-        break;
+  public *serializeEntity(entity: IPolylineEntity): IterableIterator<string> {
+    for (const [property, value] of Object.entries(entity) as [
+      keyof IPolylineEntity,
+      IPolylineEntity[keyof IPolylineEntity],
+    ][]) {
+      switch (property) {
+        case 'zeroPoint':
+          yield* serializePoint(value as IPoint, 10);
+          break;
+        case 'thickness':
+          yield* serializeGroupValue(39, value as number);
+          break;
+        case 'standardFlags':
+          yield '70';
+          yield `${value}`;
+          break;
+        case 'extrusionDirection':
+          yield* serializePoint(value as IPoint, 210);
+          break;
+        default:
+          yield* serializeCommonEntityProperty(
+            property,
+            value as string | number | boolean,
+            entity,
+          );
+          break;
       }
     }
+    //vertices (last because they are parsed last)
+    yield* serializePolylineVertices(entity.vertices);
   }
-  return vertices;
-}
-
-function parseSeqEnd(scanner: DxfArrayScanner, curr: IGroup) {
-  const entity = { type: curr.value } as IEntity;
-  curr = scanner.next();
-  while (!scanner.isEOF()) {
-    if (curr.code == 0) break;
-    helpers.checkCommonEntityProperties(entity, curr, scanner);
-    curr = scanner.next();
-  }
-
-  return entity;
 }
