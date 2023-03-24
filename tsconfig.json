@@ -1,11 +1,12 @@
 {
+  "$schema": "https://json.schemastore.org/tsconfig",
 	"exclude": [],
 	"include": [
 		"./src/**/*.ts"
 	],
 	"compileOnSave": false,
 	"compilerOptions": {
-		"module": "es2015",
+		"module": "esnext",
 		"target": "esnext",
 		"jsx": "react",
 		"noImplicitAny": true,
@@ -21,7 +22,6 @@
 		"allowUnusedLabels": false,
 		"alwaysStrict": true,
 		"baseUrl": "",
-		"charset": "utf8",
 		"declaration": true,
 		"inlineSourceMap": false,
 		"esModuleInterop": true,
@@ -33,6 +33,8 @@
 		"inlineSources": false,
 		"isolatedModules": false,
 		"lib": [
+			"dom",
+			"dom.iterable",
 			"esnext"
 		],
 		"listFiles": false,
@@ -52,16 +54,17 @@
 		"noUnusedLocals": true,
 		"noUnusedParameters": true,
 		"paths": {},
-		"preserveConstEnums": false,
 		"pretty": true,
 		"removeComments": false,
 		"skipDefaultLibCheck": true,
 		"skipLibCheck": true,
 		"stripInternal": false,
 		"suppressExcessPropertyErrors": false,
-		"suppressImplicitAnyIndexErrors": true,
 		"traceResolution": false,
-		"typeRoots": [],
+		"typeRoots": [
+			"./node_modules/@types",
+			"./esm"
+		],
 		"types": [
 			"node"
 		],
