@@ -37,7 +37,7 @@
 	],
 	"license": "MIT",
 	"devDependencies": {
-		"@babel/core": "^7.10.4",
+		"@babel/core": "^7.21.3",
 		"@babel/preset-env": "^7.20.2",
 		"@babel/register": "^7.21.0",
 		"@types/node": "^16.18.15",
@@ -46,7 +46,7 @@
 		"prettier": "^2.8.7",
 		"should": "^13.2.3",
 		"typescript": "^5.0.2",
-		"webpack": "^5.76.1",
+		"webpack": "^5.76.3",
 		"webpack-cli": "^5.0.1"
 	},
 	"dependencies": {
