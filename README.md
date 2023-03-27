@@ -15,7 +15,7 @@ Browsers -- As of 0.1.3 standalone browserify version is in the commonjs/ folder
 
 #### Usage
 
-``` js
+```js
 import DxfParser from 'dxf-parser';
 
 // Grab fileText in node.js or browser
@@ -30,6 +30,21 @@ try {
 ```
 
 See the [wiki Example Output page](https://github.com/gdsestimating/dxf-parser/wiki/Example-Output) to get an idea of what the results look like.
+
+Note, the example can be run from [`ts-node`](https://typestrong.org/ts-node/) REPL;
+
+* Install [`ts-node`](https://typestrong.org/ts-node/) globally: `npm install -g ts-node`
+
+* Start ts-node REPL with: `ts-node-esm --project ./tsconfig-dev.json`
+
+```typescript
+import DxfParser from 'dxf-parser';
+import * as fs from 'fs/promises';
+const content = await fs.readFile('/path/to/file.dxf', {encoding: 'utf8'});
+const parser = new DxfParser();
+//...
+
+```
 
 #### Run Samples
 
