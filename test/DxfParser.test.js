@@ -129,10 +129,9 @@ describe('Parser', function () {
   });
 
   it('should parse a simple BLOCKS section', function () {
-    var file = fs.readFileSync(
-      path.join(__dirname, 'data', 'blocks2.dxf'),
-      'utf8',
-    );
+    var file = fs.readFileSync(path.join(__dirname, 'data', 'blocks2.dxf'), {
+      encoding: 'utf8',
+    });
 
     var parser = new DxfParser();
     var dxf;
@@ -159,10 +158,9 @@ describe('Parser', function () {
   });
 
   it('should parse ELLIPSE entities', function () {
-    var file = fs.readFileSync(
-      path.join(__dirname, 'data', 'ellipse.dxf'),
-      'utf8',
-    );
+    var file = fs.readFileSync(path.join(__dirname, 'data', 'ellipse.dxf'), {
+      encoding: 'utf8',
+    });
 
     var parser = new DxfParser();
     var dxf;
@@ -185,10 +183,9 @@ describe('Parser', function () {
   });
 
   it('should parse SPLINE entities', function () {
-    var file = fs.readFileSync(
-      path.join(__dirname, 'data', 'splines.dxf'),
-      'utf8',
-    );
+    var file = fs.readFileSync(path.join(__dirname, 'data', 'splines.dxf'), {
+      encoding: 'utf8',
+    });
 
     var parser = new DxfParser();
     var dxf;
@@ -213,7 +210,7 @@ describe('Parser', function () {
   it('should parse EXTENDED DATA', function () {
     var file = fs.readFileSync(
       path.join(__dirname, 'data', 'extendeddata.dxf'),
-      'utf8',
+      { encoding: 'utf8' },
     );
 
     var parser = new DxfParser();
@@ -257,7 +254,7 @@ function verifyDxf(sourceFilePath) {
   var baseName = path.basename(sourceFilePath, '.dxf');
   var sourceDirectory = path.dirname(sourceFilePath);
 
-  var file = fs.readFileSync(sourceFilePath, 'utf8');
+  var file = fs.readFileSync(sourceFilePath, { encoding: 'utf8' });
 
   var parser = new DxfParser();
   var dxf = parser.parse(file);
