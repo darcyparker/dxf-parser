@@ -55193,6 +55193,396 @@
           "type": "TEXT"
         },
         {
+          "arrowHeadSize": 0.125,
+          "blockAttributeId": "21B1",
+          "blockContentColor": -1056964608,
+          "blockContentConnectionType": 0,
+          "blockContentRotation": 0,
+          "blockContentScale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "contentType": 2,
+          "contextData": {
+            "arrowHeadSize": 0.125,
+            "contentBasePosition": {
+              "x": 1.207879192248365,
+              "y": 6.86829423922173,
+              "z": 0
+            },
+            "contentScale": 1,
+            "defaultTextContents": "CW750-375\\PJOINT PLUG",
+            "hasBlock": false,
+            "hasMText": true,
+            "landingGap": 0.0625,
+            "leaders": [
+              {
+                "doglegLength": 0.125,
+                "doglegVector": {
+                  "x": -1,
+                  "y": 0,
+                  "z": 0
+                },
+                "hasSetDoglegVector": true,
+                "hasSetLastLeaderLinePoint": true,
+                "lastLeaderLinePoint": {
+                  "x": 2.159888120819793,
+                  "y": 6.86829423922173,
+                  "z": 0
+                },
+                "leaderBranchIndex": 1,
+                "leaderLines": [
+                  {
+                    "vertices": [
+                      [
+                        {
+                          "x": 2.744709268274831,
+                          "y": 7.563006047719426,
+                          "z": 0
+                        }
+                      ]
+                    ]
+                  }
+                ]
+              }
+            ],
+            "planeNormalReversed": false,
+            "planeOriginPoint": {
+              "x": 5.482803678739728,
+              "y": 7.691385828980145,
+              "z": 0
+            },
+            "planeXAxisDirection": {
+              "x": 1,
+              "y": 0,
+              "z": 0
+            },
+            "planeYAxisDirection": {
+              "x": 0,
+              "y": 1,
+              "z": 0
+            },
+            "textAttachment": 3,
+            "textBackgroundColorOn": false,
+            "textBackgroundFillOn": false,
+            "textBackgroundScaleFactor": 0,
+            "textBackgroundTransparency": 0,
+            "textColor": -1073741824,
+            "textColumnGutterWidth": 0,
+            "textColumnType": 0,
+            "textColumnWidth": 0,
+            "textDirection": {
+              "x": 1,
+              "y": 0,
+              "z": 0
+            },
+            "textFlowDirection": 5,
+            "textHeight": 0,
+            "textLineSpacingFactor": 1,
+            "textLineSpacingStyle": 1,
+            "textLocation": {
+              "x": 1.972388120819793,
+              "y": 6.924544239221731,
+              "z": 0
+            },
+            "textNormalDirection": {
+              "x": 0,
+              "y": 0,
+              "z": 1
+            },
+            "textRotation": 0,
+            "textUseAutoHeight": false,
+            "textUseWordBreak": false,
+            "textWidth": 0
+          },
+          "doglegLength": 0.125,
+          "enableAnotationScale": false,
+          "enableDogLeg": true,
+          "enableFrameText": false,
+          "enableLanding": true,
+          "handle": "7878",
+          "inPaperSpace": true,
+          "layer": "FG-Dtl-Dim",
+          "leaderLineColor": -1073741824,
+          "leaderLineType": 1,
+          "leaderLineTypeId": "15",
+          "leaderLineWeight": -1,
+          "leaderStyleId": "C1C",
+          "textAlignInIPE": 0,
+          "textAlignmentType": 0,
+          "textAngleType": 1,
+          "textAttachmentDirectionBottom": 9,
+          "textAttachmentDirectionMText": 0,
+          "textAttachmentDirectionTop": 9,
+          "textAttachmentPoint": 3,
+          "textColor": -1073741824,
+          "textDirectionNegative": false,
+          "textLeftAttachmentType": 1,
+          "textStyleId": "167",
+          "type": "MULTILEADER"
+        },
+        {
+          "arrowHeadSize": 0.125,
+          "blockAttributeId": "21B1",
+          "blockContentColor": -1056964608,
+          "blockContentConnectionType": 0,
+          "blockContentRotation": 0,
+          "blockContentScale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "contentType": 2,
+          "contextData": {
+            "arrowHeadSize": 0.125,
+            "contentBasePosition": {
+              "x": 5.342585802146561,
+              "y": 5.710869380453859,
+              "z": 0
+            },
+            "contentScale": 1,
+            "defaultTextContents": "HORIZONTAL\\PMULLION",
+            "hasBlock": false,
+            "hasMText": true,
+            "landingGap": 0.0625,
+            "leaders": [
+              {
+                "doglegLength": 0.125,
+                "doglegVector": {
+                  "x": 1,
+                  "y": 0,
+                  "z": 0
+                },
+                "hasSetDoglegVector": true,
+                "hasSetLastLeaderLinePoint": true,
+                "lastLeaderLinePoint": {
+                  "x": 5.217585802146561,
+                  "y": 5.710869380453859,
+                  "z": 0
+                },
+                "leaderBranchIndex": 0,
+                "leaderLines": [
+                  {
+                    "vertices": [
+                      [
+                        {
+                          "x": 4.728859194085259,
+                          "y": 6.201524565742403,
+                          "z": 0
+                        }
+                      ]
+                    ]
+                  }
+                ]
+              }
+            ],
+            "planeNormalReversed": false,
+            "planeOriginPoint": {
+              "x": 9.617510288637924,
+              "y": 6.256178981365941,
+              "z": 0
+            },
+            "planeXAxisDirection": {
+              "x": 1,
+              "y": 0,
+              "z": 0
+            },
+            "planeYAxisDirection": {
+              "x": 0,
+              "y": 1,
+              "z": 0
+            },
+            "textAttachment": 1,
+            "textBackgroundColorOn": false,
+            "textBackgroundFillOn": false,
+            "textBackgroundScaleFactor": 0,
+            "textBackgroundTransparency": 0,
+            "textColor": -1073741824,
+            "textColumnGutterWidth": 0,
+            "textColumnType": 0,
+            "textColumnWidth": 0,
+            "textDirection": {
+              "x": 1,
+              "y": 0,
+              "z": 0
+            },
+            "textFlowDirection": 5,
+            "textHeight": 0,
+            "textLineSpacingFactor": 1,
+            "textLineSpacingStyle": 1,
+            "textLocation": {
+              "x": 5.405085802146561,
+              "y": 5.767119380453859,
+              "z": 0
+            },
+            "textNormalDirection": {
+              "x": 0,
+              "y": 0,
+              "z": 1
+            },
+            "textRotation": 0,
+            "textUseAutoHeight": false,
+            "textUseWordBreak": false,
+            "textWidth": 0
+          },
+          "doglegLength": 0.125,
+          "enableAnotationScale": false,
+          "enableDogLeg": true,
+          "enableFrameText": false,
+          "enableLanding": true,
+          "handle": "7879",
+          "inPaperSpace": true,
+          "layer": "FG-Dtl-Dim",
+          "leaderLineColor": -1073741824,
+          "leaderLineType": 1,
+          "leaderLineTypeId": "15",
+          "leaderLineWeight": -1,
+          "leaderStyleId": "C1C",
+          "textAlignInIPE": 0,
+          "textAlignmentType": 0,
+          "textAngleType": 1,
+          "textAttachmentDirectionBottom": 9,
+          "textAttachmentDirectionMText": 0,
+          "textAttachmentDirectionTop": 9,
+          "textAttachmentPoint": 1,
+          "textColor": -1073741824,
+          "textDirectionNegative": false,
+          "textLeftAttachmentType": 1,
+          "textStyleId": "167",
+          "type": "MULTILEADER"
+        },
+        {
+          "arrowHeadSize": 0.125,
+          "blockAttributeId": "21B1",
+          "blockContentColor": -1056964608,
+          "blockContentConnectionType": 0,
+          "blockContentRotation": 0,
+          "blockContentScale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "contentType": 2,
+          "contextData": {
+            "arrowHeadSize": 0.125,
+            "contentBasePosition": {
+              "x": 1.177952660639776,
+              "y": 8.856291257782845,
+              "z": 0
+            },
+            "contentScale": 1,
+            "defaultTextContents": "VERTICAL\\PMULLION",
+            "hasBlock": false,
+            "hasMText": true,
+            "landingGap": 0.0625,
+            "leaders": [
+              {
+                "doglegLength": 0.125,
+                "doglegVector": {
+                  "x": -1,
+                  "y": 0,
+                  "z": 0
+                },
+                "hasSetDoglegVector": true,
+                "hasSetLastLeaderLinePoint": true,
+                "lastLeaderLinePoint": {
+                  "x": 1.962997303496919,
+                  "y": 8.856291257782845,
+                  "z": 0
+                },
+                "leaderBranchIndex": 1,
+                "leaderLines": [
+                  {
+                    "vertices": [
+                      [
+                        {
+                          "x": 2.389333340306315,
+                          "y": 8.657907798157478,
+                          "z": 0
+                        }
+                      ]
+                    ]
+                  }
+                ]
+              }
+            ],
+            "planeNormalReversed": false,
+            "planeOriginPoint": {
+              "x": 5.414439197536289,
+              "y": 9.679382847541259,
+              "z": 0
+            },
+            "planeXAxisDirection": {
+              "x": 1,
+              "y": 0,
+              "z": 0
+            },
+            "planeYAxisDirection": {
+              "x": 0,
+              "y": 1,
+              "z": 0
+            },
+            "textAttachment": 3,
+            "textBackgroundColorOn": false,
+            "textBackgroundFillOn": false,
+            "textBackgroundScaleFactor": 0,
+            "textBackgroundTransparency": 0,
+            "textColor": -1073741824,
+            "textColumnGutterWidth": 0,
+            "textColumnType": 0,
+            "textColumnWidth": 0,
+            "textDirection": {
+              "x": 1,
+              "y": 0,
+              "z": 0
+            },
+            "textFlowDirection": 5,
+            "textHeight": 0,
+            "textLineSpacingFactor": 1,
+            "textLineSpacingStyle": 1,
+            "textLocation": {
+              "x": 1.775497303496919,
+              "y": 8.912541257782843,
+              "z": 0
+            },
+            "textNormalDirection": {
+              "x": 0,
+              "y": 0,
+              "z": 1
+            },
+            "textRotation": 0,
+            "textUseAutoHeight": false,
+            "textUseWordBreak": false,
+            "textWidth": 0
+          },
+          "doglegLength": 0.125,
+          "enableAnotationScale": false,
+          "enableDogLeg": true,
+          "enableFrameText": false,
+          "enableLanding": true,
+          "handle": "787A",
+          "inPaperSpace": true,
+          "layer": "FG-Dtl-Dim",
+          "leaderLineColor": -1073741824,
+          "leaderLineType": 1,
+          "leaderLineTypeId": "15",
+          "leaderLineWeight": -1,
+          "leaderStyleId": "C1C",
+          "textAlignInIPE": 0,
+          "textAlignmentType": 0,
+          "textAngleType": 1,
+          "textAttachmentDirectionBottom": 9,
+          "textAttachmentDirectionMText": 0,
+          "textAttachmentDirectionTop": 9,
+          "textAttachmentPoint": 3,
+          "textColor": -1073741824,
+          "textDirectionNegative": false,
+          "textLeftAttachmentType": 1,
+          "textStyleId": "167",
+          "type": "MULTILEADER"
+        },
+        {
           "handle": "787E",
           "inPaperSpace": true,
           "layer": "FG-Title",
@@ -58515,6 +58905,135 @@
               "z": 0
             }
           ]
+        },
+        {
+          "arrowHeadSize": 0.125,
+          "blockAttributeId": "959C",
+          "blockContentColor": -1056964608,
+          "blockContentConnectionType": 0,
+          "blockContentRotation": 0,
+          "blockContentScale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "contentType": 2,
+          "contextData": {
+            "arrowHeadSize": 0.25,
+            "contentBasePosition": {
+              "x": 551.7335280306236,
+              "y": 332.8227492160072,
+              "z": 0
+            },
+            "contentScale": 2,
+            "defaultTextContents": "CW750-505 \\PPERIMETER \\PPRESSURE PLATE",
+            "hasBlock": false,
+            "hasMText": true,
+            "landingGap": 0.125,
+            "leaders": [
+              {
+                "doglegLength": 0.25,
+                "doglegVector": {
+                  "x": -1,
+                  "y": 0,
+                  "z": 0
+                },
+                "hasSetDoglegVector": true,
+                "hasSetLastLeaderLinePoint": true,
+                "lastLeaderLinePoint": {
+                  "x": 554.3054030306236,
+                  "y": 332.8227492160072,
+                  "z": 0
+                },
+                "leaderBranchIndex": 0,
+                "leaderLines": [
+                  {
+                    "vertices": [
+                      [
+                        {
+                          "x": 555.1799319074123,
+                          "y": 332.2919957437774,
+                          "z": 0
+                        }
+                      ]
+                    ]
+                  }
+                ]
+              }
+            ],
+            "planeNormalReversed": false,
+            "planeOriginPoint": {
+              "x": 557.5175733249611,
+              "y": 329.5941453170675,
+              "z": 0
+            },
+            "planeXAxisDirection": {
+              "x": 1,
+              "y": 0,
+              "z": 0
+            },
+            "planeYAxisDirection": {
+              "x": 0,
+              "y": 1,
+              "z": 0
+            },
+            "textAttachment": 3,
+            "textBackgroundColorOn": false,
+            "textBackgroundFillOn": false,
+            "textBackgroundScaleFactor": 0,
+            "textBackgroundTransparency": 0,
+            "textColor": -1073741824,
+            "textColumnGutterWidth": 0,
+            "textColumnType": 0,
+            "textColumnWidth": 0,
+            "textDirection": {
+              "x": 1,
+              "y": 0,
+              "z": 0
+            },
+            "textFlowDirection": 5,
+            "textHeight": 0,
+            "textLineSpacingFactor": 1,
+            "textLineSpacingStyle": 1,
+            "textLocation": {
+              "x": 553.9304030306237,
+              "y": 332.9352492160072,
+              "z": 0
+            },
+            "textNormalDirection": {
+              "x": 0,
+              "y": 0,
+              "z": 1
+            },
+            "textRotation": 0,
+            "textUseAutoHeight": false,
+            "textUseWordBreak": false,
+            "textWidth": 0
+          },
+          "doglegLength": 0.125,
+          "enableAnotationScale": false,
+          "enableDogLeg": true,
+          "enableFrameText": false,
+          "enableLanding": true,
+          "handle": "95A1",
+          "layer": "FG-Dtl-Dim",
+          "leaderLineColor": -1073741824,
+          "leaderLineType": 1,
+          "leaderLineTypeId": "15",
+          "leaderLineWeight": -1,
+          "leaderStyleId": "C1C",
+          "textAlignInIPE": 3,
+          "textAlignmentType": 2,
+          "textAngleType": 1,
+          "textAttachmentDirectionBottom": 9,
+          "textAttachmentDirectionMText": 0,
+          "textAttachmentDirectionTop": 9,
+          "textAttachmentPoint": 1,
+          "textColor": -1073741824,
+          "textDirectionNegative": false,
+          "textLeftAttachmentType": 1,
+          "textStyleId": "167",
+          "type": "MULTILEADER"
         }
       ],
       "handle": "95A4",
