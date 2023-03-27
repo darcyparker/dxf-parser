@@ -1,0 +1,40 @@
+{
+  "blocks": {
+    "$MODEL_SPACE": {
+      "endBlock": {
+        "handle": "21",
+        "layer": "0"
+      },
+      "handle": "1",
+      "layer": "0",
+      "name": "$MODEL_SPACE",
+      "name2": "$MODEL_SPACE",
+      "noBlockType": true,
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "xrefPath": ""
+    },
+    "$PAPER_SPACE": {
+      "endBlock": {
+        "handle": "1D",
+        "layer": "0",
+        "paperSpace": true
+      },
+      "handle": "2",
+      "layer": "0",
+      "name": "$PAPER_SPACE",
+      "name2": "$PAPER_SPACE",
+      "noBlockType": true,
+      "paperSpace": true,
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "xrefPath": ""
+    }
+  }
+}

@@ -23,6 +23,9 @@ approvals.configure({
 
 const __dirname = path.dirname(new URL(import.meta.url).pathname);
 
+//ltrim: Trims leading whitespace only
+export const ltrim = (str) => (!str ? str : str.replace(/^\s+/g, ''));
+
 describe('Parser', function () {
   it('should parse the dxf header variables into an object', function (done) {
     var file = fs.createReadStream(__dirname + '/data/header.dxf', {
@@ -257,6 +260,143 @@ describe('Parser', function () {
 
   it('should parse MULTILEADER entities', function () {
     verifyDxf(path.join(__dirname, 'data', 'mleader.dxf'));
+  });
+
+  describe('serialization', function () {
+    [
+      'tables.dxf',
+      'blocks.dxf',
+      'blocks2.dxf',
+      'polylines.dxf',
+      'ellipse.dxf',
+      'splines.dxf',
+      'extendeddata.dxf',
+      'arcs-as-splines.dxf',
+      'arc1.dxf',
+      'mtext-test.dxf',
+      'mleader.dxf',
+    ].forEach((f) => {
+      const sourceFilePath = path.join(__dirname, 'data', f);
+      const baseName = path.basename(sourceFilePath, '.dxf');
+      const roundTripFilePath = path.join(
+        __dirname,
+        'data',
+        `${baseName}_roundtrip.dxf`,
+      );
+      const roundTripBaseName = path.basename(roundTripFilePath, '.dxf');
+
+      //Commented, because there are some known failures
+      //* Not all group codes are parsed/serialized.
+      //* This handles skipping many cases... but not all cases that should be skipped
+      //* This is still useful for debugging.
+      //* A better test is the roundtrip parse => serialize => parse
+      //
+      //it(`should serialize parsed ${f}`, async function () {
+      //  //using trim() because some files have trailing newline whitespace
+      //  const original = fs
+      //    .readFileSync(sourceFilePath, { encoding: 'utf8' })
+      //    .trim();
+      //  const skipMarker = '___skip___';
+      //  const skippedCodes = new Set([
+      //    '310', //binary data
+      //    //extended codes
+      //    '1000',
+      //    '1001',
+      //    '1002',
+      //    '1003',
+      //    '1004',
+      //    '1005',
+      //    '1010',
+      //    '1020',
+      //    '1030',
+      //    '1070',
+      //    '1071',
+      //  ]);
+      //  const originalLines = original
+      //    //replace lines for subclass marker group with skipMarker
+      //    .replace(
+      //      /( |\t)*100(\r\n|\r|\n)( |\t)*AcDb\S+(\r\n|\r|\n)/g,
+      //      `${skipMarker}\n${skipMarker}\n`,
+      //    )
+      //    .split(/\r\n|\r|\n/g)
+      //    //skip extended codes and ltrim otherwise
+      //    .map((l, index, arr) => {
+      //      const line = ltrim(l);
+      //      const prevLine = index > 0 ? ltrim(arr[index - 1]) : undefined;
+      //      if (index % 2 === 0) {
+      //        if (skippedCodes.has(line)) {
+      //          return skipMarker;
+      //        }
+      //      } else if (skippedCodes.has(prevLine)) {
+      //        return skipMarker;
+      //      }
+      //      return line;
+      //    });
+
+      //  const parser = new DxfParser();
+      //  const dxf = parser.parse(original);
+
+      //  fs.writeFileSync(roundTripFilePath, parser.serializeToString(dxf));
+
+      //  let lineNum = 0;
+      //  let skippedLines = 0;
+      //  for (const line of parser.serialize(dxf)) {
+      //    let originalLine;
+      //    while (true) {
+      //      originalLine = originalLines[lineNum + skippedLines];
+      //      if (originalLine !== skipMarker) {
+      //        break;
+      //      }
+      //      skippedLines++;
+      //    }
+      //    lineNum++;
+      //    if (line != originalLine) {
+      //      const parsedLine = parseFloat(line);
+      //      const parsedOriginalLine = parseFloat(originalLine);
+      //      if (Math.abs(parsedLine - parsedOriginalLine) < 1e-6) {
+      //        //ok. It's within tolerance or
+      //        //could be formatting difference of same number like '100000000000000000000.0' != '1.000000000000000E+20'
+      //        //or sometimes there code groups that are for integers, but the original DXF output a float like 1.0 or 2.0 instead of 1 or 2
+      //        continue;
+      //      }
+      //      throw new Error(
+      //        `serialized line ${lineNum} does not match line ${
+      //          lineNum + skippedLines
+      //        } in original: '${line}' != '${originalLine}'`,
+      //      );
+      //    }
+      //  }
+      //});
+
+      it(`parsed ${f}, serialized and parsed should yield same result`, async function () {
+        const sourceDirectory = path.dirname(sourceFilePath);
+
+        const originalFile = fs.readFileSync(sourceFilePath, {
+          encoding: 'utf8',
+        });
+
+        const parser = new DxfParser();
+        const originalDxf = parser.parse(originalFile);
+        const serialized = parser.serializeToString(originalDxf);
+        fs.writeFileSync(roundTripFilePath, serialized);
+        const dxfRoundTrip = parser.parse(serialized);
+
+        //fs.writeFileSync(
+        //  path.join(
+        //    __dirname,
+        //    'data',
+        //    `${roundTripBaseName}.json`
+        //  ),
+        //  JSON.stringify(dxfRoundTrip, null, 2),
+        //);
+
+        approvals.verifyAsJSON(
+          sourceDirectory,
+          roundTripBaseName,
+          dxfRoundTrip,
+        );
+      });
+    });
   });
 });
 

@@ -1,0 +1,367 @@
+{
+  "tables": {
+    "layer": {
+      "applicationGroups": {
+        "ACAD_XDICTIONARY": {
+          "360": "18E"
+        }
+      },
+      "handle": "2",
+      "layers": {
+        "0": {
+          "applicationGroups": {
+            "ACAD_XDICTIONARY": {
+              "360": "E6"
+            }
+          },
+          "color": 16777215,
+          "colorIndex": 7,
+          "frozen": false,
+          "handle": "10",
+          "lineType": "Continuous",
+          "lineWeight": -3,
+          "materialObject": "98",
+          "name": "0",
+          "ownerHandle": "2",
+          "plotStyleName": "F",
+          "standardFlags": 0,
+          "visible": true,
+          "visualStyle": "0"
+        },
+        "Layer 1": {
+          "color": 16777215,
+          "colorIndex": 7,
+          "frozen": true,
+          "handle": "1BD",
+          "lineType": "Continuous",
+          "lineWeight": -3,
+          "materialObject": "98",
+          "name": "Layer 1",
+          "ownerHandle": "2",
+          "plotStyleName": "F",
+          "standardFlags": 5,
+          "visible": true,
+          "visualStyle": "0"
+        }
+      },
+      "maxEntities": 4,
+      "ownerHandle": "0"
+    },
+    "lineType": {
+      "handle": "5",
+      "lineTypes": {
+        "ByBlock": {
+          "alignmentCode": 65,
+          "description": "",
+          "elementCount": 0,
+          "handle": "14",
+          "name": "ByBlock",
+          "ownerHandle": "5",
+          "patternLength": 0,
+          "standardFlags": 0
+        },
+        "ByLayer": {
+          "alignmentCode": 65,
+          "description": "",
+          "elementCount": 0,
+          "handle": "15",
+          "name": "ByLayer",
+          "ownerHandle": "5",
+          "patternLength": 0,
+          "standardFlags": 0
+        },
+        "CENTER1": {
+          "alignmentCode": 65,
+          "description": "Center (.5x) ___ _ ___ _ ___ _ ___ _ ___ _ ___",
+          "elementCount": 4,
+          "handle": "1C4",
+          "name": "CENTER1",
+          "ownerHandle": "5",
+          "pattern": [
+            0.75,
+            -0.125,
+            0.125,
+            -0.125
+          ],
+          "patternLength": 1.125,
+          "patternTypes": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "standardFlags": 0
+        },
+        "CENTER2": {
+          "alignmentCode": 65,
+          "description": "Center (2x) ________  __  ________  __  _____",
+          "elementCount": 4,
+          "handle": "1C5",
+          "name": "CENTER2",
+          "ownerHandle": "5",
+          "pattern": [
+            2.5,
+            -0.5,
+            0.5,
+            -0.5
+          ],
+          "patternLength": 4,
+          "patternTypes": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "standardFlags": 0
+        },
+        "Continuous": {
+          "alignmentCode": 65,
+          "description": "Solid line",
+          "elementCount": 0,
+          "handle": "16",
+          "name": "Continuous",
+          "ownerHandle": "5",
+          "patternLength": 0,
+          "standardFlags": 0
+        },
+        "DASHDOT1": {
+          "alignmentCode": 65,
+          "description": "Dash dot (.5x) _._._._._._._._._._._._._._._.",
+          "elementCount": 4,
+          "handle": "1C7",
+          "name": "DASHDOT1",
+          "ownerHandle": "5",
+          "pattern": [
+            0.25,
+            -0.125,
+            0,
+            -0.125
+          ],
+          "patternLength": 0.5,
+          "patternTypes": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "standardFlags": 0
+        },
+        "DASHDOT2": {
+          "alignmentCode": 65,
+          "description": "Dash dot (2x) ____  .  ____  .  ____  .  ___",
+          "elementCount": 4,
+          "handle": "1C8",
+          "name": "DASHDOT2",
+          "ownerHandle": "5",
+          "pattern": [
+            1,
+            -0.5,
+            0,
+            -0.5
+          ],
+          "patternLength": 2,
+          "patternTypes": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "standardFlags": 0
+        },
+        "DASHED1": {
+          "alignmentCode": 65,
+          "description": "Dashed (.5x) _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _",
+          "elementCount": 2,
+          "handle": "1CA",
+          "name": "DASHED1",
+          "ownerHandle": "5",
+          "pattern": [
+            0.25,
+            -0.125
+          ],
+          "patternLength": 0.375,
+          "patternTypes": [
+            0,
+            0
+          ],
+          "standardFlags": 0
+        },
+        "DASHED2": {
+          "alignmentCode": 65,
+          "description": "Dashed (2x) ____  ____  ____  ____  ____  ___",
+          "elementCount": 2,
+          "handle": "1CB",
+          "name": "DASHED2",
+          "ownerHandle": "5",
+          "pattern": [
+            1,
+            -0.5
+          ],
+          "patternLength": 1.5,
+          "patternTypes": [
+            0,
+            0
+          ],
+          "standardFlags": 0
+        },
+        "DOT1": {
+          "alignmentCode": 65,
+          "description": "Dot (.5x) .....................................",
+          "elementCount": 2,
+          "handle": "1CD",
+          "name": "DOT1",
+          "ownerHandle": "5",
+          "pattern": [
+            0,
+            -0.125
+          ],
+          "patternLength": 0.125,
+          "patternTypes": [
+            0,
+            0
+          ],
+          "standardFlags": 0
+        },
+        "DOT2": {
+          "alignmentCode": 65,
+          "description": "Dot (2x) .  .  .  .  .  .  .  .  .  .  .  .  . ",
+          "elementCount": 2,
+          "handle": "1CE",
+          "name": "DOT2",
+          "ownerHandle": "5",
+          "pattern": [
+            0,
+            -0.5
+          ],
+          "patternLength": 0.5,
+          "patternTypes": [
+            0,
+            0
+          ],
+          "standardFlags": 0
+        },
+        "PHANTOM2": {
+          "alignmentCode": 65,
+          "description": "Phantom (.5x) ___ _ _ ___ _ _ ___ _ _ ___ _ _",
+          "elementCount": 6,
+          "handle": "1A9",
+          "name": "PHANTOM2",
+          "ownerHandle": "5",
+          "pattern": [
+            0.625,
+            -0.125,
+            0.125,
+            -0.125,
+            0.125,
+            -0.125
+          ],
+          "patternLength": 1.25,
+          "patternTypes": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "standardFlags": 0
+        }
+      },
+      "maxEntities": 10,
+      "ownerHandle": "0"
+    },
+    "viewPort": {
+      "handle": "8",
+      "maxEntities": 1,
+      "ownerHandle": "0",
+      "viewPorts": [
+        {
+          "UCSIcon": 2,
+          "ambientColor": 3355443,
+          "ambientColorGroupCodes": [
+            421
+          ],
+          "ambientColorIndex": 250,
+          "backClippingPlane": 0,
+          "brightness": 0,
+          "center": {
+            "x": 23.34842155490301,
+            "y": 8.680283835098335
+          },
+          "circleSides": 1000,
+          "contrast": 0,
+          "defaultLightingOn": true,
+          "defaultLightingType": true,
+          "elevation": 0,
+          "frontClippingPlane": 0,
+          "gridSpacing": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "groupCode60": 3,
+          "groupCode65": 1,
+          "groupCode75": 0,
+          "groupCode76": 0,
+          "groupCode77": 0,
+          "groupCode78": 0,
+          "handle": "94",
+          "height": 37.36562314777483,
+          "lensLength": 50,
+          "lowerLeftCorner": {
+            "x": 0,
+            "y": 0
+          },
+          "majorGridLines": 5,
+          "name": "*Active",
+          "orthographicType": 0,
+          "ownerHandle": "8",
+          "plotable": 1,
+          "renderMode": 0,
+          "snapBasePoint": {
+            "x": 0,
+            "y": 0
+          },
+          "snapRotationAngle": 0,
+          "snapSpacing": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "standardFlags": 0,
+          "ucsOrigin": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "ucsXAxis": {
+            "x": 1,
+            "y": 0,
+            "z": 0
+          },
+          "ucsYAxis": {
+            "x": 0,
+            "y": 1,
+            "z": 0
+          },
+          "upperRightCorner": {
+            "x": 1,
+            "y": 1
+          },
+          "viewDirectionFromTarget": {
+            "x": 0,
+            "y": 0,
+            "z": 1
+          },
+          "viewMode": 0,
+          "viewTarget": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "viewTwistAngle": 0,
+          "visualStyleHardPointer": "9F",
+          "width": 2.152129817444218
+        }
+      ]
+    }
+  }
+}

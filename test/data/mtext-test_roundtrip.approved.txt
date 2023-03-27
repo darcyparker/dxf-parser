@@ -1,0 +1,772 @@
+{
+  "blocks": {
+    "*Model_Space": {
+      "endBlock": {
+        "handle": "21",
+        "layer": "0",
+        "ownerHandler": "1F"
+      },
+      "handle": "20",
+      "layer": "0",
+      "name": "*Model_Space",
+      "name2": "*Model_Space",
+      "noBlockType": true,
+      "ownerHandle": "1F",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "xrefPath": ""
+    },
+    "*Paper_Space": {
+      "endBlock": {
+        "handle": "5B",
+        "layer": "0",
+        "ownerHandler": "58",
+        "paperSpace": true
+      },
+      "handle": "5A",
+      "layer": "0",
+      "name": "*Paper_Space",
+      "name2": "*Paper_Space",
+      "noBlockType": true,
+      "ownerHandle": "58",
+      "paperSpace": true,
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "xrefPath": ""
+    },
+    "*Paper_Space0": {
+      "endBlock": {
+        "handle": "60",
+        "layer": "0",
+        "ownerHandler": "5D",
+        "paperSpace": true
+      },
+      "handle": "5F",
+      "layer": "0",
+      "name": "*Paper_Space0",
+      "name2": "*Paper_Space0",
+      "noBlockType": true,
+      "ownerHandle": "5D",
+      "paperSpace": true,
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "xrefPath": ""
+    }
+  },
+  "classes": {
+    "ACDBDETAILVIEWSTYLE": {
+      "applicationName": "ObjectDBX Classes",
+      "instanceCount": 1,
+      "isAnEntityFlag": 0,
+      "name": "AcDbDetailViewStyle",
+      "proxyFlags": 1025,
+      "recordName": "ACDBDETAILVIEWSTYLE",
+      "wasAProxyFlag": 0
+    },
+    "ACDBDICTIONARYWDFLT": {
+      "applicationName": "ObjectDBX Classes",
+      "instanceCount": 1,
+      "isAnEntityFlag": 0,
+      "name": "AcDbDictionaryWithDefault",
+      "proxyFlags": 0,
+      "recordName": "ACDBDICTIONARYWDFLT",
+      "wasAProxyFlag": 0
+    },
+    "ACDBSECTIONVIEWSTYLE": {
+      "applicationName": "ObjectDBX Classes",
+      "instanceCount": 1,
+      "isAnEntityFlag": 0,
+      "name": "AcDbSectionViewStyle",
+      "proxyFlags": 1025,
+      "recordName": "ACDBSECTIONVIEWSTYLE",
+      "wasAProxyFlag": 0
+    },
+    "ACDB_MTEXTOBJECTCONTEXTDATA_CLASS": {
+      "applicationName": "ObjectDBX Classes",
+      "instanceCount": 2,
+      "isAnEntityFlag": 0,
+      "name": "AcDbMTextObjectContextData",
+      "proxyFlags": 1153,
+      "recordName": "ACDB_MTEXTOBJECTCONTEXTDATA_CLASS",
+      "wasAProxyFlag": 0
+    },
+    "CELLSTYLEMAP": {
+      "applicationName": "ObjectDBX Classes",
+      "instanceCount": 2,
+      "isAnEntityFlag": 0,
+      "name": "AcDbCellStyleMap",
+      "proxyFlags": 1152,
+      "recordName": "CELLSTYLEMAP",
+      "wasAProxyFlag": 0
+    },
+    "DICTIONARYVAR": {
+      "applicationName": "ObjectDBX Classes",
+      "instanceCount": 9,
+      "isAnEntityFlag": 0,
+      "name": "AcDbDictionaryVar",
+      "proxyFlags": 0,
+      "recordName": "DICTIONARYVAR",
+      "wasAProxyFlag": 0
+    },
+    "EXACXREFPANELOBJECT": {
+      "applicationName": "EXAC_ESW",
+      "instanceCount": 0,
+      "isAnEntityFlag": 0,
+      "name": "ExAcXREFPanelObject",
+      "proxyFlags": 1025,
+      "recordName": "EXACXREFPANELOBJECT",
+      "wasAProxyFlag": 0
+    },
+    "IDBUFFER": {
+      "applicationName": "ObjectDBX Classes",
+      "instanceCount": 0,
+      "isAnEntityFlag": 0,
+      "name": "AcDbIdBuffer",
+      "proxyFlags": 0,
+      "recordName": "IDBUFFER",
+      "wasAProxyFlag": 0
+    },
+    "LAYER_INDEX": {
+      "applicationName": "ObjectDBX Classes",
+      "instanceCount": 0,
+      "isAnEntityFlag": 0,
+      "name": "AcDbLayerIndex",
+      "proxyFlags": 0,
+      "recordName": "LAYER_INDEX",
+      "wasAProxyFlag": 0
+    },
+    "MATERIAL": {
+      "applicationName": "ObjectDBX Classes",
+      "instanceCount": 3,
+      "isAnEntityFlag": 0,
+      "name": "AcDbMaterial",
+      "proxyFlags": 1153,
+      "recordName": "MATERIAL",
+      "wasAProxyFlag": 0
+    },
+    "MLEADERSTYLE": {
+      "applicationName": "ACDB_MLEADERSTYLE_CLASS",
+      "instanceCount": 2,
+      "isAnEntityFlag": 0,
+      "name": "AcDbMLeaderStyle",
+      "proxyFlags": 4095,
+      "recordName": "MLEADERSTYLE",
+      "wasAProxyFlag": 0
+    },
+    "NPOCOLLECTION": {
+      "applicationName": "ObjectDBX Classes",
+      "instanceCount": 0,
+      "isAnEntityFlag": 0,
+      "name": "AcDbImpNonPersistentObjectsCollection",
+      "proxyFlags": 1153,
+      "recordName": "NPOCOLLECTION",
+      "wasAProxyFlag": 0
+    },
+    "SCALE": {
+      "applicationName": "ObjectDBX Classes",
+      "instanceCount": 33,
+      "isAnEntityFlag": 0,
+      "name": "AcDbScale",
+      "proxyFlags": 1153,
+      "recordName": "SCALE",
+      "wasAProxyFlag": 0
+    },
+    "SPATIAL_INDEX": {
+      "applicationName": "ObjectDBX Classes",
+      "instanceCount": 0,
+      "isAnEntityFlag": 0,
+      "name": "AcDbSpatialIndex",
+      "proxyFlags": 0,
+      "recordName": "SPATIAL_INDEX",
+      "wasAProxyFlag": 0
+    },
+    "TABLESTYLE": {
+      "applicationName": "ObjectDBX Classes",
+      "instanceCount": 1,
+      "isAnEntityFlag": 0,
+      "name": "AcDbTableStyle",
+      "proxyFlags": 4095,
+      "recordName": "TABLESTYLE",
+      "wasAProxyFlag": 0
+    },
+    "VISUALSTYLE": {
+      "applicationName": "ObjectDBX Classes",
+      "instanceCount": 24,
+      "isAnEntityFlag": 0,
+      "name": "AcDbVisualStyle",
+      "proxyFlags": 4095,
+      "recordName": "VISUALSTYLE",
+      "wasAProxyFlag": 0
+    }
+  },
+  "entities": [
+    {
+      "attachmentPoint": 1,
+      "drawingDirection": 5,
+      "handle": "26B",
+      "height": 0.2,
+      "layer": "0",
+      "ownerHandle": "1F",
+      "position": {
+        "x": 0.3180789370493358,
+        "y": 5.389340577865198,
+        "z": 0
+      },
+      "text": "Lorem ipsum dolor sit amet consectetur adipiscing elit vitae, congue mus odio lobortis habitasse parturient sem. Rutrum volutpat sagittis fringilla sollicitudin cum nisl suspendisse non, mi habitant habitasse nunc pellentesque vitae maecenas, cursus lectus nascetur nulla parturient leo luctus. Interdum sapien augue ullamcorper dis ultrices mollis leo netus ante, platea quam at eros urna natoque habitasse nulla fringilla curabitur, egestas facilisis iaculis euismod tempor aliquet curae molestie. Dapibus bibendum scelerisque tempus netus mus hac euismod vestibulum proin tristique non, congue ultrices cras lobortis nam lacus magnis iaculis at donec justo maecenas, est convallis inceptos vel nisi eu natoque ante nisl sapien. Facilisi per dui lobortis eleifend facilisis quam luctus, nunc semper neque cubilia cursus fringilla, nisl vehicula viverra diam auctor vitae. Est enim gravida nibh non pretium aptent nulla egestas praesent, varius malesuada felis commodo leo id lacinia montes, magna turpis sagittis imperdie.",
+      "type": "MTEXT",
+      "width": 8.98565600810167
+    },
+    {
+      "attachmentPoint": 2,
+      "drawingDirection": 5,
+      "handle": "272",
+      "height": 0.2,
+      "layer": "0",
+      "ownerHandle": "1F",
+      "position": {
+        "x": 16.6297525520321,
+        "y": 5.552640932220924,
+        "z": 0
+      },
+      "text": "Lorem ipsum dolor sit amet consectetur adipiscing elit vitae, congue mus odio lobortis habitasse parturient sem.",
+      "type": "MTEXT",
+      "width": 8.98565600810167
+    }
+  ],
+  "header": {
+    "$3DDWFPREC": 2,
+    "$ACADMAINTVER": 125,
+    "$ACADVER": "AC1027",
+    "$ANGBASE": 0,
+    "$ANGDIR": 0,
+    "$ATTMODE": 1,
+    "$AUNITS": 0,
+    "$AUPREC": 0,
+    "$CAMERADISPLAY": false,
+    "$CAMERAHEIGHT": 0,
+    "$CECOLOR": 256,
+    "$CELTSCALE": 1,
+    "$CELTYPE": "ByLayer",
+    "$CELWEIGHT": -1,
+    "$CEPSNTYPE": 0,
+    "$CHAMFERA": 0,
+    "$CHAMFERB": 0,
+    "$CHAMFERC": 0,
+    "$CHAMFERD": 0,
+    "$CLAYER": "0",
+    "$CMATERIAL": "96",
+    "$CMLJUST": 0,
+    "$CMLSCALE": 1,
+    "$CMLSTYLE": "Standard",
+    "$CSHADOW": 0,
+    "$DGNFRAME": 0,
+    "$DIMADEC": 0,
+    "$DIMALT": 0,
+    "$DIMALTD": 2,
+    "$DIMALTF": 25.4,
+    "$DIMALTRND": 0,
+    "$DIMALTTD": 2,
+    "$DIMALTTZ": 0,
+    "$DIMALTU": 2,
+    "$DIMALTZ": 0,
+    "$DIMAPOST": "",
+    "$DIMARCSYM": 0,
+    "$DIMASO": 1,
+    "$DIMASSOC": 2,
+    "$DIMASZ": 0.18,
+    "$DIMATFIT": 3,
+    "$DIMAUNIT": 0,
+    "$DIMAZIN": 0,
+    "$DIMBLK": "",
+    "$DIMBLK1": "",
+    "$DIMBLK2": "",
+    "$DIMCEN": 0.09,
+    "$DIMCLRD": 0,
+    "$DIMCLRE": 0,
+    "$DIMCLRT": 0,
+    "$DIMDEC": 4,
+    "$DIMDLE": 0,
+    "$DIMDLI": 0.38,
+    "$DIMDSEP": 46,
+    "$DIMEXE": 0.18,
+    "$DIMEXO": 0.0625,
+    "$DIMFRAC": 0,
+    "$DIMFXL": 1,
+    "$DIMFXLON": 0,
+    "$DIMGAP": 0.09,
+    "$DIMJOGANG": 0.7853981633974483,
+    "$DIMJUST": 0,
+    "$DIMLDRBLK": "",
+    "$DIMLFAC": 1,
+    "$DIMLIM": 0,
+    "$DIMLTEX1": "",
+    "$DIMLTEX2": "",
+    "$DIMLTYPE": "",
+    "$DIMLUNIT": 2,
+    "$DIMLWD": -2,
+    "$DIMLWE": -2,
+    "$DIMPOST": "",
+    "$DIMRND": 0,
+    "$DIMSAH": 0,
+    "$DIMSCALE": 1,
+    "$DIMSD1": 0,
+    "$DIMSD2": 0,
+    "$DIMSE1": 0,
+    "$DIMSE2": 0,
+    "$DIMSHO": 1,
+    "$DIMSOXD": 0,
+    "$DIMSTYLE": "Standard",
+    "$DIMTAD": 0,
+    "$DIMTDEC": 4,
+    "$DIMTFAC": 1,
+    "$DIMTFILL": 0,
+    "$DIMTFILLCLR": 0,
+    "$DIMTIH": 1,
+    "$DIMTIX": 0,
+    "$DIMTM": 0,
+    "$DIMTMOVE": 0,
+    "$DIMTOFL": 0,
+    "$DIMTOH": 1,
+    "$DIMTOL": 0,
+    "$DIMTOLJ": 1,
+    "$DIMTP": 0,
+    "$DIMTSZ": 0,
+    "$DIMTVP": 0,
+    "$DIMTXSTY": "Standard",
+    "$DIMTXT": 0.18,
+    "$DIMTXTDIRECTION": 0,
+    "$DIMTZIN": 0,
+    "$DIMUPT": 0,
+    "$DIMZIN": 0,
+    "$DISPSILH": 0,
+    "$DWFFRAME": 2,
+    "$DWGCODEPAGE": "ANSI_1252",
+    "$ELEVATION": 0,
+    "$ENDCAPS": 0,
+    "$EXTMAX": {
+      "x": 35.77780313523698,
+      "y": 23.59224206458088,
+      "z": 0
+    },
+    "$EXTMIN": {
+      "x": 0.2965236846618869,
+      "y": 0.443001332753784,
+      "z": 0
+    },
+    "$EXTNAMES": true,
+    "$FILLETRAD": 0,
+    "$FILLMODE": 1,
+    "$FINGERPRINTGUID": "{FDAE80E6-93AC-8B41-9270-67E6B58D8DBE}",
+    "$HALOGAP": 0,
+    "$HANDSEED": "289",
+    "$HIDETEXT": true,
+    "$HYPERLINKBASE": "",
+    "$INDEXCTL": 0,
+    "$INSBASE": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "$INSUNITS": 1,
+    "$INTERFERECOLOR": 1,
+    "$INTERFEREOBJVS": "A3",
+    "$INTERFEREVPVS": "A0",
+    "$INTERSECTIONCOLOR": 257,
+    "$INTERSECTIONDISPLAY": false,
+    "$JOINSTYLE": 0,
+    "$LASTSAVEDBY": "bzuil",
+    "$LATITUDE": 37.795,
+    "$LENSLENGTH": 50,
+    "$LIGHTGLYPHDISPLAY": 1,
+    "$LIMCHECK": 0,
+    "$LIMMAX": {
+      "x": 12,
+      "y": 9
+    },
+    "$LIMMIN": {
+      "x": 0,
+      "y": 0
+    },
+    "$LOFTANG1": 1.570796326794896,
+    "$LOFTANG2": 1.570796326794896,
+    "$LOFTMAG1": 0,
+    "$LOFTMAG2": 0,
+    "$LOFTNORMALS": 1,
+    "$LOFTPARAM": 7,
+    "$LONGITUDE": -122.394,
+    "$LTSCALE": 1,
+    "$LUNITS": 2,
+    "$LUPREC": 4,
+    "$LWDISPLAY": false,
+    "$MAXACTVP": 64,
+    "$MEASUREMENT": 0,
+    "$MENU": ".",
+    "$MIRRTEXT": 0,
+    "$NORTHDIRECTION": 0,
+    "$OBSCOLOR": 257,
+    "$OBSLTYPE": 0,
+    "$OLESTARTUP": false,
+    "$ORTHOMODE": 0,
+    "$PDMODE": 0,
+    "$PDSIZE": 0,
+    "$PELEVATION": 0,
+    "$PEXTMAX": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "$PEXTMIN": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "$PINSBASE": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "$PLIMCHECK": 0,
+    "$PLIMMAX": {
+      "x": 12,
+      "y": 9
+    },
+    "$PLIMMIN": {
+      "x": 0,
+      "y": 0
+    },
+    "$PLINEGEN": 0,
+    "$PLINEWID": 0,
+    "$PROJECTNAME": "",
+    "$PROXYGRAPHICS": 1,
+    "$PSLTSCALE": 1,
+    "$PSOLHEIGHT": 4,
+    "$PSOLWIDTH": 0.25,
+    "$PSTYLEMODE": true,
+    "$PSVPSCALE": 0,
+    "$PUCSBASE": "",
+    "$PUCSNAME": "",
+    "$PUCSORG": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "$PUCSORGBACK": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "$PUCSORGBOTTOM": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "$PUCSORGFRONT": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "$PUCSORGLEFT": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "$PUCSORGRIGHT": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "$PUCSORGTOP": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "$PUCSORTHOREF": "",
+    "$PUCSORTHOVIEW": 0,
+    "$PUCSXDIR": {
+      "x": 1,
+      "y": 0,
+      "z": 0
+    },
+    "$PUCSYDIR": {
+      "x": 0,
+      "y": 1,
+      "z": 0
+    },
+    "$QTEXTMODE": 0,
+    "$REALWORLDSCALE": true,
+    "$REGENMODE": 1,
+    "$REQUIREDVERSIONS": 0,
+    "$SHADEDGE": 3,
+    "$SHADEDIF": 70,
+    "$SHADOWPLANELOCATION": 0,
+    "$SHOWHIST": 1,
+    "$SKETCHINC": 0.1,
+    "$SKPOLY": 0,
+    "$SOLIDHIST": 0,
+    "$SORTENTS": 127,
+    "$SPLFRAME": 0,
+    "$SPLINESEGS": 8,
+    "$SPLINETYPE": 6,
+    "$STEPSIZE": 6,
+    "$STEPSPERSEC": 2,
+    "$STYLESHEET": "",
+    "$SURFTAB1": 6,
+    "$SURFTAB2": 6,
+    "$SURFTYPE": 6,
+    "$SURFU": 6,
+    "$SURFV": 6,
+    "$TDCREATE": "2019-02-13T07:29:12.000Z",
+    "$TDINDWG": 0.0113888889,
+    "$TDUCREATE": "2019-02-13T15:29:11.999Z",
+    "$TDUPDATE": "2019-02-13T11:45:11.998Z",
+    "$TDUSRTIMER": 0.0113888889,
+    "$TDUUPDATE": "2019-02-13T19:45:12.000Z",
+    "$TEXTSIZE": 0.2,
+    "$TEXTSTYLE": "Standard",
+    "$THICKNESS": 0,
+    "$TILEMODE": 1,
+    "$TILEMODELIGHTSYNCH": 1,
+    "$TIMEZONE": -8000,
+    "$TRACEWID": 0.05,
+    "$TREEDEPTH": 3020,
+    "$UCSBASE": "",
+    "$UCSNAME": "",
+    "$UCSORG": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "$UCSORGBACK": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "$UCSORGBOTTOM": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "$UCSORGFRONT": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "$UCSORGLEFT": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "$UCSORGRIGHT": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "$UCSORGTOP": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "$UCSORTHOREF": "",
+    "$UCSORTHOVIEW": 0,
+    "$UCSXDIR": {
+      "x": 1,
+      "y": 0,
+      "z": 0
+    },
+    "$UCSYDIR": {
+      "x": 0,
+      "y": 1,
+      "z": 0
+    },
+    "$UNITMODE": 0,
+    "$USERI1": 0,
+    "$USERI2": 0,
+    "$USERI3": 0,
+    "$USERI4": 0,
+    "$USERI5": 0,
+    "$USERR1": 0,
+    "$USERR2": 0,
+    "$USERR3": 0,
+    "$USERR4": 0,
+    "$USERR5": 0,
+    "$USRTIMER": 1,
+    "$VERSIONGUID": "{8C84135B-E9E2-8A4F-B585-309CF8EF7F09}",
+    "$VISRETAIN": 1,
+    "$WORLDVIEW": 1,
+    "$XCLIPFRAME": true,
+    "$XEDIT": true
+  },
+  "tables": {
+    "layer": {
+      "applicationGroups": {
+        "ACAD_XDICTIONARY": {
+          "360": "18E"
+        }
+      },
+      "handle": "2",
+      "layers": {
+        "0": {
+          "applicationGroups": {
+            "ACAD_XDICTIONARY": {
+              "360": "E6"
+            }
+          },
+          "color": 16777215,
+          "colorIndex": 7,
+          "frozen": false,
+          "handle": "10",
+          "lineType": "Continuous",
+          "lineWeight": -3,
+          "materialObject": "98",
+          "name": "0",
+          "ownerHandle": "2",
+          "plotStyleName": "F",
+          "standardFlags": 0,
+          "visible": true,
+          "visualStyle": "0"
+        }
+      },
+      "maxEntities": 1,
+      "ownerHandle": "0"
+    },
+    "lineType": {
+      "handle": "5",
+      "lineTypes": {
+        "ByBlock": {
+          "alignmentCode": 65,
+          "description": "",
+          "elementCount": 0,
+          "handle": "14",
+          "name": "ByBlock",
+          "ownerHandle": "5",
+          "patternLength": 0,
+          "standardFlags": 0
+        },
+        "ByLayer": {
+          "alignmentCode": 65,
+          "description": "",
+          "elementCount": 0,
+          "handle": "15",
+          "name": "ByLayer",
+          "ownerHandle": "5",
+          "patternLength": 0,
+          "standardFlags": 0
+        },
+        "Continuous": {
+          "alignmentCode": 65,
+          "description": "Solid line",
+          "elementCount": 0,
+          "handle": "16",
+          "name": "Continuous",
+          "ownerHandle": "5",
+          "patternLength": 0,
+          "standardFlags": 0
+        }
+      },
+      "maxEntities": 2,
+      "ownerHandle": "0"
+    },
+    "viewPort": {
+      "handle": "8",
+      "maxEntities": 1,
+      "ownerHandle": "0",
+      "viewPorts": [
+        {
+          "UCSIcon": 3,
+          "ambientColor": 3355443,
+          "ambientColorGroupCodes": [
+            421
+          ],
+          "ambientColorIndex": 250,
+          "backClippingPlane": 0,
+          "brightness": 0,
+          "center": {
+            "x": 13.93835439371528,
+            "y": 3.720281475640653
+          },
+          "circleSides": 1000,
+          "contrast": 0,
+          "defaultLightingOn": true,
+          "defaultLightingType": true,
+          "elevation": 0,
+          "frontClippingPlane": 0,
+          "gridSpacing": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "groupCode60": 3,
+          "groupCode65": 1,
+          "groupCode75": 0,
+          "groupCode76": 1,
+          "groupCode77": 0,
+          "groupCode78": 0,
+          "handle": "94",
+          "height": 25.22544163189859,
+          "lensLength": 50,
+          "lowerLeftCorner": {
+            "x": 0,
+            "y": 0
+          },
+          "majorGridLines": 5,
+          "name": "*Active",
+          "orthographicType": 0,
+          "ownerHandle": "8",
+          "plotable": 1,
+          "renderMode": 0,
+          "snapBasePoint": {
+            "x": 0,
+            "y": 0
+          },
+          "snapRotationAngle": 0,
+          "snapSpacing": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "standardFlags": 0,
+          "ucsOrigin": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "ucsXAxis": {
+            "x": 1,
+            "y": 0,
+            "z": 0
+          },
+          "ucsYAxis": {
+            "x": 0,
+            "y": 1,
+            "z": 0
+          },
+          "upperRightCorner": {
+            "x": 1,
+            "y": 1
+          },
+          "viewDirectionFromTarget": {
+            "x": 0,
+            "y": 0,
+            "z": 1
+          },
+          "viewMode": 0,
+          "viewTarget": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "viewTwistAngle": 0,
+          "visualStyleHardPointer": "9F",
+          "width": 2.318681318681318
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,1871 @@
+{
+  "blocks": {
+    "*Model_Space": {
+      "endBlock": {
+        "handle": "5F",
+        "layer": "0",
+        "ownerHandler": "5D"
+      },
+      "handle": "5E",
+      "layer": "0",
+      "name": "*Model_Space",
+      "name2": "*Model_Space",
+      "noBlockType": true,
+      "ownerHandle": "5D",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "xrefPath": ""
+    },
+    "*Paper_Space": {
+      "endBlock": {
+        "handle": "5B",
+        "layer": "0",
+        "ownerHandler": "59",
+        "paperSpace": true
+      },
+      "handle": "5A",
+      "layer": "0",
+      "name": "*Paper_Space",
+      "name2": "*Paper_Space",
+      "noBlockType": true,
+      "ownerHandle": "59",
+      "paperSpace": true,
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "xrefPath": ""
+    }
+  },
+  "classes": {
+    "ACDBDICTIONARYWDFLT": {
+      "applicationName": "ObjectDBX Classes",
+      "instanceCount": 3,
+      "isAnEntityFlag": 0,
+      "name": "AcDbDictionaryWithDefault",
+      "proxyFlags": 0,
+      "recordName": "ACDBDICTIONARYWDFLT",
+      "wasAProxyFlag": 0
+    },
+    "CELLSTYLEMAP": {
+      "applicationName": "ObjectDBX Classes",
+      "instanceCount": 3,
+      "isAnEntityFlag": 0,
+      "name": "AcDbCellStyleMap",
+      "proxyFlags": 1152,
+      "recordName": "CELLSTYLEMAP",
+      "wasAProxyFlag": 0
+    },
+    "DICTIONARYVAR": {
+      "applicationName": "ObjectDBX Classes",
+      "instanceCount": 3,
+      "isAnEntityFlag": 0,
+      "name": "AcDbDictionaryVar",
+      "proxyFlags": 0,
+      "recordName": "DICTIONARYVAR",
+      "wasAProxyFlag": 0
+    },
+    "MATERIAL": {
+      "applicationName": "ObjectDBX Classes",
+      "instanceCount": 3,
+      "isAnEntityFlag": 0,
+      "name": "AcDbMaterial",
+      "proxyFlags": 1153,
+      "recordName": "MATERIAL",
+      "wasAProxyFlag": 0
+    },
+    "MLEADERSTYLE": {
+      "applicationName": "ACDB_MLEADERSTYLE_CLASS",
+      "instanceCount": 3,
+      "isAnEntityFlag": 0,
+      "name": "AcDbMLeaderStyle",
+      "proxyFlags": 4095,
+      "recordName": "MLEADERSTYLE",
+      "wasAProxyFlag": 0
+    },
+    "SCALE": {
+      "applicationName": "ObjectDBX Classes",
+      "instanceCount": 3,
+      "isAnEntityFlag": 0,
+      "name": "AcDbScale",
+      "proxyFlags": 1153,
+      "recordName": "SCALE",
+      "wasAProxyFlag": 0
+    },
+    "SUN": {
+      "applicationName": "SCENEOE",
+      "instanceCount": 3,
+      "isAnEntityFlag": 0,
+      "name": "AcDbSun",
+      "proxyFlags": 1153,
+      "recordName": "SUN",
+      "wasAProxyFlag": 0
+    },
+    "TABLESTYLE": {
+      "applicationName": "ObjectDBX Classes",
+      "instanceCount": 3,
+      "isAnEntityFlag": 0,
+      "name": "AcDbTableStyle",
+      "proxyFlags": 4095,
+      "recordName": "TABLESTYLE",
+      "wasAProxyFlag": 0
+    },
+    "VISUALSTYLE": {
+      "applicationName": "ObjectDBX Classes",
+      "instanceCount": 3,
+      "isAnEntityFlag": 0,
+      "name": "AcDbVisualStyle",
+      "proxyFlags": 4095,
+      "recordName": "VISUALSTYLE",
+      "wasAProxyFlag": 0
+    }
+  },
+  "entities": [
+    {
+      "handle": "38",
+      "layer": "0",
+      "ownerHandle": "5D",
+      "type": "LINE",
+      "vertices": [
+        {
+          "x": -10,
+          "y": -10,
+          "z": 0
+        },
+        {
+          "x": -10,
+          "y": 10,
+          "z": 0
+        }
+      ]
+    },
+    {
+      "handle": "39",
+      "layer": "0",
+      "ownerHandle": "5D",
+      "type": "LINE",
+      "vertices": [
+        {
+          "x": -10,
+          "y": 10,
+          "z": 0
+        },
+        {
+          "x": 10,
+          "y": 10,
+          "z": 0
+        }
+      ]
+    },
+    {
+      "handle": "3A",
+      "layer": "0",
+      "ownerHandle": "5D",
+      "type": "LINE",
+      "vertices": [
+        {
+          "x": 10,
+          "y": 10,
+          "z": 0
+        },
+        {
+          "x": -10,
+          "y": -10,
+          "z": 0
+        }
+      ]
+    },
+    {
+      "handle": "3B",
+      "layer": "0",
+      "ownerHandle": "5D",
+      "type": "LINE",
+      "vertices": [
+        {
+          "x": -10,
+          "y": -10,
+          "z": 0
+        },
+        {
+          "x": 10,
+          "y": -10,
+          "z": 0
+        }
+      ]
+    },
+    {
+      "handle": "3C",
+      "layer": "0",
+      "ownerHandle": "5D",
+      "type": "LINE",
+      "vertices": [
+        {
+          "x": 10,
+          "y": -10,
+          "z": 0
+        },
+        {
+          "x": -10,
+          "y": 10,
+          "z": 0
+        }
+      ]
+    },
+    {
+      "handle": "3D",
+      "layer": "0",
+      "ownerHandle": "5D",
+      "type": "LINE",
+      "vertices": [
+        {
+          "x": -10,
+          "y": 10,
+          "z": 0
+        },
+        {
+          "x": 0,
+          "y": 20,
+          "z": 0
+        }
+      ]
+    },
+    {
+      "handle": "3E",
+      "layer": "0",
+      "ownerHandle": "5D",
+      "type": "LINE",
+      "vertices": [
+        {
+          "x": 0,
+          "y": 20,
+          "z": 0
+        },
+        {
+          "x": 10,
+          "y": 10,
+          "z": 0
+        }
+      ]
+    },
+    {
+      "handle": "3F",
+      "layer": "0",
+      "ownerHandle": "5D",
+      "type": "LINE",
+      "vertices": [
+        {
+          "x": 10,
+          "y": 10,
+          "z": 0
+        },
+        {
+          "x": 10,
+          "y": -10,
+          "z": 0
+        }
+      ]
+    }
+  ],
+  "header": {
+    "$3DDWFPREC": 2,
+    "$ACADMAINTVER": 105,
+    "$ACADVER": "AC1027",
+    "$ANGBASE": 0,
+    "$ANGDIR": 0,
+    "$ATTMODE": 1,
+    "$AUNITS": 0,
+    "$AUPREC": 0,
+    "$CAMERADISPLAY": false,
+    "$CAMERAHEIGHT": 0,
+    "$CECOLOR": 256,
+    "$CELTSCALE": 1,
+    "$CELTYPE": "ByLayer",
+    "$CELWEIGHT": -1,
+    "$CEPSNTYPE": 0,
+    "$CHAMFERA": 0,
+    "$CHAMFERB": 0,
+    "$CHAMFERC": 0,
+    "$CHAMFERD": 0,
+    "$CLAYER": "0",
+    "$CMATERIAL": "82",
+    "$CMLJUST": 0,
+    "$CMLSCALE": 1,
+    "$CMLSTYLE": "Standard",
+    "$CSHADOW": 0,
+    "$DGNFRAME": 2,
+    "$DIMADEC": 0,
+    "$DIMALT": 0,
+    "$DIMALTD": 2,
+    "$DIMALTF": 25.4,
+    "$DIMALTRND": 0,
+    "$DIMALTTD": 2,
+    "$DIMALTTZ": 0,
+    "$DIMALTU": 2,
+    "$DIMALTZ": 0,
+    "$DIMAPOST": "",
+    "$DIMARCSYM": 0,
+    "$DIMASO": 1,
+    "$DIMASSOC": 2,
+    "$DIMASZ": 2.5,
+    "$DIMATFIT": 3,
+    "$DIMAUNIT": 0,
+    "$DIMAZIN": 2,
+    "$DIMBLK": "",
+    "$DIMBLK1": "",
+    "$DIMBLK2": "",
+    "$DIMCEN": 0.09,
+    "$DIMCLRD": 0,
+    "$DIMCLRE": 0,
+    "$DIMCLRT": 0,
+    "$DIMDEC": 4,
+    "$DIMDLE": 0,
+    "$DIMDLI": 0.38,
+    "$DIMDSEP": 46,
+    "$DIMEXE": 1.25,
+    "$DIMEXO": 0.625,
+    "$DIMFRAC": 0,
+    "$DIMFXL": 1,
+    "$DIMFXLON": 0,
+    "$DIMGAP": 0.625,
+    "$DIMJOGANG": 0.7853981633974483,
+    "$DIMJUST": 0,
+    "$DIMLDRBLK": "",
+    "$DIMLFAC": 1,
+    "$DIMLIM": 0,
+    "$DIMLTEX1": "",
+    "$DIMLTEX2": "",
+    "$DIMLTYPE": "",
+    "$DIMLUNIT": 2,
+    "$DIMLWD": -2,
+    "$DIMLWE": -2,
+    "$DIMPOST": "",
+    "$DIMRND": 0,
+    "$DIMSAH": 0,
+    "$DIMSCALE": 1,
+    "$DIMSD1": 0,
+    "$DIMSD2": 0,
+    "$DIMSE1": 0,
+    "$DIMSE2": 0,
+    "$DIMSHO": 1,
+    "$DIMSOXD": 0,
+    "$DIMSTYLE": "Standard",
+    "$DIMTAD": 0,
+    "$DIMTDEC": 4,
+    "$DIMTFAC": 1,
+    "$DIMTFILL": 0,
+    "$DIMTFILLCLR": 0,
+    "$DIMTIH": 1,
+    "$DIMTIX": 0,
+    "$DIMTM": 0,
+    "$DIMTMOVE": 0,
+    "$DIMTOFL": 0,
+    "$DIMTOH": 1,
+    "$DIMTOL": 0,
+    "$DIMTOLJ": 1,
+    "$DIMTP": 0,
+    "$DIMTSZ": 0,
+    "$DIMTVP": 0,
+    "$DIMTXSTY": "Standard",
+    "$DIMTXT": 2.5,
+    "$DIMTXTDIRECTION": 0,
+    "$DIMTZIN": 0,
+    "$DIMUPT": 0,
+    "$DIMZIN": 8,
+    "$DISPSILH": 0,
+    "$DWFFRAME": 2,
+    "$DWGCODEPAGE": "ANSI_1252",
+    "$ELEVATION": 0,
+    "$ENDCAPS": 0,
+    "$EXTMAX": {
+      "x": -100000000000000000000,
+      "y": -100000000000000000000,
+      "z": -100000000000000000000
+    },
+    "$EXTMIN": {
+      "x": 100000000000000000000,
+      "y": 100000000000000000000,
+      "z": 100000000000000000000
+    },
+    "$EXTNAMES": true,
+    "$FILLETRAD": 0.5,
+    "$FILLMODE": 1,
+    "$FINGERPRINTGUID": "{34e08c27-075f-494a-a20b-360afee9b846}",
+    "$HALOGAP": 0,
+    "$HANDSEED": "125",
+    "$HIDETEXT": true,
+    "$HYPERLINKBASE": "",
+    "$INDEXCTL": 0,
+    "$INSBASE": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "$INSUNITS": 4,
+    "$INTERFERECOLOR": 256,
+    "$INTERSECTIONCOLOR": 257,
+    "$INTERSECTIONDISPLAY": false,
+    "$JOINSTYLE": 0,
+    "$LATITUDE": 37.795,
+    "$LENSLENGTH": 50,
+    "$LIGHTGLYPHDISPLAY": 1,
+    "$LIMCHECK": 0,
+    "$LIMMAX": {
+      "x": 12,
+      "y": 9
+    },
+    "$LIMMIN": {
+      "x": 0,
+      "y": 0
+    },
+    "$LOFTANG1": 1.570796326794897,
+    "$LOFTANG2": 1.570796326794897,
+    "$LOFTMAG1": 0,
+    "$LOFTMAG2": 0,
+    "$LOFTNORMALS": 1,
+    "$LOFTPARAM": 7,
+    "$LONGITUDE": -122.394,
+    "$LTSCALE": 1,
+    "$LUNITS": 2,
+    "$LUPREC": 4,
+    "$LWDISPLAY": false,
+    "$MAXACTVP": 64,
+    "$MEASUREMENT": 1,
+    "$MENU": ".",
+    "$MIRRTEXT": 1,
+    "$NORTHDIRECTION": 0,
+    "$OBSCOLOR": 257,
+    "$OBSLTYPE": 0,
+    "$OLESTARTUP": false,
+    "$ORTHOMODE": 0,
+    "$PDMODE": 35,
+    "$PDSIZE": 0,
+    "$PELEVATION": 0,
+    "$PEXTMAX": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "$PEXTMIN": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "$PINSBASE": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "$PLIMCHECK": 0,
+    "$PLIMMAX": {
+      "x": 277,
+      "y": 202.5
+    },
+    "$PLIMMIN": {
+      "x": -20,
+      "y": -7.5
+    },
+    "$PLINEGEN": 0,
+    "$PLINEWID": 0,
+    "$PROJECTNAME": "",
+    "$PROXYGRAPHICS": 1,
+    "$PSLTSCALE": 1,
+    "$PSOLHEIGHT": 4,
+    "$PSOLWIDTH": 0.25,
+    "$PSTYLEMODE": true,
+    "$PSVPSCALE": 0,
+    "$PUCSBASE": "",
+    "$PUCSNAME": "",
+    "$PUCSORG": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "$PUCSORGBACK": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "$PUCSORGBOTTOM": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "$PUCSORGFRONT": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "$PUCSORGLEFT": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "$PUCSORGRIGHT": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "$PUCSORGTOP": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "$PUCSORTHOREF": "",
+    "$PUCSORTHOVIEW": 0,
+    "$PUCSXDIR": {
+      "x": 1,
+      "y": 0,
+      "z": 0
+    },
+    "$PUCSYDIR": {
+      "x": 0,
+      "y": 1,
+      "z": 0
+    },
+    "$QTEXTMODE": 0,
+    "$REALWORLDSCALE": true,
+    "$REGENMODE": 1,
+    "$REQUIREDVERSIONS": 0,
+    "$SHADEDGE": 3,
+    "$SHADEDIF": 70,
+    "$SHADOWPLANELOCATION": 0,
+    "$SHOWHIST": 1,
+    "$SKETCHINC": 0.1,
+    "$SKPOLY": 0,
+    "$SOLIDHIST": 0,
+    "$SORTENTS": 127,
+    "$SPLFRAME": 0,
+    "$SPLINESEGS": 8,
+    "$SPLINETYPE": 6,
+    "$STEPSIZE": 6,
+    "$STEPSPERSEC": 2,
+    "$STYLESHEET": "",
+    "$SURFTAB1": 6,
+    "$SURFTAB2": 6,
+    "$SURFTYPE": 6,
+    "$SURFU": 6,
+    "$SURFV": 6,
+    "$TDCREATE": "2018-02-18T07:04:00.368Z",
+    "$TDINDWG": 1.16e-8,
+    "$TDUCREATE": "2018-02-18T06:04:00.369Z",
+    "$TDUPDATE": "2018-02-18T07:04:00.369Z",
+    "$TDUSRTIMER": 1.16e-8,
+    "$TDUUPDATE": "2018-02-18T06:04:00.371Z",
+    "$TEXTSIZE": 0.2,
+    "$TEXTSTYLE": "Standard",
+    "$THICKNESS": 0,
+    "$TILEMODE": 1,
+    "$TILEMODELIGHTSYNCH": 1,
+    "$TIMEZONE": -8000,
+    "$TRACEWID": 0.05,
+    "$TREEDEPTH": 3020,
+    "$UCSBASE": "",
+    "$UCSNAME": "",
+    "$UCSORG": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "$UCSORGBACK": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "$UCSORGBOTTOM": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "$UCSORGFRONT": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "$UCSORGLEFT": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "$UCSORGRIGHT": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "$UCSORGTOP": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "$UCSORTHOREF": "",
+    "$UCSORTHOVIEW": 0,
+    "$UCSXDIR": {
+      "x": 1,
+      "y": 0,
+      "z": 0
+    },
+    "$UCSYDIR": {
+      "x": 0,
+      "y": 1,
+      "z": 0
+    },
+    "$UNITMODE": 0,
+    "$USERI1": 0,
+    "$USERI2": 0,
+    "$USERI3": 0,
+    "$USERI4": 0,
+    "$USERI5": 0,
+    "$USERR1": 0,
+    "$USERR2": 0,
+    "$USERR3": 0,
+    "$USERR4": 0,
+    "$USERR5": 0,
+    "$USRTIMER": 1,
+    "$VERSIONGUID": "{FAEB1C32-E019-11D5-929B-00C0DF256EC4}",
+    "$VISRETAIN": 1,
+    "$WORLDVIEW": 1,
+    "$XCLIPFRAME": true,
+    "$XEDIT": true
+  },
+  "tables": {
+    "layer": {
+      "handle": "42",
+      "layers": {
+        "0": {
+          "color": 16777215,
+          "colorIndex": 7,
+          "frozen": false,
+          "handle": "4F",
+          "lineType": "Continuous",
+          "lineWeight": 25,
+          "materialObject": "84",
+          "name": "0",
+          "ownerHandle": "42",
+          "plotStyleName": "4E",
+          "standardFlags": 0,
+          "visible": true,
+          "visualStyle": "0"
+        }
+      },
+      "maxEntities": 1,
+      "ownerHandle": "0"
+    },
+    "lineType": {
+      "handle": "44",
+      "lineTypes": {
+        "ACAD_ISO02W100": {
+          "alignmentCode": 65,
+          "description": "ISO dash __ __ __ __ __ __ __ __ __ __ __ __ __",
+          "elementCount": 2,
+          "handle": "EB",
+          "name": "ACAD_ISO02W100",
+          "ownerHandle": "44",
+          "pattern": [
+            12,
+            -3
+          ],
+          "patternLength": 15,
+          "patternTypes": [
+            0,
+            0
+          ],
+          "standardFlags": 0
+        },
+        "ACAD_ISO03W100": {
+          "alignmentCode": 65,
+          "description": "ISO dash space __    __    __    __    __    __",
+          "elementCount": 2,
+          "handle": "EA",
+          "name": "ACAD_ISO03W100",
+          "ownerHandle": "44",
+          "pattern": [
+            12,
+            -18
+          ],
+          "patternLength": 30,
+          "patternTypes": [
+            0,
+            0
+          ],
+          "standardFlags": 0
+        },
+        "ACAD_ISO04W100": {
+          "alignmentCode": 65,
+          "description": "ISO long-dash dot ____ . ____ . ____ . ____ . _",
+          "elementCount": 4,
+          "handle": "E9",
+          "name": "ACAD_ISO04W100",
+          "ownerHandle": "44",
+          "pattern": [
+            24,
+            -3,
+            0,
+            -3
+          ],
+          "patternLength": 30,
+          "patternTypes": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "standardFlags": 0
+        },
+        "ACAD_ISO05W100": {
+          "alignmentCode": 65,
+          "description": "ISO long-dash double-dot ____ .. ____ .. ____ . ",
+          "elementCount": 6,
+          "handle": "E8",
+          "name": "ACAD_ISO05W100",
+          "ownerHandle": "44",
+          "pattern": [
+            24,
+            -3,
+            0,
+            -3,
+            0,
+            -3
+          ],
+          "patternLength": 33,
+          "patternTypes": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "standardFlags": 0
+        },
+        "ACAD_ISO06W100": {
+          "alignmentCode": 65,
+          "description": "ISO long-dash triple-dot ____ ... ____ ... ____",
+          "elementCount": 8,
+          "handle": "E7",
+          "name": "ACAD_ISO06W100",
+          "ownerHandle": "44",
+          "pattern": [
+            24,
+            -3,
+            0,
+            -3,
+            0,
+            -3,
+            0,
+            -3
+          ],
+          "patternLength": 36,
+          "patternTypes": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "standardFlags": 0
+        },
+        "ACAD_ISO07W100": {
+          "alignmentCode": 65,
+          "description": "ISO dot . . . . . . . . . . . . . . . . . . . . ",
+          "elementCount": 2,
+          "handle": "E6",
+          "name": "ACAD_ISO07W100",
+          "ownerHandle": "44",
+          "pattern": [
+            0,
+            -3
+          ],
+          "patternLength": 3,
+          "patternTypes": [
+            0,
+            0
+          ],
+          "standardFlags": 0
+        },
+        "ACAD_ISO08W100": {
+          "alignmentCode": 65,
+          "description": "ISO long-dash short-dash ____ __ ____ __ ____ _",
+          "elementCount": 4,
+          "handle": "E5",
+          "name": "ACAD_ISO08W100",
+          "ownerHandle": "44",
+          "pattern": [
+            24,
+            -3,
+            6,
+            -3
+          ],
+          "patternLength": 36,
+          "patternTypes": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "standardFlags": 0
+        },
+        "ACAD_ISO09W100": {
+          "alignmentCode": 65,
+          "description": "ISO long-dash double-short-dash ____ __ __ ____",
+          "elementCount": 6,
+          "handle": "E4",
+          "name": "ACAD_ISO09W100",
+          "ownerHandle": "44",
+          "pattern": [
+            24,
+            -3,
+            6,
+            -3,
+            6,
+            -3
+          ],
+          "patternLength": 45,
+          "patternTypes": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "standardFlags": 0
+        },
+        "ACAD_ISO10W100": {
+          "alignmentCode": 65,
+          "description": "ISO dash dot __ . __ . __ . __ . __ . __ . __ . ",
+          "elementCount": 4,
+          "handle": "115",
+          "name": "ACAD_ISO10W100",
+          "ownerHandle": "44",
+          "pattern": [
+            12,
+            -3,
+            0,
+            -3
+          ],
+          "patternLength": 18,
+          "patternTypes": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "standardFlags": 0
+        },
+        "ACAD_ISO11W100": {
+          "alignmentCode": 65,
+          "description": "ISO double-dash dot __ __ . __ __ . __ __ . __ _",
+          "elementCount": 6,
+          "handle": "114",
+          "name": "ACAD_ISO11W100",
+          "ownerHandle": "44",
+          "pattern": [
+            12,
+            -3,
+            12,
+            -3,
+            0,
+            -3
+          ],
+          "patternLength": 33,
+          "patternTypes": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "standardFlags": 0
+        },
+        "ACAD_ISO12W100": {
+          "alignmentCode": 65,
+          "description": "ISO dash double-dot __ . . __ . . __ . . __ . . ",
+          "elementCount": 6,
+          "handle": "113",
+          "name": "ACAD_ISO12W100",
+          "ownerHandle": "44",
+          "pattern": [
+            12,
+            -3,
+            0,
+            -3,
+            0,
+            -3
+          ],
+          "patternLength": 21,
+          "patternTypes": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "standardFlags": 0
+        },
+        "ACAD_ISO13W100": {
+          "alignmentCode": 65,
+          "description": "ISO double-dash double-dot __ __ . . __ __ . . _",
+          "elementCount": 8,
+          "handle": "112",
+          "name": "ACAD_ISO13W100",
+          "ownerHandle": "44",
+          "pattern": [
+            12,
+            -3,
+            12,
+            -3,
+            0,
+            -3,
+            0,
+            -3
+          ],
+          "patternLength": 36,
+          "patternTypes": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "standardFlags": 0
+        },
+        "ACAD_ISO14W100": {
+          "alignmentCode": 65,
+          "description": "ISO dash triple-dot __ . . . __ . . . __ . . . _",
+          "elementCount": 8,
+          "handle": "111",
+          "name": "ACAD_ISO14W100",
+          "ownerHandle": "44",
+          "pattern": [
+            12,
+            -3,
+            0,
+            -3,
+            0,
+            -3,
+            0,
+            -3
+          ],
+          "patternLength": 24,
+          "patternTypes": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "standardFlags": 0
+        },
+        "ACAD_ISO15W100": {
+          "alignmentCode": 65,
+          "description": "ISO double-dash triple-dot __ __ . . . __ __ . .",
+          "elementCount": 10,
+          "handle": "110",
+          "name": "ACAD_ISO15W100",
+          "ownerHandle": "44",
+          "pattern": [
+            12,
+            -3,
+            12,
+            -3,
+            0,
+            -3,
+            0,
+            -3,
+            0,
+            -3
+          ],
+          "patternLength": 39,
+          "patternTypes": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "standardFlags": 0
+        },
+        "BATTING": {
+          "alignmentCode": 65,
+          "description": "Batting SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS",
+          "elementCount": 4,
+          "handle": "10F",
+          "name": "BATTING",
+          "ownerHandle": "44",
+          "pattern": [
+            0.00254,
+            -2.54,
+            -5.08,
+            -2.54
+          ],
+          "patternLength": 10.16254,
+          "patternTypes": [
+            0,
+            2,
+            2,
+            0
+          ],
+          "shapeNumbers": [
+            0,
+            0
+          ],
+          "standardFlags": 0
+        },
+        "BORDER": {
+          "alignmentCode": 65,
+          "description": "Border __ __ . __ __ . __ __ . __ __ . __ __ .",
+          "elementCount": 6,
+          "handle": "10C",
+          "name": "BORDER",
+          "ownerHandle": "44",
+          "pattern": [
+            12.7,
+            -6.35,
+            12.7,
+            -6.35,
+            0,
+            -6.35
+          ],
+          "patternLength": 44.45,
+          "patternTypes": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "standardFlags": 0
+        },
+        "BORDER2": {
+          "alignmentCode": 65,
+          "description": "Border (.5x) __.__.__.__.__.__.__.__.__.__.__.",
+          "elementCount": 6,
+          "handle": "E3",
+          "name": "BORDER2",
+          "ownerHandle": "44",
+          "pattern": [
+            6.35,
+            -3.175,
+            6.35,
+            -3.175,
+            0,
+            -3.175
+          ],
+          "patternLength": 22.225,
+          "patternTypes": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "standardFlags": 0
+        },
+        "BORDERX2": {
+          "alignmentCode": 65,
+          "description": "Border (2x) ____  ____  .  ____  ____  .  ___",
+          "elementCount": 6,
+          "handle": "E2",
+          "name": "BORDERX2",
+          "ownerHandle": "44",
+          "pattern": [
+            25.4,
+            -12.7,
+            25.4,
+            -12.7,
+            0,
+            -12.7
+          ],
+          "patternLength": 88.89999999999999,
+          "patternTypes": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "standardFlags": 0
+        },
+        "ByBlock": {
+          "alignmentCode": 65,
+          "description": "",
+          "elementCount": 0,
+          "handle": "52",
+          "name": "ByBlock",
+          "ownerHandle": "44",
+          "patternLength": 0,
+          "standardFlags": 0
+        },
+        "ByLayer": {
+          "alignmentCode": 65,
+          "description": "",
+          "elementCount": 0,
+          "handle": "53",
+          "name": "ByLayer",
+          "ownerHandle": "44",
+          "patternLength": 0,
+          "standardFlags": 0
+        },
+        "CENTER": {
+          "alignmentCode": 65,
+          "description": "Center ____ _ ____ _ ____ _ ____ _ ____ _ ____",
+          "elementCount": 4,
+          "handle": "E1",
+          "name": "CENTER",
+          "ownerHandle": "44",
+          "pattern": [
+            31.75,
+            -6.35,
+            6.35,
+            -6.35
+          ],
+          "patternLength": 50.8,
+          "patternTypes": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "standardFlags": 0
+        },
+        "CENTER2": {
+          "alignmentCode": 65,
+          "description": "Center (.5x) ___ _ ___ _ ___ _ ___ _ ___ _ ___",
+          "elementCount": 4,
+          "handle": "E0",
+          "name": "CENTER2",
+          "ownerHandle": "44",
+          "pattern": [
+            19.05,
+            -3.175,
+            3.175,
+            -3.175
+          ],
+          "patternLength": 28.575,
+          "patternTypes": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "standardFlags": 0
+        },
+        "CENTERX2": {
+          "alignmentCode": 65,
+          "description": "Center (2x) ________  __  ________  __  _____",
+          "elementCount": 4,
+          "handle": "119",
+          "name": "CENTERX2",
+          "ownerHandle": "44",
+          "pattern": [
+            63.5,
+            -12.7,
+            12.7,
+            -12.7
+          ],
+          "patternLength": 101.6,
+          "patternTypes": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "standardFlags": 0
+        },
+        "Continuous": {
+          "alignmentCode": 65,
+          "description": "Solid line",
+          "elementCount": 0,
+          "handle": "54",
+          "name": "Continuous",
+          "ownerHandle": "44",
+          "patternLength": 0,
+          "standardFlags": 0
+        },
+        "DASHDOT": {
+          "alignmentCode": 65,
+          "description": "Dash dot __ . __ . __ . __ . __ . __ . __ . __",
+          "elementCount": 4,
+          "handle": "118",
+          "name": "DASHDOT",
+          "ownerHandle": "44",
+          "pattern": [
+            12.7,
+            -6.35,
+            0,
+            -6.35
+          ],
+          "patternLength": 25.4,
+          "patternTypes": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "standardFlags": 0
+        },
+        "DASHDOT2": {
+          "alignmentCode": 65,
+          "description": "Dash dot (.5x) _._._._._._._._._._._._._._._.",
+          "elementCount": 4,
+          "handle": "117",
+          "name": "DASHDOT2",
+          "ownerHandle": "44",
+          "pattern": [
+            6.35,
+            -3.175,
+            0,
+            -3.175
+          ],
+          "patternLength": 12.7,
+          "patternTypes": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "standardFlags": 0
+        },
+        "DASHDOTX2": {
+          "alignmentCode": 65,
+          "description": "Dash dot (2x) ____  .  ____  .  ____  .  ___",
+          "elementCount": 4,
+          "handle": "116",
+          "name": "DASHDOTX2",
+          "ownerHandle": "44",
+          "pattern": [
+            25.4,
+            -12.7,
+            0,
+            -12.7
+          ],
+          "patternLength": 50.8,
+          "patternTypes": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "standardFlags": 0
+        },
+        "DASHED": {
+          "alignmentCode": 65,
+          "description": "Dashed __ __ __ __ __ __ __ __ __ __ __ __ __ _",
+          "elementCount": 2,
+          "handle": "FE",
+          "name": "DASHED",
+          "ownerHandle": "44",
+          "pattern": [
+            12.7,
+            -6.35
+          ],
+          "patternLength": 19.05,
+          "patternTypes": [
+            0,
+            0
+          ],
+          "standardFlags": 0
+        },
+        "DASHED2": {
+          "alignmentCode": 65,
+          "description": "Dashed (.5x) _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ ",
+          "elementCount": 2,
+          "handle": "FD",
+          "name": "DASHED2",
+          "ownerHandle": "44",
+          "pattern": [
+            6.35,
+            -3.175
+          ],
+          "patternLength": 9.524999999999999,
+          "patternTypes": [
+            0,
+            0
+          ],
+          "standardFlags": 0
+        },
+        "DASHEDX2": {
+          "alignmentCode": 65,
+          "description": "Dashed (2x) ____  ____  ____  ____  ____  ___",
+          "elementCount": 2,
+          "handle": "FC",
+          "name": "DASHEDX2",
+          "ownerHandle": "44",
+          "pattern": [
+            25.4,
+            -12.7
+          ],
+          "patternLength": 38.09999999999999,
+          "patternTypes": [
+            0,
+            0
+          ],
+          "standardFlags": 0
+        },
+        "DIVIDE": {
+          "alignmentCode": 65,
+          "description": "Divide ____ . . ____ . . ____ . . ____ . . ____",
+          "elementCount": 6,
+          "handle": "FB",
+          "name": "DIVIDE",
+          "ownerHandle": "44",
+          "pattern": [
+            12.7,
+            -6.35,
+            0,
+            -6.35,
+            0,
+            -6.35
+          ],
+          "patternLength": 31.75,
+          "patternTypes": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "standardFlags": 0
+        },
+        "DIVIDE2": {
+          "alignmentCode": 65,
+          "description": "Divide (.5x) __..__..__..__..__..__..__..__.._",
+          "elementCount": 6,
+          "handle": "FA",
+          "name": "DIVIDE2",
+          "ownerHandle": "44",
+          "pattern": [
+            6.35,
+            -3.175,
+            0,
+            -3.175,
+            0,
+            -3.175
+          ],
+          "patternLength": 15.875,
+          "patternTypes": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "standardFlags": 0
+        },
+        "DIVIDEX2": {
+          "alignmentCode": 65,
+          "description": "Divide (2x) ________  .  .  ________  .  .  _",
+          "elementCount": 6,
+          "handle": "F9",
+          "name": "DIVIDEX2",
+          "ownerHandle": "44",
+          "pattern": [
+            25.4,
+            -12.7,
+            0,
+            -12.7,
+            0,
+            -12.7
+          ],
+          "patternLength": 63.5,
+          "patternTypes": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "standardFlags": 0
+        },
+        "DOT": {
+          "alignmentCode": 65,
+          "description": "Dot . . . . . . . . . . . . . . . . . . . . . . . .",
+          "elementCount": 2,
+          "handle": "F8",
+          "name": "DOT",
+          "ownerHandle": "44",
+          "pattern": [
+            0,
+            -6.35
+          ],
+          "patternLength": 6.35,
+          "patternTypes": [
+            0,
+            0
+          ],
+          "standardFlags": 0
+        },
+        "DOT2": {
+          "alignmentCode": 65,
+          "description": "Dot (.5x) ........................................",
+          "elementCount": 2,
+          "handle": "F7",
+          "name": "DOT2",
+          "ownerHandle": "44",
+          "pattern": [
+            0,
+            -3.175
+          ],
+          "patternLength": 3.175,
+          "patternTypes": [
+            0,
+            0
+          ],
+          "standardFlags": 0
+        },
+        "DOTX2": {
+          "alignmentCode": 65,
+          "description": "Dot (2x) .  .  .  .  .  .  .  .  .  .  .  .  .  .",
+          "elementCount": 2,
+          "handle": "10B",
+          "name": "DOTX2",
+          "ownerHandle": "44",
+          "pattern": [
+            0,
+            -12.7
+          ],
+          "patternLength": 12.7,
+          "patternTypes": [
+            0,
+            0
+          ],
+          "standardFlags": 0
+        },
+        "DRAINAGE": {
+          "alignmentCode": 65,
+          "description": "Drainage ---->---->---->----",
+          "elementCount": 2,
+          "handle": "10A",
+          "name": "DRAINAGE",
+          "ownerHandle": "44",
+          "pattern": [
+            5.08,
+            5.08
+          ],
+          "patternLength": 10.16,
+          "patternTypes": [
+            2,
+            0
+          ],
+          "shapeNumbers": [
+            0
+          ],
+          "standardFlags": 0
+        },
+        "DRAINAGE2": {
+          "alignmentCode": 65,
+          "description": "Drainage reversed----<----<----<----",
+          "elementCount": 2,
+          "handle": "108",
+          "name": "DRAINAGE2",
+          "ownerHandle": "44",
+          "pattern": [
+            5.08,
+            5.08
+          ],
+          "patternLength": 10.16,
+          "patternTypes": [
+            2,
+            0
+          ],
+          "shapeNumbers": [
+            0
+          ],
+          "standardFlags": 0
+        },
+        "FENCELINE1": {
+          "alignmentCode": 65,
+          "description": "Fenceline circle ----0-----0----0-----0----0-----0--",
+          "elementCount": 4,
+          "handle": "106",
+          "name": "FENCELINE1",
+          "ownerHandle": "44",
+          "pattern": [
+            6.35,
+            -2.54,
+            -2.54,
+            25.4
+          ],
+          "patternLength": 36.83,
+          "patternTypes": [
+            0,
+            2,
+            0,
+            0
+          ],
+          "shapeNumbers": [
+            0
+          ],
+          "standardFlags": 0
+        },
+        "FENCELINE2": {
+          "alignmentCode": 65,
+          "description": "Fenceline square ----[]-----[]----[]-----[]----[]---",
+          "elementCount": 4,
+          "handle": "104",
+          "name": "FENCELINE2",
+          "ownerHandle": "44",
+          "pattern": [
+            6.35,
+            -2.54,
+            -2.54,
+            25.4
+          ],
+          "patternLength": 36.83,
+          "patternTypes": [
+            0,
+            2,
+            0,
+            0
+          ],
+          "shapeNumbers": [
+            0
+          ],
+          "standardFlags": 0
+        },
+        "GAS_LINE": {
+          "alignmentCode": 65,
+          "description": "Gas line ----GAS----GAS----GAS----GAS----GAS----GAS--",
+          "elementCount": 3,
+          "handle": "102",
+          "name": "GAS_LINE",
+          "ownerHandle": "44",
+          "pattern": [
+            12.7,
+            -5.08,
+            -6.35
+          ],
+          "patternLength": 24.13,
+          "patternTypes": [
+            0,
+            2,
+            0
+          ],
+          "shapeNumbers": [
+            0
+          ],
+          "standardFlags": 0
+        },
+        "HIDDEN": {
+          "alignmentCode": 65,
+          "description": "Hidden __ __ __ __ __ __ __ __ __ __ __ __ __ __",
+          "elementCount": 2,
+          "handle": "100",
+          "name": "HIDDEN",
+          "ownerHandle": "44",
+          "pattern": [
+            6.35,
+            -3.175
+          ],
+          "patternLength": 9.524999999999999,
+          "patternTypes": [
+            0,
+            0
+          ],
+          "standardFlags": 0
+        },
+        "HIDDEN2": {
+          "alignmentCode": 65,
+          "description": "Hidden (.5x) _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ ",
+          "elementCount": 2,
+          "handle": "FF",
+          "name": "HIDDEN2",
+          "ownerHandle": "44",
+          "pattern": [
+            3.175,
+            -1.5875
+          ],
+          "patternLength": 4.762499999999999,
+          "patternTypes": [
+            0,
+            0
+          ],
+          "standardFlags": 0
+        },
+        "HIDDENX2": {
+          "alignmentCode": 65,
+          "description": "Hidden (2x) ____ ____ ____ ____ ____ ____ ____ ",
+          "elementCount": 2,
+          "handle": "F6",
+          "name": "HIDDENX2",
+          "ownerHandle": "44",
+          "pattern": [
+            12.7,
+            -6.35
+          ],
+          "patternLength": 19.05,
+          "patternTypes": [
+            0,
+            0
+          ],
+          "standardFlags": 0
+        },
+        "HOT_WATER_SUPPLY": {
+          "alignmentCode": 65,
+          "description": "Hot water supply ---- HW ---- HW ---- HW ----",
+          "elementCount": 3,
+          "handle": "F5",
+          "name": "HOT_WATER_SUPPLY",
+          "ownerHandle": "44",
+          "pattern": [
+            12.7,
+            -5.08,
+            -5.08
+          ],
+          "patternLength": 22.86,
+          "patternTypes": [
+            0,
+            2,
+            0
+          ],
+          "shapeNumbers": [
+            0
+          ],
+          "standardFlags": 0
+        },
+        "PHANTOM": {
+          "alignmentCode": 65,
+          "description": "Phantom ______  __  __  ______  __  __  ______ ",
+          "elementCount": 6,
+          "handle": "F3",
+          "name": "PHANTOM",
+          "ownerHandle": "44",
+          "pattern": [
+            31.75,
+            -6.35,
+            6.35,
+            -6.35,
+            6.35,
+            -6.35
+          ],
+          "patternLength": 63.50000000000001,
+          "patternTypes": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "standardFlags": 0
+        },
+        "PHANTOM2": {
+          "alignmentCode": 65,
+          "description": "Phantom (.5x) ___ _ _ ___ _ _ ___ _ _ ___ _ _",
+          "elementCount": 6,
+          "handle": "F2",
+          "name": "PHANTOM2",
+          "ownerHandle": "44",
+          "pattern": [
+            15.875,
+            -3.175,
+            3.175,
+            -3.175,
+            3.175,
+            -3.175
+          ],
+          "patternLength": 31.75,
+          "patternTypes": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "standardFlags": 0
+        },
+        "PHANTOMX2": {
+          "alignmentCode": 65,
+          "description": "Phantom (2x) ____________    ____    ____   _",
+          "elementCount": 6,
+          "handle": "F1",
+          "name": "PHANTOMX2",
+          "ownerHandle": "44",
+          "pattern": [
+            63.5,
+            -12.7,
+            12.7,
+            -12.7,
+            12.7,
+            -12.7
+          ],
+          "patternLength": 127,
+          "patternTypes": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "standardFlags": 0
+        },
+        "TRACKS": {
+          "alignmentCode": 65,
+          "description": "Tracks -|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-",
+          "elementCount": 2,
+          "handle": "F0",
+          "name": "TRACKS",
+          "ownerHandle": "44",
+          "pattern": [
+            3.81,
+            3.81
+          ],
+          "patternLength": 7.62,
+          "patternTypes": [
+            2,
+            0
+          ],
+          "shapeNumbers": [
+            0
+          ],
+          "standardFlags": 0
+        },
+        "ZIGZAG": {
+          "alignmentCode": 65,
+          "description": "Zig zag /\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/",
+          "elementCount": 4,
+          "handle": "EE",
+          "name": "ZIGZAG",
+          "ownerHandle": "44",
+          "pattern": [
+            0.00254,
+            -5.08,
+            -10.16,
+            -5.08
+          ],
+          "patternLength": 20.32254,
+          "patternTypes": [
+            0,
+            2,
+            2,
+            0
+          ],
+          "shapeNumbers": [
+            0,
+            0
+          ],
+          "standardFlags": 0
+        }
+      },
+      "maxEntities": 48,
+      "ownerHandle": "0"
+    },
+    "viewPort": {
+      "handle": "47",
+      "maxEntities": 1,
+      "ownerHandle": "0",
+      "viewPorts": [
+        {
+          "UCSIcon": 3,
+          "ambientColorIndex": 250,
+          "backClippingPlane": 0,
+          "brightness": 0,
+          "center": {
+            "x": 22.80000000000004,
+            "y": -16.35000000000005
+          },
+          "circleSides": 100,
+          "contrast": 0,
+          "defaultLightingOn": true,
+          "defaultLightingType": true,
+          "elevation": 0,
+          "frontClippingPlane": 0,
+          "gridSpacing": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "groupCode60": 3,
+          "groupCode65": 1,
+          "groupCode75": 0,
+          "groupCode76": 0,
+          "groupCode77": 0,
+          "groupCode78": 0,
+          "handle": "67",
+          "height": 101.1,
+          "lensLength": 50,
+          "lowerLeftCorner": {
+            "x": 0,
+            "y": 0
+          },
+          "majorGridLines": 5,
+          "name": "*Active",
+          "orthographicType": 0,
+          "ownerHandle": "47",
+          "plotable": 1,
+          "renderMode": 0,
+          "snapBasePoint": {
+            "x": 0,
+            "y": 0
+          },
+          "snapRotationAngle": 0,
+          "snapSpacing": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "standardFlags": 0,
+          "sunId": "AB",
+          "ucsOrigin": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "ucsXAxis": {
+            "x": 1,
+            "y": 0,
+            "z": 0
+          },
+          "ucsYAxis": {
+            "x": 0,
+            "y": 1,
+            "z": 0
+          },
+          "upperRightCorner": {
+            "x": 1,
+            "y": 1
+          },
+          "viewDirectionFromTarget": {
+            "x": 0,
+            "y": 0,
+            "z": 1
+          },
+          "viewMode": 0,
+          "viewTarget": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "viewTwistAngle": 0,
+          "visualStyleHardPointer": "6D",
+          "width": 1.774480712166172
+        }
+      ]
+    }
+  }
+}
