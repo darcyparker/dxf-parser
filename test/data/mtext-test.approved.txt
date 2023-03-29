@@ -368,7 +368,7 @@
     "$FINGERPRINTGUID": "{FDAE80E6-93AC-8B41-9270-67E6B58D8DBE}",
     "$HALOGAP": 0,
     "$HANDSEED": "289",
-    "$HIDETEXT": 1,
+    "$HIDETEXT": true,
     "$HYPERLINKBASE": "",
     "$INDEXCTL": 0,
     "$INSBASE": {
@@ -381,7 +381,7 @@
     "$INTERFEREOBJVS": "A3",
     "$INTERFEREVPVS": "A0",
     "$INTERSECTIONCOLOR": 257,
-    "$INTERSECTIONDISPLAY": 0,
+    "$INTERSECTIONDISPLAY": false,
     "$JOINSTYLE": 0,
     "$LASTSAVEDBY": "bzuil",
     "$LATITUDE": 37.795,
@@ -602,7 +602,7 @@
     "$VERSIONGUID": "{8C84135B-E9E2-8A4F-B585-309CF8EF7F09}",
     "$VISRETAIN": 1,
     "$WORLDVIEW": 1,
-    "$XCLIPFRAME": 2,
+    "$XCLIPFRAME": true,
     "$XEDIT": true
   },
   "tables": {
