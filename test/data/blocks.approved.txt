@@ -8069,7 +8069,7 @@
           ]
         },
         {
-          "angleLength": -5.71378438774751,
+          "angleLength": -327.3757304656734,
           "center": {
             "x": 650.2940686763781,
             "y": 342.5232595968956,
@@ -8077,17 +8077,17 @@
           },
           "color": 0,
           "colorIndex": 0,
-          "endAngle": 0.154897825444692,
+          "endAngle": 8.874991653734986,
           "handle": "B6CD",
           "layer": "FG-Dim",
           "lineweight": -2,
           "ownerHandle": "46AA",
           "radius": 0.5410779632519187,
-          "startAngle": 5.868682213192202,
+          "startAngle": 336.2507221194084,
           "type": "ARC"
         },
         {
-          "angleLength": 0.07345501171703678,
+          "angleLength": 4.208662155470218,
           "center": {
             "x": 650.2940686763781,
             "y": 342.5232595968956,
@@ -8095,13 +8095,13 @@
           },
           "color": 0,
           "colorIndex": 0,
-          "endAngle": 0.41450309398771207,
+          "endAngle": 23.74927788061039,
           "handle": "B6CE",
           "layer": "FG-Dim",
           "lineweight": -2,
           "ownerHandle": "46AA",
           "radius": 0.5410779632519187,
-          "startAngle": 0.3410480822706753,
+          "startAngle": 19.54061572514017,
           "type": "ARC"
         },
         {
@@ -8285,7 +8285,7 @@
           ]
         },
         {
-          "angleLength": 0.024081065874948848,
+          "angleLength": 1.3797434408110973,
           "center": {
             "x": 653.794068676378,
             "y": 342.5232595968958,
@@ -8293,17 +8293,17 @@
           },
           "color": 0,
           "colorIndex": 0,
-          "endAngle": 2.7950551817145235,
+          "endAngle": 160.1448654184136,
           "handle": "B6D9",
           "layer": "FG-Dim",
           "lineweight": -2,
           "ownerHandle": "46B9",
           "radius": 0.3860470651129506,
-          "startAngle": 2.7709741158395746,
+          "startAngle": 158.7651219776025,
           "type": "ARC"
         },
         {
-          "angleLength": 0.45781225492314226,
+          "angleLength": 26.230710016463405,
           "center": {
             "x": 653.794068676378,
             "y": 342.5232595968958,
@@ -8311,13 +8311,13 @@
           },
           "color": 0,
           "colorIndex": 0,
-          "endAngle": 3.5122111913388387,
+          "endAngle": 201.2348780223303,
           "handle": "B6DA",
           "layer": "FG-Dim",
           "lineweight": -2,
           "ownerHandle": "46B9",
           "radius": 0.3860470651129506,
-          "startAngle": 3.0543989364156965,
+          "startAngle": 175.0041680058669,
           "type": "ARC"
         },
         {
@@ -30876,7 +30876,7 @@
           ]
         },
         {
-          "angleLength": -5.828300803718759,
+          "angleLength": -333.93703778579044,
           "center": {
             "x": 661.7571232622518,
             "y": 348.5480568884609,
@@ -30884,17 +30884,17 @@
           },
           "color": 0,
           "colorIndex": 0,
-          "endAngle": 0.018948703282515966,
+          "endAngle": 1.085680725333854,
           "handle": "BAE3",
           "layer": "FG-Dtl-Dim",
           "lineweight": -2,
           "ownerHandle": "5CD2",
           "radius": 0.1696929361292218,
-          "startAngle": 5.847249507001274,
+          "startAngle": 335.0227185111243,
           "type": "ARC"
         },
         {
-          "angleLength": 0.5859149470818272,
+          "angleLength": 33.57045362141967,
           "center": {
             "x": 661.7571232622518,
             "y": 348.5480568884609,
@@ -30902,13 +30902,13 @@
           },
           "color": 0,
           "colorIndex": 0,
-          "endAngle": 1.2213339636104257,
+          "endAngle": 69.97728149086186,
           "handle": "BAE4",
           "layer": "FG-Dtl-Dim",
           "lineweight": -2,
           "ownerHandle": "5CD2",
           "radius": 0.1696929361292218,
-          "startAngle": 0.6354190165285984,
+          "startAngle": 36.40682786944219,
           "type": "ARC"
         },
         {
@@ -36932,7 +36932,7 @@
           ]
         },
         {
-          "angleLength": 0.33864026725035856,
+          "angleLength": 19.40265808662781,
           "center": {
             "x": 661.8155287426548,
             "y": 342.1392301024683,
@@ -36940,17 +36940,17 @@
           },
           "color": 0,
           "colorIndex": 0,
-          "endAngle": 5.360346028166103,
+          "endAngle": 307.1252041436316,
           "handle": "BBFB",
           "layer": "FG-Dtl-Dim",
           "lineweight": -2,
           "ownerHandle": "683C",
           "radius": 0.1915054975213262,
-          "startAngle": 5.0217057609157445,
+          "startAngle": 287.7225460570038,
           "type": "ARC"
         },
         {
-          "angleLength": -5.514762875294352,
+          "angleLength": -315.972637769797,
           "center": {
             "x": 661.8155287426548,
             "y": 342.1392301024683,
@@ -36958,13 +36958,13 @@
           },
           "color": 0,
           "colorIndex": 0,
-          "endAngle": 0.4760813828269747,
+          "endAngle": 27.27745394073768,
           "handle": "BBFC",
           "layer": "FG-Dtl-Dim",
           "lineweight": -2,
           "ownerHandle": "683C",
           "radius": 0.1915054975213262,
-          "startAngle": 5.990844258121326,
+          "startAngle": 343.2500917105347,
           "type": "ARC"
         },
         {
@@ -40865,7 +40865,7 @@
           ]
         },
         {
-          "angleLength": 0.15361319338558754,
+          "angleLength": 8.801387658521094,
           "center": {
             "x": 674.5144505713101,
             "y": 345.9491370149505,
@@ -40873,18 +40873,18 @@
           },
           "color": 0,
           "colorIndex": 0,
-          "endAngle": 4.296976399199812,
+          "endAngle": 246.1986123414708,
           "handle": "BCB6",
           "layer": "FG-Dtl-Dim",
           "lineType": "ByBlock",
           "lineweight": -2,
           "ownerHandle": "6D62",
           "radius": 0.7689189722493341,
-          "startAngle": 4.143363205814224,
+          "startAngle": 237.3972246829497,
           "type": "ARC"
         },
         {
-          "angleLength": 0.15361319338558488,
+          "angleLength": 8.80138765852098,
           "center": {
             "x": 674.5144505713101,
             "y": 345.9491370149505,
@@ -40892,14 +40892,14 @@
           },
           "color": 0,
           "colorIndex": 0,
-          "endAngle": 5.019615367156039,
+          "endAngle": 287.6027753170522,
           "handle": "BCB7",
           "layer": "FG-Dtl-Dim",
           "lineType": "ByBlock",
           "lineweight": -2,
           "ownerHandle": "6D62",
           "radius": 0.7689189722493341,
-          "startAngle": 4.866002173770454,
+          "startAngle": 278.8013876585312,
           "type": "ARC"
         },
         {
@@ -43071,7 +43071,7 @@
           ]
         },
         {
-          "angleLength": 0.11861373903143058,
+          "angleLength": 6.796066638767172,
           "center": {
             "x": 672.0725320618869,
             "y": 339.3559532566379,
@@ -43079,18 +43079,18 @@
           },
           "color": 0,
           "colorIndex": 0,
-          "endAngle": 4.593775241353149,
+          "endAngle": 263.2039333612266,
           "handle": "BD19",
           "layer": "FG-Dtl-Dim",
           "lineType": "ByBlock",
           "lineweight": -2,
           "ownerHandle": "6F94",
           "radius": 0.995409159641862,
-          "startAngle": 4.475161502321718,
+          "startAngle": 256.4078667224594,
           "type": "ARC"
         },
         {
-          "angleLength": 0.11861373903143324,
+          "angleLength": 6.796066638767286,
           "center": {
             "x": 672.0725320618869,
             "y": 339.3559532566379,
@@ -43098,14 +43098,14 @@
           },
           "color": 0,
           "colorIndex": 0,
-          "endAngle": 5.211415846246551,
+          "endAngle": 298.5921332775257,
           "handle": "BD1A",
           "layer": "FG-Dtl-Dim",
           "lineType": "ByBlock",
           "lineweight": -2,
           "ownerHandle": "6F94",
           "radius": 0.995409159641862,
-          "startAngle": 5.0928021072151175,
+          "startAngle": 291.7960666387584,
           "type": "ARC"
         },
         {
@@ -51802,7 +51802,7 @@
           ]
         },
         {
-          "angleLength": 0.28231298336862665,
+          "angleLength": 16.1753424487693,
           "center": {
             "x": 650.0541823996996,
             "y": 347.5909732684974,
@@ -51810,18 +51810,18 @@
           },
           "color": 0,
           "colorIndex": 0,
-          "endAngle": 6.197231758053196,
+          "endAngle": 355.0752244008874,
           "handle": "B484",
           "layer": "FG-Dtl-Dim",
           "lineType": "ByBlock",
           "lineweight": -2,
           "ownerHandle": "3706",
           "radius": 0.7604262403327394,
-          "startAngle": 5.914918774684569,
+          "startAngle": 338.8998819521181,
           "type": "ARC"
         },
         {
-          "angleLength": 0.19684077897822672,
+          "angleLength": 11.278145871519847,
           "center": {
             "x": 650.0541823996996,
             "y": 347.5909732684974,
@@ -51829,14 +51829,14 @@
           },
           "color": 0,
           "colorIndex": 0,
-          "endAngle": 0.3682665324948542,
+          "endAngle": 21.10011804787253,
           "handle": "B485",
           "layer": "FG-Dtl-Dim",
           "lineType": "ByBlock",
           "lineweight": -2,
           "ownerHandle": "3706",
           "radius": 0.7604262403327394,
-          "startAngle": 0.17142575351662748,
+          "startAngle": 9.821972176352684,
           "type": "ARC"
         },
         {
